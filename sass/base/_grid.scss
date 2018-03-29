@@ -35,8 +35,28 @@
 	width: 100%;
 	max-width: $container_width;
 	position: relative;
-	padding-left: 16px;
-	padding-right: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+	@include res(xxl) {
+		max-width: 1300px;
+	}
+}
+
+.def-sec {
+	padding-top: $pad-l;
+	padding-bottom: $pad-l;
+	@include res(xxl) {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	@include res(l) {
+		padding-top: $pad-m;
+		padding-bottom: $pad-m;
+	}
+	@include res(s) {
+		padding-top: $pad-s;
+		padding-bottom: $pad-s;
+	}
 }
 
 .row{
