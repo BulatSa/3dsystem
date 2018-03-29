@@ -1,34 +1,50 @@
 ﻿<?php include('header.php'); ?>
 
-<section>
-	<div class="container">
-		<h1>Hello from the other side</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h2>Hello from the other side</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h3>Hello from the other side</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h4>Hello from the other side</h4>
-		<ul>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ul>
-		<h5>Hello from the other side</h5>
-		<ol>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ol>
-
-		<a href="#" class="fancy-modal btn" data-src="#modal-order">Открыть order</a>
-		<a href="img/img.png" class="fancy btn" data-fancybox="1">Открыть img</a>
-		<a href="img/img.png" class="fancy btn" data-fancybox="1">Открыть img</a>
-		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video btn">Открыть youtube</a>
-		<a href="https://yandex.ru/map-widget/v1/-/CBQneLhsOA" class="fancy-map btn" data-type="iframe">схема проезда</a>
-
+<section class="header-sec">
+	<div class="header container">
+		<div class="header__top">
+			<nav>
+				<a href="#">О компании</a>
+				<a href="#">Услуги</a>
+				<a href="#">Акции</a>
+				<a href="#">Блог</a>
+				<a href="#">Контакты</a>
+			</nav>
+			<div class="header__top-contact">
+				<a href="tel:88002000574"><i></i><span>8 800 200-05-74</span></a>
+				<a href="#">Обратный звонок</a>
+				<a href="#" class="header__cabinet"><i></i><span>Личный кабинет</span></a>
+			</div>
+		</div>
+		<div class="header__middle">
+			<a href="#" class="header__logo">
+				<img src="img/logo-top.svg" alt="3D System Pro">
+			</a>
+			<form>
+				<input type="text" placeholder="Поиск">
+				<button><i></i></button>
+			</form>
+			<div class="header__cart-wrap">
+				<a href="#" class="header__compare"><i><sup>2</sup></i></a>
+				<a href="#" class="header__cart">
+					<i><sup>3</sup></i>
+					<span class="header__cart-info">
+						<b>Корзина: 3 товара</b>
+						<span>на сумму 135 000 a</span>
+					</span>
+				</a>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<ul>
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">3D принтеры</a></li>
+				<li><a href="#">3D Сканеры</a></li>
+				<li><a href="#">Аксессуары</a></li>
+				<li><a href="#">Гаджеты</a></li>
+				<li><a href="#">Расходные материалы</a></li>
+			</ul>
+		</div>
 	</div>
 </section>
 
