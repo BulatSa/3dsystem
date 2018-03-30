@@ -73,42 +73,6 @@
 	<div class="container">
 
 		<div class="logos-slider">
-			<div class="logos-slider__item">
-				<img src="/img/logos/1.png" alt="logo">
-			</div>
-			<div class="logos-slider__item">
-				<img src="/img/logos/2.png" alt="logo">
-			</div>
-			<div class="logos-slider__item">
-				<img src="/img/logos/3.png" alt="logo">
-			</div>
-			<div class="logos-slider__item">
-				<img src="/img/logos/4.png" alt="logo">
-			</div>
-			<div class="logos-slider__item">
-				<img src="/img/logos/5.png" alt="logo">
-			</div>
-			<div class="logos-slider__item">
-				<img src="/img/logos/1.png" alt="logo">
-			</div>
-			<div class="logos-slider__item">
-				<img src="/img/logos/2.png" alt="logo">
-			</div>
-			<div class="logos-slider__item">
-				<img src="/img/logos/3.png" alt="logo">
-			</div>
-			<div class="logos-slider__item">
-				<img src="/img/logos/4.png" alt="logo">
-			</div>
-			<div class="logos-slider__item">
-				<img src="/img/logos/5.png" alt="logo">
-			</div>
-			<div class="logos-slider__item">
-				<img src="/img/logos/4.png" alt="logo">
-			</div>
-			<div class="logos-slider__item">
-				<img src="/img/logos/5.png" alt="logo">
-			</div>
 			<div class="logos-slider__block">
 				<p class="h2">Мы официальные представители</p>
 				<p class="small-text">Только официальные представители могут давать гарантии на&nbsp;оборудование и&nbsp;предоставлять низкие цены от&nbsp;производителя.</p>
@@ -116,6 +80,36 @@
 					<button class="logos-slider__prev">Назад</button>
 					<button class="logos-slider__next">Вперед</button>
 				</div>
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/1.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/2.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/3.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/4.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/5.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/1.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/2.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/3.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/4.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/5.png" alt="logo">
 			</div>
 		</div>
 
