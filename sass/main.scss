@@ -4,6 +4,7 @@
 
 @import 'vendors/fancybox';
 @import 'vendors/flickity';
+@import 'vendors/lv-ripple';
 
 @import 'base/reset';
 @import 'base/fonts';
@@ -16,5 +17,6 @@
 @import 'modules/modals';
 @import 'modules/header';
 @import 'modules/section-title';
+@import 'modules/product-preview';
 
 @import 'pages/home';

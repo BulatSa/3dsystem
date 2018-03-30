@@ -181,6 +181,21 @@ $(function () {
 
 
 /***********************
+Waves btns BEGIN
+***********************/
+$(function($){
+	$('.btn').ripple();
+	$.ripple.config({
+		rippleOpacity: .1,
+		rippleDelay: 100
+	});
+});
+/***********************
+Waves btns END
+***********************/
+
+
+/***********************
 Banner slider BEGIN
 ***********************/
 $(function($){

@@ -17,17 +17,17 @@
 	color: $blue;
 	border: none;
 	border-radius: 25px;
-	box-shadow: inset 0 2px 5px 0 rgba(0,0,0,0), 0 3px 8px -3px rgba(0, 0, 0, 0);
+	box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0);
 
 	&:hover,&:focus{
 		outline: none;
-		box-shadow: inset 0 2px 5px 0 rgba(0,0,0,0), 0 3px 8px -3px rgba(0, 0, 0, 0.5);
+		box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.5);
 		background: darken($gray-bg,5%);
 	}
 
 	&:active{
 		background: darken($gray-bg,10%);
-		box-shadow: inset 0 2px 5px 0 rgba(0,0,0,0.3), 0 3px 8px -3px rgba(0, 0, 0, 0);
+		box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.5);
 	}
 }
 
@@ -42,12 +42,12 @@ button::-moz-focus-inner {
 
 	&:hover,&:focus{
 		background: darken($red,10%);
-		box-shadow: inset 0 2px 5px 0 rgba(0,0,0,0), 0 4px 10px -3px rgba(0, 0, 0, 0.6);
+		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
 	}
 
 	&:active{
 		background: darken($red,15%);
-		box-shadow: inset 0 2px 5px 0 rgba(0,0,0,0.3), 0 3px 8px -3px rgba(0, 0, 0, 0);
+		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
 	}
 }
 
@@ -57,12 +57,12 @@ button::-moz-focus-inner {
 
 	&:hover,&:focus{
 		background: darken($blue,10%);
-		box-shadow: inset 0 2px 5px 0 rgba(0,0,0,0), 0 4px 10px -3px rgba(0, 0, 0, 0.6);
+		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
 	}
 
 	&:active{
 		background: darken($blue,15%);
-		box-shadow: inset 0 2px 5px 0 rgba(0,0,0,0.3), 0 3px 8px -3px rgba(0, 0, 0, 0);
+		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
 	}
 }
 
@@ -83,5 +83,11 @@ button::-moz-focus-inner {
 
 	i.i-compare{
 		font-size: 21px;
+	}
+
+	.ripple-content{
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 }

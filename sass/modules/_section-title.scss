@@ -3,9 +3,14 @@
 	align-items: flex-end;
 	justify-content: space-between;
 	margin-bottom: $pad-m;
+	flex-wrap: wrap;
 
 	&__actions{
 		position: relative;
-		top: -4px;
+		margin: 10px 0 4px 0;
+	}
+
+	a:not(.btn){
+		@extend %link-blue-hover;
 	}
 }

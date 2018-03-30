@@ -16,6 +16,15 @@ h1, .h1 {
 	font-weight: bold;
 	font-size: 45px;
 	line-height: 1;
+	@include res(xxl){
+		font-size: 40px;
+	}
+	@include res(l){
+		font-size: 30px;
+	}
+	@include res(s){
+		font-size: 24px;
+	}
 }
 
 h2, .h2 {

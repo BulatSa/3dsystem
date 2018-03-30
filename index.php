@@ -121,23 +121,33 @@
 
 <section class="s-def">
 	<div class="container">
+
 		<div class="section-title">
-			<p class="h1">Новинки</p>
+			<p class="h1"><a href="#">Выберите 3D принтер</a></p>
 			<div class="section-title__actions">
 				<a href="#" class="btn btn--small">Перейти в каталог</a>
 			</div>
 		</div>
-		<a href="#" class="btn btn--small">Перейти в каталог</a>
-		<a href="#" class="btn btn--red">В корзину</a>
-		<a href="#" class="btn">В корзину</a>
-		<a href="#" class="btn btn--blue">Купить в 1 клик</a>
-		<a href="#" class="btn btn--round"><i class="i-compare"></i></a>
+
+		<div class="row">
+			<div class="grid-2">
+				<div class="product-preview">
+
+				</div>
+			</div>
+		</div>
+
 	</div>
 </section>
 
 
 <section>
 	<div class="container">
+		<a href="#" class="btn btn--small">Перейти в каталог</a>
+		<button class="btn btn--red">В корзину</button>
+		<button class="btn">В корзину</button>
+		<button class="btn btn--blue">Купить в 1 клик</button>
+		<button class="btn btn--round"><i class="i-compare"></i></button>
 		<br><br><br>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cumque cupiditate dicta, earum et facilis fugiat molestias necessitatibus nisi odio provident quae reprehenderit sequi tempore veritatis? Eos ipsa iste optio.
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
