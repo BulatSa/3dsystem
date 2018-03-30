@@ -1,19 +1,21 @@
 ﻿<?php include('header.php'); ?>
 
 <section class="header-sec">
-	<div class="header container">
-		<div class="header__top">
-			<nav>
-				<a href="#">О компании</a>
-				<a href="#">Услуги</a>
-				<a href="#">Акции</a>
-				<a href="#">Блог</a>
-				<a href="#">Контакты</a>
-			</nav>
-			<div class="header__top-contact">
-				<a href="tel:88002000574"><i></i><span>8 800 200-05-74</span></a>
-				<a href="#">Обратный звонок</a>
-				<a href="#" class="header__cabinet"><i></i><span>Личный кабинет</span></a>
+	<div class="header">
+		<div class="header__top-wrap">
+			<div class="header__top container">
+				<nav>
+					<a href="#">О компании</a>
+					<a href="#">Услуги</a>
+					<a href="#">Акции</a>
+					<a href="#">Блог</a>
+					<a href="#">Контакты</a>
+				</nav>
+				<div class="header__top-contact">
+					<a href="tel:88002000574" class="header__top-phone"><i></i><span>8 800 200-05-74</span></a>
+					<a href="#" class="header__top-call fancy" data-fancybox="#modalcall">Обратный звонок</a>
+					<a href="#" class="header__cabinet"><i></i><span>Личный кабинет</span></a>
+				</div>
 			</div>
 		</div>
 		<div class="header__middle">

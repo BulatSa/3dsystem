@@ -4,13 +4,54 @@
 
 .header {}
 
-.header__top {
-	padding-top: 5px;
-	padding-bottom: 5px;
+.header__top-wrap {
 	background: #191f28;
 }
 
-.header__top-contact {}
+.header__top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 12px;
+	padding-bottom: 16px;
+	color: #fff;
+	nav {
+		display: flex;
+		align-items: center;
+		font-size: 12px;
+		line-height: 1;
+		a {
+			display: block;
+			padding-left: $pad-xxs;
+			padding-right: $pad-xxs;
+			transition: all 0.3s ease;
+			&:hover {
+				color: $blue;
+			}
+		}
+	}
+}
+
+.header__top-contact {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	line-height: 1;
+}
+
+.header__top-phone {
+	font-size: 14px;
+}
+
+.header__top-call {
+	color: $blue;
+	padding-top: 1px;
+	border-bottom: 1px solid transparent;
+	transition: all 0.3s ease;
+	&:hover {
+		border-color: $blue;
+	}
+}
 
 .header__middle {}
 
