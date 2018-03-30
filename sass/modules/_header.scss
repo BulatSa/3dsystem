@@ -13,7 +13,7 @@
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 12px;
-	padding-bottom: 16px;
+	padding-bottom: 12px;
 	color: #fff;
 	nav {
 		display: flex;
@@ -37,15 +37,23 @@
 	align-items: center;
 	font-size: 12px;
 	line-height: 1;
+	i {
+		margin-right: 10px;
+		font-size: 24px;
+	}
 }
 
 .header__top-phone {
+	display: flex;
+	align-items: center;
+	margin-right: 15px;
 	font-size: 14px;
 }
 
 .header__top-call {
-	color: $blue;
+	margin-right: 20px;
 	padding-top: 1px;
+	color: $blue;
 	border-bottom: 1px solid transparent;
 	transition: all 0.3s ease;
 	&:hover {
@@ -53,16 +61,103 @@
 	}
 }
 
-.header__middle {}
+.header__cabinet {
+	display: flex;
+	align-items: center;
+	&:hover {
+		span {
+			color: $blue;
+		}
+	}
+	span {
+		transition: all 0.3s ease;
+	}
+}
 
-.header__logo {}
+.header__middle {
+	display: flex;
+	align-items: center;
+	padding-top: 15px;
+}
 
-.header__cart-wrap {}
+.header__logo {
+	margin-right: 110px;
+	@include res(xl) {
+		margin-right: 60px;
+	}
+}
 
-.header__cart {}
+.header__cart-wrap {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	sup {
+		position: absolute;
+		top: -5px;
+		right: 0;
+		display: block;
+		min-width: 20px;
+		height: 20px;
+		padding: 2px 3px;
+		text-align: center;
+		font-family: $font;
+		font-weight: bold;
+		color: #fff;
+		font-size: 12px;
+		line-height: 15px;
+		background: $red;
+		border-radius: 50%;
+	}
+}
 
-.header__compare {}
+.header__cart {
+	display: flex;
+	&:hover {
+		i {
+			color: $red;
+		}
+	}
+	i {
+		position: relative;
+		padding: 0 10px;
+		margin-right: 10px;
+		font-size: 35px;
+		transition: all 0.3s ease;
+	}
+}
 
-.header__cart-info {}
+.header__cart-info {
+	display: block;
+	padding-bottom: 2px;
+	b {
+		display: block;
+		margin-bottom: 4px;
+		line-height: 1;
+		font-size: 18px;
+	}
+	span {
+		display: block;
+		font-size: 12px;
+	}
+}
+
+.header__compare {
+	&:hover {
+		i {
+			color: $blue;
+		}
+	}
+	i {
+		position: relative;
+		padding: 0 10px;
+		font-size: 35px;
+		transition: all 0.3s ease;
+		sup {
+			background: $blue;
+		}
+	}
+}
+
+
 
 .header__bottom {}
