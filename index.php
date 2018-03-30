@@ -48,4 +48,96 @@
 	</div>
 </section>
 
+
+<section class="s-banner-slider">
+	<div class="container">
+		<div class="banner-slider">
+			<a href="#" class="banner-slider__item">
+				<picture>
+					<source media="(max-width: 680px)" srcset="/img/home/banner_s.jpg">
+					<img src="/img/home/banner.jpg" alt="banner">
+				</picture>
+			</a>
+			<a href="#" class="banner-slider__item">
+				<picture>
+					<source media="(max-width: 680px)" srcset="/img/home/banner_s.jpg">
+					<img src="/img/home/banner.jpg" alt="banner">
+				</picture>
+			</a>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-logos-slider">
+	<div class="container">
+
+		<div class="logos-slider">
+			<div class="logos-slider__item">
+				<img src="/img/logos/1.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/2.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/3.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/4.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/5.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/1.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/2.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/3.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/4.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/5.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/4.png" alt="logo">
+			</div>
+			<div class="logos-slider__item">
+				<img src="/img/logos/5.png" alt="logo">
+			</div>
+			<div class="logos-slider__block">
+				<p class="h2">Мы официальные представители</p>
+				<p class="small-text">Только официальные представители могут давать гарантии на&nbsp;оборудование и&nbsp;предоставлять низкие цены от&nbsp;производителя.</p>
+				<div class="logos-slider__nav">
+					<button class="logos-slider__prev">Назад</button>
+					<button class="logos-slider__next">Вперед</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<section>
+	<div class="container">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cumque cupiditate dicta, earum et facilis fugiat molestias necessitatibus nisi odio provident quae reprehenderit sequi tempore veritatis? Eos ipsa iste optio.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>

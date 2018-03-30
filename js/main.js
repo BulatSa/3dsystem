@@ -178,3 +178,46 @@ $(function () {
 /***********************
  Waypoints END
  ***********************/
+
+
+/***********************
+Banner slider BEGIN
+***********************/
+$(function($){
+	$('.banner-slider').flickity({
+		adaptiveHeight: true,
+		dragThreshold: 6,
+		imagesLoaded: true,
+		pageDots: false,
+		arrowShape: 'M28.6,49c-0.5,0.5-0.5,1.4,0,2L74,96.4l-2.1,2.2c-0.5,0.5-1.4,0.5-1.9,0L22.4,51c-0.5-0.5-0.5-1.4,0-2L70,1.5 c0.5-0.5,1.4-0.5,1.9,0l0,0L74,3.7'
+	});
+});
+/***********************
+Banner slider END
+***********************/
+
+
+/***********************
+Logos slider BEGIN
+***********************/
+$(function($){
+	var logosSlider = $('.logos-slider').flickity({
+		cellSelector: '.logos-slider__item',
+		wrapAround: true,
+		cellAlign: 'left',
+		dragThreshold: 6,
+		imagesLoaded: true,
+		pageDots: false,
+		prevNextButtons: false
+	});
+
+	$('.logos-slider__prev').on('click',function () {
+		logosSlider.flickity('previous');
+	});
+	$('.logos-slider__next').on('click',function () {
+		logosSlider.flickity('next');
+	})
+});
+/***********************
+Logos slider END
+***********************/
