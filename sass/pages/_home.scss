@@ -154,6 +154,29 @@
 
 	&__nav{
 		margin-top: $pad-s;
+		@include res(l){
+			margin-top: $pad-xs;
+		}
+
+		button{
+			font-size: 14px;
+			background: transparent;
+			border: none;
+			transition: all 0.3s ease;
+			cursor: pointer;
+
+			&:hover{
+				color: $blue;
+			}
+
+			&:focus{
+				outline: none;
+			}
+
+			&:first-child{
+				margin-right: 10px;
+			}
+		}
 	}
 
 	&__prev{

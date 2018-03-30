@@ -40,6 +40,10 @@
 	@include res(xxl) {
 		max-width: 1300px;
 	}
+	@include res(s){
+		padding-left: 14px;
+		padding-right: 14px;
+	}
 }
 
 .def-sec {

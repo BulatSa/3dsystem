@@ -79,8 +79,8 @@
 				<p class="h2">Мы официальные представители</p>
 				<p class="small-text">Только официальные представители могут давать гарантии на&nbsp;оборудование и&nbsp;предоставлять низкие цены от&nbsp;производителя.</p>
 				<div class="logos-slider__nav">
-					<button class="logos-slider__prev">Назад</button>
-					<button class="logos-slider__next">Вперед</button>
+					<button class="logos-slider__prev"><i class="i-left-arrow"></i></button>
+					<button class="logos-slider__next"><i class="i-right-arrow"></i></button>
 				</div>
 			</div>
 			<div class="logos-slider__item">
@@ -119,8 +119,26 @@
 </section>
 
 
+<section class="s-def">
+	<div class="container">
+		<div class="section-title">
+			<p class="h1">Новинки</p>
+			<div class="section-title__actions">
+				<a href="#" class="btn btn--small">Перейти в каталог</a>
+			</div>
+		</div>
+		<a href="#" class="btn btn--small">Перейти в каталог</a>
+		<a href="#" class="btn btn--red">В корзину</a>
+		<a href="#" class="btn">В корзину</a>
+		<a href="#" class="btn btn--blue">Купить в 1 клик</a>
+		<a href="#" class="btn btn--round"><i class="i-compare"></i></a>
+	</div>
+</section>
+
+
 <section>
 	<div class="container">
+		<br><br><br>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cumque cupiditate dicta, earum et facilis fugiat molestias necessitatibus nisi odio provident quae reprehenderit sequi tempore veritatis? Eos ipsa iste optio.
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.

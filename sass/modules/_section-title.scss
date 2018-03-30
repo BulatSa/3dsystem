@@ -1,0 +1,11 @@
+.section-title{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-bottom: $pad-m;
+
+	&__actions{
+		position: relative;
+		top: -4px;
+	}
+}
