@@ -4,6 +4,9 @@
 	justify-content: space-between;
 	margin-bottom: $pad-m;
 	flex-wrap: wrap;
+	@include res(xs){
+		margin-bottom: $pad-s;
+	}
 
 	&__actions{
 		position: relative;

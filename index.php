@@ -129,10 +129,209 @@
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="grid-2">
+		<div class="row product-list">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
-
+					<header>
+						<a href="#">
+							<img src="/img/preview/pr_1.jpg" alt="220x180">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+						<span class="product-preview__price">10 590 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
+				<div class="product-preview">
+					<header>
+						<a href="#">
+							<img src="/img/preview/pr_2.jpg" alt="1">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер</a>
+						<span class="product-preview__price">180 000 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
+				<div class="product-preview">
+					<header>
+						<a href="#">
+							<img src="/img/preview/pr_3.jpg" alt="1">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер</a>
+						<span class="product-preview__price">180 000 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
+				<div class="product-preview">
+					<header>
+						<a href="#">
+							<img src="/img/preview/220x180.png" alt="1">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+						<span class="product-preview__price">10 590 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
+				<div class="product-preview">
+					<header>
+						<a href="#">
+							<img src="/img/preview/pr_2.jpg" alt="1">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер</a>
+						<span class="product-preview__price">180 000 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
+				<div class="product-preview">
+					<header>
+						<a href="#">
+							<img src="/img/preview/pr_3.jpg" alt="1">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер</a>
+						<span class="product-preview__price">180 000 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
+				<div class="product-preview">
+					<header>
+						<a href="#">
+							<img src="/img/preview/pr_1.jpg" alt="1">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+						<span class="product-preview__price">10 590 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
+				<div class="product-preview">
+					<header>
+						<a href="#">
+							<img src="/img/preview/pr_2.jpg" alt="1">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер</a>
+						<span class="product-preview__price">180 000 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
+				<div class="product-preview">
+					<header>
+						<a href="#">
+							<img src="/img/preview/pr_3.jpg" alt="1">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер</a>
+						<span class="product-preview__price">180 000 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
+				<div class="product-preview">
+					<header>
+						<a href="#">
+							<img src="/img/preview/pr_1.jpg" alt="1">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+						<span class="product-preview__price">10 590 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
+				<div class="product-preview">
+					<header>
+						<a href="#">
+							<img src="/img/preview/pr_2.jpg" alt="1">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер</a>
+						<span class="product-preview__price">180 000 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
+				<div class="product-preview">
+					<header>
+						<a href="#">
+							<img src="/img/preview/pr_3.jpg" alt="1">
+						</a>
+					</header>
+					<main>
+						<a href="#" class="h3 product-preview__title">3D принтер</a>
+						<span class="product-preview__price">180 000 Р</span>
+					</main>
+					<footer>
+						<button class="btn btn--red">В корзину</button>
+						<button class="btn btn--round"><i class="i-compare"></i></button>
+					</footer>
 				</div>
 			</div>
 		</div>
@@ -143,6 +342,10 @@
 
 <section>
 	<div class="container">
+		<br><br>
+		<br><br>
+		<br><br>
+		<br><br>
 		<a href="#" class="btn btn--small">Перейти в каталог</a>
 		<button class="btn btn--red">В корзину</button>
 		<button class="btn">В корзину</button>
