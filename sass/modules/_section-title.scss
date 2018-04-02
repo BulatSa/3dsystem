@@ -1,0 +1,19 @@
+.section-title{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-bottom: $pad-m;
+	flex-wrap: wrap;
+	@include res(xs){
+		margin-bottom: $pad-s;
+	}
+
+	&__actions{
+		position: relative;
+		margin-top: 10px;
+	}
+
+	a:not(.btn){
+		@extend %link-blue-hover;
+	}
+}
