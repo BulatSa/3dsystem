@@ -39,13 +39,29 @@
 		</div>
 		<div class="header__bottom container">
 			<ul>
-				<li><a href="#">Каталог</a></li>
-				<li><a href="#">3D принтеры</a></li>
-				<li><a href="#">3D Сканеры</a></li>
-				<li><a href="#">Аксессуары</a></li>
-				<li><a href="#">Гаджеты</a></li>
-				<li><a href="#">Расходные материалы</a></li>
+				<li><a href="#" data-category="catalog">Каталог</a></li>
+				<li><a href="#" data-category="printer">3D принтеры</a></li>
+				<li><a href="#" data-category="scan">3D Сканеры</a></li>
+				<li><a href="#" data-category="access">Аксессуары</a></li>
+				<li><a href="#" data-category="gadget">Гаджеты</a></li>
+				<li><a href="#" data-category="material">Расходные материалы</a></li>
 			</ul>
+
+			<div class="header__bottom-cat-wrap">
+				<div class="header__bottom-cat bottom-cat" id="catalog">
+					<div class="bottom-cat__deals">
+						<a href="#" class="bottom-cat__deal">
+							<img src="" alt="">
+							<span></span>
+						</a>
+					</div>
+					<div class="bottom-cat__fabricators">
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
