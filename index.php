@@ -149,7 +149,7 @@
 </section>
 
 
-<section class="s-def">
+<section class="s-home-new s-def">
 	<div class="container">
 
 		<div class="section-title">
@@ -380,29 +380,234 @@
 </section>
 
 
-<section>
+<section class="s-home-services s-def">
 	<div class="container">
-		<br><br>
-		<br><br>
-		<br><br>
-		<br><br>
-		<a href="#" class="btn btn--small">Перейти в каталог</a>
-		<button class="btn btn--red">В корзину</button>
-		<button class="btn">В корзину</button>
-		<button class="btn btn--blue">Купить в 1 клик</button>
-		<button class="btn btn--round"><i class="i-compare"></i></button>
-		<br><br><br>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cumque cupiditate dicta, earum et facilis fugiat molestias necessitatibus nisi odio provident quae reprehenderit sequi tempore veritatis? Eos ipsa iste optio.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda autem dolor eum, eveniet, explicabo fugiat impedit inventore magnam maxime modi, nam nisi nulla omnis ratione reprehenderit soluta vel velit.
+
+		<div class="section-title">
+			<p class="h1"><a href="#">Услуги</a></p>
+		</div>
+
+		<div class="row">
+			<div class="grid-4 grid-12_m">
+				<div class="home-service" style="background-image: url('img/home/service-1.jpg')">
+					<p class="h2 home-service__title">3D печать</p>
+					<p class="home-service__descr">Вопрос о ремонте 3d принтера может стать актуальным в любой момент.</p>
+					<button class="btn btn--small">Оставить заявку</button>
+				</div>
+			</div>
+			<div class="grid-4 grid-12_m">
+				<div class="home-service" style="background-image: url('img/home/service-2.jpg')">
+					<p class="h2 home-service__title">3D сканирование</p>
+					<p class="home-service__descr">Вопрос о ремонте 3d принтера может стать актуальным в любой момент.</p>
+					<button class="btn btn--small">Оставить заявку</button>
+				</div>
+			</div>
+			<div class="grid-4 grid-12_m">
+				<div class="home-service" style="background-image: url('img/home/service-3.jpg')">
+					<p class="h2 home-service__title">3D моделирование</p>
+					<p class="home-service__descr">Вопрос о ремонте 3d принтера может стать актуальным в любой момент.</p>
+					<button class="btn btn--small">Оставить заявку</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<section class="s-home-promo s-def">
+	<div class="container">
+
+		<div class="section-title">
+			<p class="h1"><a href="#">Акции</a></p>
+			<div class="section-title__actions">
+				<a href="#" class="btn btn--small">Все акции</a>
+			</div>
+		</div>
+
+		<div class="row home-promos">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+				<div class="preview">
+					<a href="#">
+						<img src="/img/home/promo.jpg" alt="243x194" class="preview__img">
+					</a>
+					<div class="preview__content">
+						<p class="preview__date small-text">01.03.2018 – 31.04.2018</p>
+						<p class="h3 preview__title"><a href="#">Пятая катушка пластика в подарок!</a></p>
+						<p class="small-text">Закажи 4 катушки любого пластика CyberFiber и получи пятую в подарок!</p>
+					</div>
+					<footer class="preview__footer">
+						<a href="#" class="btn btn--small">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+				<div class="preview">
+					<a href="#">
+						<img src="/img/home/promo-1.jpg" alt="243x194" class="preview__img">
+					</a>
+					<div class="preview__content">
+						<p class="preview__date small-text">Весь апрель!</p>
+						<p class="h3 preview__title"><a href="#">Пятая катушка пластика в подарок!</a></p>
+						<p class="small-text">Закажи 4 катушки любого пластика</p>
+					</div>
+					<footer class="preview__footer">
+						<a href="#" class="btn btn--small">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+				<div class="preview">
+					<a href="#">
+						<img src="/img/home/promo.jpg" alt="243x194" class="preview__img">
+					</a>
+					<div class="preview__content">
+						<p class="preview__date small-text">Только сегодня!</p>
+						<p class="h3 preview__title"><a href="#">Пятая катушка пластика в подарок!</a></p>
+						<p class="small-text">Закажи 4 катушки любого пластика CyberFiber и получи пятую в подарок!</p>
+					</div>
+					<footer class="preview__footer">
+						<a href="#" class="btn btn--small">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+				<div class="preview">
+					<a href="#">
+						<img src="/img/home/promo-1.jpg" alt="243x194" class="preview__img">
+					</a>
+					<div class="preview__content">
+						<p class="preview__date small-text">Весь апрель!</p>
+						<p class="h3 preview__title"><a href="#">Пятая катушка пластика в подарок!</a></p>
+						<p class="small-text">Закажи 4 катушки любого пластика CyberFiber и получи пятую в подарок!</p>
+					</div>
+					<footer class="preview__footer">
+						<a href="#" class="btn btn--small">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+				<div class="preview">
+					<a href="#">
+						<img src="/img/preview/243x194.png" alt="243x194" class="preview__img">
+					</a>
+					<div class="preview__content">
+						<p class="preview__date small-text">Весь апрель!</p>
+						<p class="h3 preview__title"><a href="#">Пятая катушка</a></p>
+						<p class="small-text">Закажи 4 катушки любого пластика</p>
+					</div>
+					<footer class="preview__footer">
+						<a href="#" class="btn btn--small">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+				<div class="preview">
+					<a href="#">
+						<img src="/img/home/promo.jpg" alt="243x194" class="preview__img">
+					</a>
+					<div class="preview__content">
+						<p class="preview__date small-text">Весь апрель!</p>
+						<p class="h3 preview__title"><a href="#">Пятая катушка пластика в подарок!</a></p>
+						<p class="small-text">Закажи 4 катушки любого пластика CyberFiber и получи пятую в подарок!</p>
+					</div>
+					<footer class="preview__footer">
+						<a href="#" class="btn btn--small">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<section class="s-home-info s-def">
+	<div class="container">
+		<div class="row">
+
+			<div class="grid-5 grid-12_m">
+				<div class="section-title">
+					<p class="h1"><a href="#">О нас</a></p>
+				</div>
+				<div class="user-content home-about">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+					<a href="#" class="btn btn--small">Подробнее</a>
+				</div>
+
+				<p class="h2 home-news-title"><a href="#">Новости</a></p>
+				<div class="home-news-list">
+					<article class="news-intro">
+						<time datetime="2018-03-22" class="small-text">22 марта 2018</time>
+						<a href="#" class="h3 news-intro__title">Агентство Pen&Brain презентует концепцию сайта</a>
+					</article>
+					<article class="news-intro">
+						<time datetime="2018-03-22" class="small-text">22 марта 2018</time>
+						<a href="#" class="h3 news-intro__title">Агентство Pen&Brain презентует концепцию сайта Агентство Pen&Brain презентует концепцию сайта</a>
+					</article>
+				</div>
+				<a href="#" class="btn btn--small">Все новости</a>
+			</div>
+
+			<div class="grid-6 grid-12_m grid-off-1 grid-off-0_m home-blog">
+				<div class="section-title">
+					<p class="h1"><a href="#">Блог</a></p>
+					<div class="section-title__actions">
+						<a href="#" class="btn btn--small">Перейти в блог</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="grid-4 grid-6_l grid-4_m grid-6_s grid-12_xxs">
+						<div class="preview">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video preview__video" title="Посмотреть видео">
+								<img src="/img/home/blog-1.jpg" alt="243x194" class="preview__img">
+								<span class="play-icon"></span>
+							</a>
+							<div class="preview__content">
+								<p class="preview__date small-text">22.03.2018</p>
+								<p class="h3 preview__title"><a href="#">Пятая катушка пластика в подарок!</a></p>
+								<p class="small-text">Закажи 4 катушки любого пластика CyberFiber и получи пятую в подарок!</p>
+							</div>
+							<footer class="preview__footer">
+								<a href="#" class="btn btn--small">Подробнее</a>
+							</footer>
+						</div>
+					</div>
+					<div class="grid-4 grid-6_l grid-4_m grid-6_s grid-12_xxs">
+						<div class="preview">
+							<a href="#">
+								<img src="/img/home/promo-1.jpg" alt="243x194" class="preview__img">
+							</a>
+							<div class="preview__content">
+								<p class="preview__date small-text">22.03.2018</p>
+								<p class="h3 preview__title"><a href="#">Пятая катушка пластика в подарок!</a></p>
+								<p class="small-text">Закажи 4 катушки любого пластика</p>
+							</div>
+							<footer class="preview__footer">
+								<a href="#" class="btn btn--small">Подробнее</a>
+							</footer>
+						</div>
+					</div>
+					<div class="grid-4 grid-6_l grid-4_m grid-6_s grid-12_xxs">
+						<div class="preview">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video preview__video" title="Посмотреть видео">
+								<img src="/img/preview/243x194.png" alt="243x194" class="preview__img">
+								<span class="play-icon"></span>
+							</a>
+							<div class="preview__content">
+								<p class="preview__date small-text">22.03.2018</p>
+								<p class="h3 preview__title"><a href="#">Пятая катушка пластика в подарок!</a></p>
+								<p class="small-text">Закажи 4 катушки любого пластика CyberFiber и получи пятую в подарок!</p>
+							</div>
+							<footer class="preview__footer">
+								<a href="#" class="btn btn--small">Подробнее</a>
+							</footer>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
 	</div>
 </section>
 
