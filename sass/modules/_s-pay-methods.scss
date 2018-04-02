@@ -1,0 +1,36 @@
+.s-pay-methods{
+	border-top: 1px solid $gray-border;
+	border-bottom: 1px solid $gray-border;
+	padding: 5px 0;
+	@include res(m){
+		display: none;
+	}
+
+	.container{
+		display: flex;
+		align-items: center;
+		@include res(m){
+			flex-direction: column;
+		}
+	}
+
+	.h3{
+		margin-right: 40px;
+		flex-shrink: 0;
+		@include res(m){
+			margin-bottom: 5px;
+		}
+	}
+
+	&__img{
+		flex-shrink: 1;
+		pointer-events: none;
+
+		img{
+			max-width: 100%;
+			height: auto;
+			display: block;
+			transform: translate3d(0,0,0);
+		}
+	}
+}

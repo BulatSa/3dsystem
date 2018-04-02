@@ -77,17 +77,12 @@ button::-moz-focus-inner {
 	width: 40px;
 	height: 40px;
 	padding: 0;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
+
+	i{
+		display: block;
+	}
 
 	i.i-compare{
 		font-size: 21px;
-	}
-
-	.ripple-content{
-		display: flex;
-		align-items: center;
-		justify-content: center;
 	}
 }
