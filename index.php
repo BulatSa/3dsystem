@@ -38,7 +38,7 @@
 			</div>
 		</div>
 		<div class="header__bottom container">
-			<ul>
+			<ul class="header__bottom-links">
 				<li><a href="#" data-category="catalog">Каталог</a></li>
 				<li><a href="#" data-category="printer">3D принтеры</a></li>
 				<li><a href="#" data-category="scan">3D Сканеры</a></li>
@@ -51,13 +51,360 @@
 				<div class="header__bottom-cat bottom-cat" id="catalog">
 					<div class="bottom-cat__deals">
 						<a href="#" class="bottom-cat__deal">
-							<img src="" alt="">
-							<span></span>
+							<img src="img/header/deal-1.jpg" alt="">
+							<span>Лучшие предложения</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-2.jpg" alt="">
+							<span>Персональные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-3.jpg" alt="">
+							<span>Профессиональные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-4.jpg" alt="">
+							<span>Промышленные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-5.jpg" alt="">
+							<span>Строительные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-6.jpg" alt="">
+							<span>Готовые решения</span>
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
 						<a href="#" class="bottom-cat__fabricator">
-							<img src="" alt="">
+							<img src="img/header/fabric-1.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-2.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-3.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-4.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-5.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-6.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-7.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-8.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-6.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-7.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-8.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="header__bottom-cat bottom-cat" id="printer">
+					<div class="bottom-cat__deals">
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-4.jpg" alt="">
+							<span>Промышленные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-5.jpg" alt="">
+							<span>Строительные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-6.jpg" alt="">
+							<span>Готовые решения</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-1.jpg" alt="">
+							<span>Лучшие предложения</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-2.jpg" alt="">
+							<span>Персональные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-3.jpg" alt="">
+							<span>Профессиональные</span>
+						</a>
+					</div>
+					<div class="bottom-cat__fabricators">
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-1.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-2.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-3.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-4.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-5.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-6.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-7.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-8.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="header__bottom-cat bottom-cat" id="scan">
+					<div class="bottom-cat__deals">
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-4.jpg" alt="">
+							<span>Промышленные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-5.jpg" alt="">
+							<span>Строительные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-6.jpg" alt="">
+							<span>Готовые решения</span>
+						</a>
+					</div>
+					<div class="bottom-cat__fabricators">
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-1.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-2.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-3.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-4.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-5.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-6.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-7.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-8.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-6.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-7.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-8.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="header__bottom-cat bottom-cat" id="access">
+					<div class="bottom-cat__deals">
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-3.jpg" alt="">
+							<span>Профессиональные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-4.jpg" alt="">
+							<span>Промышленные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-1.jpg" alt="">
+							<span>Лучшие предложения</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-2.jpg" alt="">
+							<span>Персональные</span>
+						</a>
+
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-5.jpg" alt="">
+							<span>Строительные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-6.jpg" alt="">
+							<span>Готовые решения</span>
+						</a>
+					</div>
+					<div class="bottom-cat__fabricators">
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-1.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-2.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-3.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-4.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-5.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-6.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-7.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-8.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-6.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-7.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-8.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="header__bottom-cat bottom-cat" id="gadget">
+					<div class="bottom-cat__deals">
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-4.jpg" alt="">
+							<span>Промышленные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-5.jpg" alt="">
+							<span>Строительные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-1.jpg" alt="">
+							<span>Лучшие предложения</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-2.jpg" alt="">
+							<span>Персональные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-3.jpg" alt="">
+							<span>Профессиональные</span>
+						</a>
+
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-6.jpg" alt="">
+							<span>Готовые решения</span>
+						</a>
+					</div>
+					<div class="bottom-cat__fabricators">
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-1.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-2.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-3.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-4.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-5.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-6.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-7.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-8.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-6.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-7.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-8.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="header__bottom-cat bottom-cat" id="material">
+					<div class="bottom-cat__deals">
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-5.jpg" alt="">
+							<span>Строительные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-6.jpg" alt="">
+							<span>Готовые решения</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-1.jpg" alt="">
+							<span>Лучшие предложения</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-2.jpg" alt="">
+							<span>Персональные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-3.jpg" alt="">
+							<span>Профессиональные</span>
+						</a>
+						<a href="#" class="bottom-cat__deal">
+							<img src="img/header/deal-4.jpg" alt="">
+							<span>Промышленные</span>
+						</a>
+
+					</div>
+					<div class="bottom-cat__fabricators">
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-1.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-2.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-3.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-4.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-5.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-6.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-7.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-8.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-6.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-7.jpg" alt="">
+						</a>
+						<a href="#" class="bottom-cat__fabricator">
+							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
 					</div>
 				</div>

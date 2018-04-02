@@ -150,6 +150,58 @@ $(function () {
 
 
 /***********************
+ top-menu BEGIN
+ ***********************/
+$(function($){
+
+	function openSubMenu(id) {
+		var self = $('[data-category='+id+']');
+		self.addClass('active');
+		$('#'+id).addClass('active');
+		$('.header__bottom-cat-wrap').addClass('active');
+	}
+
+	function closeSubMenu() {
+		$('[data-category]').removeClass('active');
+		$('.header__bottom-cat-wrap').removeClass('active');
+		$('.header__bottom-cat').removeClass('active');
+	}
+
+	var timer;
+	var delay = 150;
+
+	$('[data-category]').on('pointerenter touchstart',function () {
+		var id = $(this).data('category');
+		timer = setTimeout(function() {
+			closeSubMenu();
+			openSubMenu(id);
+		}, delay);
+	});
+
+	$('.header__bottom').on('pointerleave',function () {
+		closeSubMenu();
+		clearTimeout(timer);
+	});
+
+	$('.header__bottom-links a').not('[data-category]').on('pointerenter touchstart',function () {
+		closeSubMenu();
+		clearTimeout(timer);
+	});
+
+	$(document).on('mouseup touchstart',function (e){
+		var searchForm = $(".header__bottom");
+		if (!searchForm.is(e.target) && searchForm.has(e.target).length === 0) {
+			closeSubMenu();
+			clearTimeout(timer);
+		}
+	});
+});
+/***********************
+ top-menu END
+ ***********************/
+
+
+/***********************
  Прокрутка к секциям BEGIN
  ***********************/
 $(function () {

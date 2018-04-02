@@ -53,7 +53,7 @@ button {
 	position: relative;
 	max-width: 385px;
 	width: 100%;
-	@include res(xl) {
+	@include res(xxl) {
 		max-width: 300px;
 	}
 	input {
