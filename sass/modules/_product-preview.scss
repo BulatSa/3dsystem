@@ -57,6 +57,7 @@
 	}
 
 	header{
+		position: relative;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -71,6 +72,18 @@
 			display: block;
 			max-width: 100%;
 			height: auto;
+		}
+
+		.product-labels{
+			position: absolute;
+			bottom: 0;
+			left: $pad-s;
+			@include res(xxl){
+				left: $pad-xs;
+			}
+			@include res(xxs){
+				left: $pad-xxs;
+			}
 		}
 	}
 
@@ -104,8 +117,8 @@
 			padding: 0 $pad-xxs $pad-xxs $pad-xxs;
 		}
 		@include res(xxs){
-			flex-direction: column-reverse;
-			align-items: center;
+			/*flex-direction: column-reverse;
+			align-items: center;*/
 		}
 
 		.btn--red{
@@ -125,8 +138,8 @@
 			flex-shrink: 0;
 			margin-left: $pad-xxs;
 			@include res(xxs){
-				margin-left: 0;
-				margin-bottom: $pad-xxs;
+				/*margin-left: 0;
+				margin-bottom: $pad-xxs;*/
 			}
 		}
 	}
@@ -135,7 +148,7 @@
 		height: 39px;
 		overflow: hidden;
 		display: block;
-		margin-bottom: $pad-xs;
+		margin-bottom: $pad-s;
 		@extend %link-blue-hover;
 		@include res(xxl){
 			font-size: 14px;
@@ -144,21 +157,72 @@
 		@include res(s){
 			font-size: 12px;
 			height: 29px;
-			margin-bottom: $pad-xxs;
+			margin-bottom: $pad-xs;
 		}
 	}
 
 	&__price{
 		display: block;
+		position: relative;
 		font-family: $font-head;
 		font-size: 24px;
 		line-height: 1;
-		white-space: nowrap;
 		@include res(xxl){
 			font-size: 20px;
 		}
 		@include res(s){
 			font-size: 16px;
 		}
+
+		span{
+			white-space: nowrap;
+		}
+
+		.price--old{
+			text-decoration: line-through;
+			font-size: 60%;
+			color: $gray-text;
+			white-space: nowrap;
+			position: absolute;
+			bottom: 100%;
+			left: 0;
+			line-height: 1;
+			@include res(s){
+				font-size: 70%;
+			}
+		}
 	}
 }
+
+
+
+//product-labels
+.product-labels{
+
+}
+
+.product-label{
+	border-radius: 5px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	font-family: $font-head;
+	font-weight: bold;
+	padding: 5px 10px;
+	user-select: none;
+	@include res(xxl){
+		font-size: 12px;
+		padding: 3px 6px;
+	}
+
+	&--green{
+		color: #FFF;
+		background: $green;
+	}
+
+	&--red{
+		color: #FFF;
+		background: $red;
+	}
+}
+//product-labels
