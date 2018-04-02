@@ -1,6 +1,29 @@
 .s-def{
 	padding: 40px 0;
+	@include res(xxl){
+		padding: 30px 0;
+	}
 	@include res(s){
 		padding: 20px 0;
+	}
+}
+
+.s-def-top{
+	padding-top: 40px;
+	@include res(xxl){
+		padding-top: 30px;
+	}
+	@include res(s){
+		padding-top: 20px;
+	}
+}
+
+.s-def-bottom{
+	padding-bottom: 40px;
+	@include res(xxl){
+		padding-bottom: 30px;
+	}
+	@include res(s){
+		padding-bottom: 20px;
 	}
 }

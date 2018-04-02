@@ -12,14 +12,14 @@
 
 .product-preview{
 	position: relative;
-	padding: 1px;
+	//padding: 1px;
 	transition: all 0.3s ease;
-	border: 1px solid $gray-border;
+	box-shadow: 0 0 0 1px $gray-border;
 	border-radius: 15px;
 
 	&:hover{
 		transform: translate3d(0,-20px,0);
-		border: 1px solid transparent;
+		box-shadow: 0 0 0 1px transparent;
 		z-index: 2;
 		background: #FFF;
 		@include res(l){
@@ -115,10 +115,6 @@
 			visibility: visible;
 			opacity: 1;
 			padding: 0 $pad-xxs $pad-xxs $pad-xxs;
-		}
-		@include res(xxs){
-			/*flex-direction: column-reverse;
-			align-items: center;*/
 		}
 
 		.btn--red{
