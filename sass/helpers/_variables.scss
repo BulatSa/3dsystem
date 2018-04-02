@@ -1,5 +1,5 @@
 $breakpoints: (
-	'xxl': (max-width: 1680px),
+	'xxl': (max-width: 1670px),
 	'xl': (max-width: 1400px),
 	'l': (max-width: 1024px),
 	'm': (max-width: 768px),
@@ -13,11 +13,14 @@ $font-head: 'Exo', Arial, sans-serif;
 
 $container_width: 1640px;
 
-$gutter: 12px;
+$gutter: 14px;
 
 $red: #f81242;
 $green: #00c453;
 $blue: #2f7bff;
+$gray-bg: #f0f0f7;
+$gray-border: #ebebeb;
+$gray-text: #b4b4b4;
 
 $pad-xxl: 100px;
 $pad-xl: 70px;

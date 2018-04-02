@@ -1,0 +1,6 @@
+.s-def{
+	padding: 40px 0;
+	@include res(s){
+		padding: 20px 0;
+	}
+}
