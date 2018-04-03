@@ -1,0 +1,59 @@
+.printer-cart {
+	display: block;
+	//max-width: 245px;
+	margin-bottom: 20px;
+	padding: 5px 5px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px 0 transparent;
+	background: #f0f0f7;
+	transition: all 0.3s ease;
+	overflow: hidden;
+	@include res(xxl) {
+		margin-bottom: 16px;
+	}
+	&:hover {
+		box-shadow: 0 0 10px 0 transparentize(#000, 0.8);
+		.printer-cart__title {
+			color: $blue;
+		}
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+}
+
+.printer-cart__title {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: $font-head;
+	font-size: 16px;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	@include res(xxl) {
+		font-size: 15px;
+	}
+	@include res(s) {
+		font-size: 14px;
+	}
+}
+
+.printer-cart__price {
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 3px 14px;
+	font-size: 18px;
+	font-family: $font-head;
+	color: $blue;
+	white-space: nowrap;
+	border-radius: 20px;
+	background: #fff;
+	@include res(xxl) {
+		font-size: 16px;
+	}
+}

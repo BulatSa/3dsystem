@@ -29,6 +29,9 @@ button {
 		font-style: italic;
 		opacity: 1;
 		transition: all 0.3s ease;
+		@include res(l){
+			font-size: 16px;
+		}
 	}
 
 	&:hover{
@@ -56,7 +59,9 @@ button {
 		@include placeholder {
 			font-style: italic;
 		}
-
+		@include res(s) {
+			padding: 8px 18px;
+		}
 	}
 }
 
@@ -64,15 +69,12 @@ button {
 	position: relative;
 	max-width: 385px;
 	width: 100%;
-	@include res(xxl) {
-		max-width: 300px;
-	}
 	input {
 		width: 100%;
 	}
 	button {
 		position: absolute;
-		top: 50%;
+		top: 51%;
 		right: 0;
 		padding: 5px 15px;
 		font-size: 22px;

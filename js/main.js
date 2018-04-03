@@ -202,6 +202,40 @@ $(function($){
 
 
 /***********************
+ Mob menu BEGIN
+ ***********************/
+$(function(){
+	$('.header__top-burger').on('click',function (e) {
+		e.preventDefault();
+		$(this).toggleClass('active');
+		$('.mobile-menu-sec').toggleClass('active');
+	});
+
+	$(document).on('click touchstart',function (e){
+		var div = $(".mobile-menu-sec,.header__top-burger");
+		if (!div.is(e.target) && div.has(e.target).length === 0){
+			$('.burger').removeClass('active');
+			$('.mobile-menu-sec').removeClass('active');
+		}
+	});
+
+	$('.mobile-menu__cat .i-down').on('click',function () {
+		var self = $(this);
+		var thisSub = self.next('.mobile-menu__sub');
+
+		$('.mobile-menu__sub').not(thisSub).slideUp();
+		thisSub.slideToggle();
+
+		$('.mobile-menu__cat .i-down').not(self).removeClass('active');
+		self.toggleClass('active');
+	})
+});
+/***********************
+ Mob menu END
+ ***********************/
+
+
+/***********************
  Прокрутка к секциям BEGIN
  ***********************/
 $(function () {

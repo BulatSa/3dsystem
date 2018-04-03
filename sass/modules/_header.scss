@@ -2,24 +2,44 @@
 
 }
 
-.header {}
+.header {
+	@include res(l) {
+		padding-top: 40px;
+	}
+}
 
 .header__top-wrap {
 	background: #191f28;
+	@include res(l) {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 100;
+	}
 }
 
 .header__top {
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 12px;
 	padding-bottom: 12px;
 	color: #fff;
+	z-index: 10;
+	@include res(l) {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
 	nav {
 		display: flex;
 		align-items: center;
 		font-size: 12px;
 		line-height: 1;
+		@include res(l) {
+			display: none;
+		}
 		a {
 			display: block;
 			padding-top: 5px;
@@ -34,6 +54,59 @@
 	}
 }
 
+.header__top-burger {
+	display: none;
+	@include res(l) {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		height: 40px;
+		margin-left: -20px;
+		transition: all 0.3s ease;
+		cursor: pointer;
+	}
+	@include res(s) {
+		margin-left: -14px;
+	}
+	figure {
+		width: 25px;
+		height: 2px;
+		background: #FFF;
+		position: relative;
+		transition: transform 0.4s ease,background 0.2s ease 0.1s;
+		&:before, &:after {
+			content: '';
+			width: 25px;
+			height: 2px;
+			background: #FFF;
+			position: absolute;
+			transition: transform 0.4s ease;
+		}
+		&:before {
+			transform: rotate(0) translate3d(0, -6px, 0);
+		}
+		&:after {
+			transform: rotate(0) translate3d(0, 6px, 0);
+		}
+	}
+	&.active {
+		background: $blue;
+		figure {
+			transition: transform 0.4s ease,background 0.1s ease;
+			transform: rotate(-180deg);
+			background: $blue;
+			&:before {
+				transform: rotate(-45deg) translate3d(0, 0, 0) scaleX(0.7);
+			}
+			&:after {
+				transform: rotate(45deg) translate3d(0, 0, 0) scaleX(0.7);
+			}
+		}
+	}
+}
+
 .header__top-contact {
 	display: flex;
 	align-items: center;
@@ -42,6 +115,9 @@
 	i {
 		margin-right: 10px;
 		font-size: 24px;
+		@include res(l) {
+			font-size: 20px;
+		}
 	}
 }
 
@@ -50,6 +126,9 @@
 	align-items: center;
 	margin-right: 15px;
 	font-size: 14px;
+	@include res(s) {
+		font-size: 12px;
+	}
 }
 
 .header__top-call {
@@ -58,8 +137,17 @@
 	color: $blue;
 	border-bottom: 1px solid transparent;
 	transition: all 0.3s ease;
+	@include res(xs) {
+		display: none;
+	}
 	&:hover {
 		border-color: $blue;
+	}
+	&--menu {
+		display: none;
+		@include res(xs) {
+			display: block;
+		}
 	}
 }
 
@@ -71,8 +159,17 @@
 			color: $blue;
 		}
 	}
+	i {
+		@include res(s) {
+			margin: 0;
+			padding-left: 10px;
+		}
+	}
 	span {
 		transition: all 0.3s ease;
+		@include res(s) {
+			display: none;
+		}
 	}
 }
 
@@ -80,13 +177,40 @@
 	display: flex;
 	align-items: center;
 	padding-top: 15px;
+	padding-bottom: $pad-s;
+	.form-search {
+		@include res(xxl) {
+			max-width: 300px;
+		}
+		@include res(m) {
+			max-width: 260px;
+		}
+		@include res(s) {
+			display: none;
+		}
+	}
 }
 
 .header__logo {
+	max-width: 275px;
 	margin-left: 20px;
 	margin-right: 110px;
 	@include res(xl) {
 		margin-right: 60px;
+	}
+	@include res(l) {
+		max-width: 200px;
+		margin-left: 10px;
+	}
+	@include res(m) {
+		margin-right: 40px;
+	}
+	@include res(s) {
+		margin-left: 0;
+	}
+	img {
+		display: block;
+		max-width: 100%;
 	}
 }
 
@@ -126,12 +250,19 @@
 		margin-right: 10px;
 		font-size: 35px;
 		transition: all 0.3s ease;
+		@include res(s) {
+			font-size: 30px;
+			margin-right: 0;
+		}
 	}
 }
 
 .header__cart-info {
 	display: block;
 	padding-bottom: 2px;
+	@include res(l) {
+		display: none;
+	}
 	b {
 		display: block;
 		margin-bottom: 4px;
@@ -158,6 +289,9 @@
 		padding: 0 10px;
 		font-size: 35px;
 		transition: all 0.3s ease;
+		@include res(s) {
+			font-size: 30px;
+		}
 		sup {
 			background: $blue;
 		}
@@ -165,8 +299,10 @@
 }
 
 .header__bottom {
-	margin-top: $pad-s;
 	margin-bottom: $pad-s;
+	@include res(l) {
+		display: none;
+	}
 }
 
 .header__bottom-links {
@@ -207,6 +343,7 @@
 	left: 20px;
 	right: 0;
 	max-width: 1600px;
+	width: calc(100% - 40px);
 	padding: 20px 0 0px 0;
 	border-radius: 15px;
 	visibility: hidden;
@@ -240,6 +377,7 @@
 
 .bottom-cat {
 	padding: 20px;
+	padding-bottom: 10px;
 	border-radius: 15px;
 	box-shadow: 0 0 20px 0 transparentize(#000, 0.8);
 	background: #fff;
@@ -251,55 +389,36 @@
 
 .bottom-cat__deals {
 	display: flex;
+	flex-wrap: wrap;
 	margin-left: -10px;
 	margin-right: -10px;
+	@include res(xxl) {
+		margin-left: -8px;
+		margin-right: -8px;
+	}
 }
 
 .bottom-cat__deal {
-	max-width: 245px;
+	width: calc(100% / 6 - 20px);
 	margin-left: 10px;
 	margin-right: 10px;
-	padding: 5px 5px;
-	border-radius: 15px;
-	box-shadow: 0 0 10px 0 transparent;
-	background: #f0f0f7;
-	transition: all 0.3s ease;
-	overflow: hidden;
 	@include res(xxl) {
+		width: calc(100% / 6 - 16px);
 		margin-left: 8px;
 		margin-right: 8px;
 	}
-	&:hover {
-		box-shadow: 0 0 10px 0 transparentize(#000, 0.8);
-		span {
-			color: $blue;
-		}
-	}
-	img {
-		display: block;
-		max-width: 100%;
-	}
 	span {
-		display: block;
-		padding-bottom: 10px;
 		text-align: center;
-		font-family: $font-head;
-		font-size: 16px;
-		font-weight: bold;
-		transition: all 0.3s ease;
-		@include res(xxl) {
-			font-size: 15px;
-		}
 	}
 }
 
 .bottom-cat__fabricators {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	margin-left: -20px;
 	margin-right: -20px;
 	padding-top: 30px;
-	padding-bottom: 10px;
 	@include res(xxl) {
 		margin-left: 0;
 		margin-right: 0;
@@ -308,9 +427,10 @@
 
 .bottom-cat__fabricator {
 	display: block;
+	max-width: calc(100% / 11);
 	padding-left: 20px;
 	padding-right: 20px;
-
+	padding-bottom: 25px;
 	@include res(xxl) {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -326,5 +446,6 @@
 		max-height: 60px;
 		width: 100%;
 		transition: all 0.3s ease;
+		transform: translate3d(0,0,0);
 	}
 }
