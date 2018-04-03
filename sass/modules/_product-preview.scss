@@ -58,19 +58,18 @@
 
 	header{
 		position: relative;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 		padding: $pad-xxs $pad-xxs 0 $pad-xxs;
 
 		a{
 			display: block;
-			height: 100%;
+			flex-shrink: 1;
+			//height: 100%;
 		}
 
 		img{
 			display: block;
-			max-width: 100%;
+			flex-shrink: 1;
+			width: 100%;
 			height: auto;
 		}
 

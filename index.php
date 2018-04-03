@@ -108,7 +108,7 @@
 				</nav>
 				<div class="header__top-contact">
 					<a href="tel:88002000574" class="header__top-phone"><i class="i-phone"></i><span>8 800 200-05-74</span></a>
-					<a href="#" class="header__top-call fancy" data-fancybox="#modalcall">Обратный звонок</a>
+					<a href="#" class="header__top-call fancy-modal" data-src="#modal-call">Обратный звонок</a>
 					<a href="#" class="header__cabinet"><i class="i-person"></i><span>Личный кабинет</span></a>
 				</div>
 			</div>
@@ -894,21 +894,78 @@
 				<div class="home-service" style="background-image: url('img/home/service-1.jpg')">
 					<p class="h2 home-service__title">3D печать</p>
 					<p class="home-service__descr">Вопрос о ремонте 3d принтера может стать актуальным в любой момент.</p>
-					<button class="btn btn--small">Оставить заявку</button>
+					<button class="btn btn--small fancy-modal" data-src="#modal-service-1">Оставить заявку</button>
+				</div>
+				<div id="modal-service-1" class="modal">
+					<header class="modal__header">
+						<p class="h3 modal__title">Заказать 3D печать</p>
+					</header>
+					<div class="modal__content">
+						<p class="modal__descr">Оставьте заявку и&nbsp;наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
+						<form class="ajax-form vertical-form">
+							<input type="hidden" value="Заказ услуги: 3D печать" name="form_subject">
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
+							<input type="email" name="user_email" placeholder="Введите e-mail" data-label="E-mail" class="input-text">
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+							<button type="submit" class="btn btn--blue">Отправить</button>
+							<label class="style-check-ios">
+								<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+								<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
+							</label>
+						</form>
+					</div>
 				</div>
 			</div>
 			<div class="grid-4 grid-12_m">
 				<div class="home-service" style="background-image: url('img/home/service-2.jpg')">
 					<p class="h2 home-service__title">3D сканирование</p>
 					<p class="home-service__descr">Вопрос о ремонте 3d принтера может стать актуальным в любой момент.</p>
-					<button class="btn btn--small">Оставить заявку</button>
+					<button class="btn btn--small fancy-modal" data-src="#modal-service-2">Оставить заявку</button>
+				</div>
+				<div id="modal-service-2" class="modal">
+					<header class="modal__header">
+						<p class="h3 modal__title">Заказать 3D сканирование</p>
+					</header>
+					<div class="modal__content">
+						<p class="modal__descr">Оставьте заявку и&nbsp;наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
+						<form class="ajax-form vertical-form">
+							<input type="hidden" value="Заказ услуги: 3D сканирование" name="form_subject">
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
+							<input type="email" name="user_email" placeholder="Введите e-mail" data-label="E-mail" class="input-text">
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+							<button type="submit" class="btn btn--blue">Отправить</button>
+							<label class="style-check-ios">
+								<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+								<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
+							</label>
+						</form>
+					</div>
 				</div>
 			</div>
 			<div class="grid-4 grid-12_m">
 				<div class="home-service" style="background-image: url('img/home/service-3.jpg')">
 					<p class="h2 home-service__title">3D моделирование</p>
 					<p class="home-service__descr">Вопрос о ремонте 3d принтера может стать актуальным в любой момент.</p>
-					<button class="btn btn--small">Оставить заявку</button>
+					<button class="btn btn--small fancy-modal" data-src="#modal-service-3">Оставить заявку</button>
+				</div>
+				<div id="modal-service-3" class="modal">
+					<header class="modal__header">
+						<p class="h3 modal__title">Заказать 3D моделирование</p>
+					</header>
+					<div class="modal__content">
+						<p class="modal__descr">Оставьте заявку и&nbsp;наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
+						<form class="ajax-form vertical-form">
+							<input type="hidden" value="Заказ услуги: 3D моделирование" name="form_subject">
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
+							<input type="email" name="user_email" placeholder="Введите e-mail" data-label="E-mail" class="input-text">
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+							<button type="submit" class="btn btn--blue">Отправить</button>
+							<label class="style-check-ios">
+								<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+								<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
+							</label>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
