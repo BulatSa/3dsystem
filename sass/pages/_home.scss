@@ -203,7 +203,7 @@
 	justify-content: flex-end;
 	align-items: flex-start;
 	padding: 25px;
-	min-height: 260px;
+	height: 260px;
 	color: #FFF;
 	margin-bottom: 20px;
 
@@ -228,6 +228,7 @@
 	&__descr{
 		position: relative;
 		z-index: 2;
+		width: 100%;
 	}
 
 	.btn{
@@ -261,6 +262,16 @@
 
 
 //home-about
+.s-home-info{
+	padding-bottom: 80px;
+	@include res(xxl){
+		padding: 60px 0;
+	}
+	@include res(s){
+		padding: 40px 0;
+	}
+}
+
 .home-about{
 	margin-bottom: 40px;
 }

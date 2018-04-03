@@ -103,31 +103,39 @@
 <!-- Модальные окна -->
 <div class="modals-sec">
 
-	<div id="modal-order" class="modal">
-		<p>Заказать обратный звонок</p>
-		<p>Оставьте заявку и наш администратор свяжется с&nbsp;Вами в течение 10 минут</p>
-		<form class="ajax-form">
-			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="text-input" >
-			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="text-input" data-req="true">
-			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="text-input" data-req="true">
-			<input type="file" name="user_file" data-label="Файл">
-			<input type="hidden" value="Новая заявка" name="form_subject">
-			<button type="submit" class="btn">Отправить</button>
-			<label class="style-checkbox">
-				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-				<span>Принимаю <a href="#" target="_blank">условия обработки</a> персональных данных</span>
-			</label>
-		</form>
+	<div id="modal-call" class="modal">
+		<header class="modal__header">
+			<p class="h3 modal__title">Заказать обратный звонок</p>
+		</header>
+		<div class="modal__content">
+			<p class="modal__descr">Оставьте заявку и&nbsp;наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
+			<form class="ajax-form vertical-form">
+				<input type="hidden" value="Заказ обратного звонка" name="form_subject">
+				<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
+				<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+				<button type="submit" class="btn btn--blue">Отправить</button>
+				<label class="style-check-ios">
+					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+					<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
+				</label>
+			</form>
+		</div>
 	</div>
 
-	<div id="modal-thanks" class="modal">
-		<p>Спасибо за заявку!</p>
+	<div id="modal-thanks" class="modal modal--thanks">
+		<header class="modal__header">
+			<p class="h2 modal__title">Спасибо за заявку!</p>
+		</header>
 	</div>
 
 	<div id="modal-error" class="modal">
-		<p>Что-то пошло не так.</p>
-		<p>Попробуйте еще раз.</p>
-		<p>Если постоянно видите эту ошибку, пожалуйста, обратитесь к администратору сайта. Мы будем очень благодарны.</p>
+		<header class="modal__header">
+			<p class="h2 modal__title">Что-то пошло не так.</p>
+		</header>
+		<div class="modal__content">
+			<p>Попробуйте еще раз.</p>
+			<p>Если постоянно видите эту ошибку, пожалуйста, обратитесь к администратору сайта. Мы будем очень благодарны.</p>
+		</div>
 	</div>
 
 </div>
