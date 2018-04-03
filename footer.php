@@ -21,7 +21,6 @@
 			<a href="/">Название товара длинное если будет</a>
 		</div>
 
-
 		<div class="footer-row">
 			<div class="footer-block">
 				<p class="h2 footer-block__title">О нас</p>
