@@ -9,32 +9,43 @@ button {
 
 .input-text {
 	display: inline-block;
-	padding: 5px 10px;
+	padding: 15px 25px;
 	font-family: $font;
 	font-size: 14px;
 	line-height: 1.3;
-	border: 1px solid #666;
+	border: 1px solid #dbdbde;
 	overflow: visible;
 	-webkit-appearance: none;
-	@include res(l) {
+	border-radius: 25px;
+	background: #FFF;
+	transition: all 0.3s ease;
+	@include res(l){
 		font-size: 16px;
 	}
 
 	@include placeholder {
 		font-size: 14px;
-		color: #A8A8A8;
+		color: $gray-text;
+		font-style: italic;
 		opacity: 1;
 		transition: all 0.3s ease;
-		@include res(l) {
-			font-size: 16px;
-		}
+	}
+
+	&:hover{
+		border: 1px solid #b3b3b6;
 	}
 
 	&:focus{
 		outline: none;
+		border: 1px solid $blue;
 		@include placeholder {
 			opacity: 0;
 		}
+	}
+
+	&.error{
+		border: 1px solid $red;
+		background: #f7e0e5;
 	}
 
 	&--search {
@@ -138,3 +149,75 @@ button {
 	}
 }
 //style-checkbox
+
+
+//style-check-ios
+.style-check-ios{
+	display: block;
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 15px;
+	font-size: 12px;
+
+	input{
+		opacity: 0;
+		position: absolute;
+		left: 0;
+		top: 0;
+
+		&:checked + span{
+			&:before{
+				background: $blue;
+			}
+			&:after{
+				transform: translate(16px,0);
+			}
+		}
+
+		&.error + span{
+			&:before{
+				background: $red;
+			}
+		}
+	}
+
+	span{
+		display: block;
+		position: relative;
+		padding-left: 50px;
+		@extend .small-text;
+		user-select: none;
+		text-align: left;
+
+		&:before{
+			content: '';
+			width: 42px;
+			height: 25px;
+			border-radius: 21px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			transition: all 0.3s ease;
+			background: $gray-text;
+		}
+
+		&:after{
+			content: '';
+			width: 21px;
+			height: 21px;
+			position: absolute;
+			border-radius: 50%;
+			background: #FFF;
+			left: 2px;
+			top: 2px;
+			z-index: 2;
+			transition: transform 0.3s ease;
+		}
+
+		a{
+			@extend %link-blue;
+		}
+
+	}
+}
+//style-check-ios

@@ -1,0 +1,271 @@
+.s-footer{
+	background: $gray-bg;
+	padding: 25px 0 50px 0;
+}
+
+
+//breadcrumbs
+.breadcrumbs{
+	margin-bottom: 30px;
+
+	a{
+		color: $blue;
+		transition: color 0.3s ease;
+		font-size: 12px;
+
+		&:hover{
+			color: #000;
+		}
+
+		&:last-child{
+			color: #000;
+			pointer-events: none;
+		}
+	}
+}
+//breadcrumbs
+
+
+.footer-row{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -15px;
+	@include res(l){
+		flex-wrap: wrap;
+	}
+	@include res(s){
+		justify-content: flex-start;
+	}
+}
+
+.footer-block{
+	padding: 0 15px;
+	max-width: 385px;
+	@include res(l){
+		width: calc(100% / 3);
+		max-width: initial;
+	}
+	@include res(s){
+		width: 50%;
+	}
+
+	&__title{
+		margin-bottom: 20px;
+		@include res(s){
+			margin-bottom: 10px;
+		}
+	}
+
+	&--contacts{
+		@include res(s){
+			width: 100%;
+			margin-top: 20px;
+		}
+	}
+
+	&--subscribe{
+		@include res(xxl){
+			max-width: 330px;
+		}
+		@include res(l){
+			margin-top: 40px;
+			width: 60%;
+			max-width: 420px;
+		}
+		@include res(s){
+			width: 100%;
+			margin-top: 20px;
+		}
+	}
+
+	&--socials{
+		padding-top: 54px;
+		@include res(xxl){
+			padding-top: 48px;
+		}
+		@include res(l){
+			width: 40%;
+			margin-top: 40px;
+			padding-top: 44px;
+		}
+		@include res(s){
+			width: 100%;
+			padding-top: 0;
+			margin-top: 20px;
+		}
+
+		.social-links{
+			@include res(xxl){
+				flex-direction: column;
+			}
+			@include res(l){
+				flex-direction: row;
+				justify-content: flex-end;
+			}
+			@include res(s){
+				justify-content: center;
+			}
+		}
+	}
+}
+
+.footer-menu{
+	list-style: none;
+
+	li{
+		margin-bottom: 10px;
+		line-height: 1.2;
+
+		a{
+			@extend %link-blue-hover;
+			@extend .small-text;
+		}
+
+		&.active a{
+			color: $blue;
+		}
+	}
+}
+
+.footer-cont{
+	display: block;
+	margin-bottom: 20px;
+	@include res(s){
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 40px;
+		margin-bottom: 10px;
+	}
+
+	small{
+		display: block;
+		@extend .small-text;
+	}
+
+	.h2{
+		white-space: nowrap;
+		@include res(xxl){
+			font-size: 20px;
+		}
+		@include res(s){
+			font-size: 16px;
+		}
+	}
+}
+
+.footer-email{
+	a{
+		@extend .small-text;
+		@extend %link-blue-hover;
+	}
+}
+
+.subscribe-group{
+	position: relative;
+	margin-bottom: 20px;
+	@include res(l){
+		width: auto;
+		max-width: 400px;
+	}
+
+	.input-text{
+		display: block;
+		position: relative;
+		z-index: 1;
+		width: 100%;
+	}
+
+	button{
+		position: absolute;
+		right: 1px;
+		top: 1px;
+		bottom: 1px;
+		z-index: 2;
+		width: 90px;
+		border-radius: 0 25px 25px 0;
+		
+		&:focus{
+			outline: none;
+		}
+
+		i{
+			display: block;
+			position: relative;
+			right: 0.2em;
+			font-size: 22px;
+		}
+	}
+}
+
+
+.social-links{
+	display: flex;
+	flex-wrap: wrap;
+
+	a{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 6px 6px;
+		width: 46px;
+		height: 46px;
+		border-radius: 50%;
+		background: #FFF;
+		color: $blue;
+		transition: all 0.3s ease;
+
+		i{
+			display: block;
+
+			&.i-soc-vk{
+				font-size: 16px;
+			}
+			&.i-soc-insta{
+				font-size: 22px;
+			}
+			&.i-soc-fb{
+				font-size: 24px;
+			}
+		}
+		
+		&:hover{
+			background: $blue;
+			color: #FFF;
+		}
+	}
+}
+
+
+.footer-bottom{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	@extend .small-text;
+	margin-top: 50px;
+	@include res(s){
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	&__center{
+		@include res(s){
+			margin: 20px 0;
+		}
+		a{
+			@extend %link-blue;
+		}
+	}
+
+	&__right{
+		img{
+			opacity: 0.3;
+			transform: translate3d(0,0,0);
+			transition: all 0.3s ease;
+
+			&:hover{
+				opacity: 0.5;
+			}
+		}
+		
+	}
+}
