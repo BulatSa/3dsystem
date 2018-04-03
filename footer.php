@@ -87,6 +87,16 @@
 			</div>
 		</div>
 
+		<div class="footer-bottom">
+			<div class="footer-bottom__policy">© 2012-2018 ООО «3Д Систем Про»</div>
+			<div class="footer-bottom__center"><a href="#">Политика конфиденциальности</a></div>
+			<div class="footer-bottom__right">
+				<a href="https://penbrain.ru" target="_blank" title="Сайт разработан в Pen&Brain">
+					<img src="/img/logo-develop.svg" alt="Pen&Brain logotype">
+				</a>
+			</div>
+		</div>
+
 	</div>
 </footer>
 
