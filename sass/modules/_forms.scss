@@ -19,6 +19,7 @@ button {
 	border-radius: 25px;
 	background: #FFF;
 	transition: all 0.3s ease;
+	box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0);
 	@include res(l){
 		font-size: 16px;
 	}
@@ -38,6 +39,7 @@ button {
 	&:focus{
 		outline: none;
 		border: 1px solid $blue;
+		box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.5);
 		@include placeholder {
 			opacity: 0;
 		}
@@ -92,7 +94,6 @@ button {
 	display: block;
 	position: relative;
 	cursor: pointer;
-	margin-bottom: 15px;
 	font-size: 12px;
 
 	input{
@@ -156,7 +157,6 @@ button {
 	display: block;
 	position: relative;
 	cursor: pointer;
-	margin-bottom: 15px;
 	font-size: 12px;
 
 	input{
@@ -221,3 +221,18 @@ button {
 	}
 }
 //style-check-ios
+
+
+
+//vertical-form
+.vertical-form{
+	.input-text{
+		width: 100%;
+		margin-bottom: $pad-xxs;
+	}
+
+	.style-check-ios{
+		margin-top: $pad-xs;
+	}
+}
+//vertical-form

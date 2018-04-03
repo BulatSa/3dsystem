@@ -16,13 +16,13 @@
 
 
 /// Иоконка закрытия модальных окон в виде креста.
-$full_cross_size: 36px;
-$cross_size: 20px;
+$full_cross_size: 32px;
+$cross_size: 16px;
 $cross_weight: 2px;
 $cross_color: #FFF;
-$cross-color--hover: #000;
-$cross-bg-color: #000;
-$cross-bg-color--hover: #fffb42;
+$cross-color--hover: #FFF;
+$cross-bg-color: $red;
+$cross-bg-color--hover: darken($red,10%);
 
 @mixin cross() {
 	position: absolute;
