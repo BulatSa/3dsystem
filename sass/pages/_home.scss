@@ -7,6 +7,11 @@
 	border-radius: 15px;
 	overflow: hidden;
 	height: 0;
+	@include res(s){
+		margin-left: -14px;
+		margin-right: -14px;
+		border-radius: 0;
+	}
 
 	&.flickity-enabled{
 		height: auto;
@@ -84,9 +89,19 @@
 //s-logos-slider
 .s-logos-slider{
 	padding: $pad-s 0;
+	@include res(l){
+		padding: $pad-xs 0 0 0;
+	}
+	@include res(xxs){
+		padding: 0 0 0 0;
+	}
 }
 
 .logos-slider{
+	@include res(xxs){
+		margin-left: -14px;
+		margin-right: -14px;
+	}
 
 	&__item{
 		width: calc(100% / 6);
@@ -139,9 +154,13 @@
 			position: relative;
 			left: 0;
 			width: 100%;
-			max-width: 600px;
-			text-align: center;
-			margin: 0 auto;
+			max-width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+		}
+		@include res(xxs){
+			padding: 0 14px;
 		}
 
 		.h2{
@@ -149,13 +168,24 @@
 			@include res(xxl){
 				font-size: 18px;
 			}
+			@include res(l){
+				margin-bottom: 0;
+			}
+		}
+
+		.small-text{
+			@include res(l){
+				display: none;
+			}
 		}
 	}
 
 	&__nav{
 		margin-top: $pad-s;
 		@include res(l){
-			margin-top: $pad-xs;
+			margin-top: 0;
+			flex-shrink: 0;
+			margin-left: $pad-s;
 		}
 
 		button{
@@ -314,6 +344,9 @@
 		}
 		@include res(m){
 			display: block;
+		}
+		@include res(s){
+			display: none;
 		}
 	}
 
