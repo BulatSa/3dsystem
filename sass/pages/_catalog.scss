@@ -108,7 +108,7 @@
 		top: 0;
 		left: 0;
 		height: 100%;
-		z-index: 30;
+		z-index: 5;
 		border-radius: 0;
 		overflow: auto;
 		width: 240px;
@@ -251,7 +251,7 @@
 .filter-mod{
 	position: absolute;
 	display: block;
-	z-index: 10;
+	z-index: 2;
 	left: 100%;
 	top: 8px;
 	background: $blue;
