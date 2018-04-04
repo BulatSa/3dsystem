@@ -228,13 +228,15 @@
 		margin-bottom: $pad-xs;
 
 		input{
-			width: 100%;
+			display: block;
+			width: 42%;
 			@extend .input-text;
 			text-align: center;
 			padding-left: 4px;
 			padding-right: 4px;
 			height: 40px;
 			font-size: 12px;
+			flex-shrink: 1;
 		}
 
 		figure{
