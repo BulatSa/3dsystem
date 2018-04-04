@@ -1,0 +1,6 @@
+.s-page-title{
+	padding: $pad-m 0 $pad-s 0;
+	@include res(xxl){
+		padding-top: $pad-s;
+	}
+}
