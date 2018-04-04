@@ -115,18 +115,42 @@ button {
 				border-color: #cc0000;
 			}
 		}
+
+		&:focus + span{
+			&:before{
+				border: 1px solid $blue;
+			}
+		}
+	}
+
+	&:hover{
+		span{
+			&:before{
+				border: 1px solid $blue;
+			}
+		}
+	}
+
+	&--disabled{
+		pointer-events: none;
+		user-select: none;
+		span{
+			color: $gray-text;
+		}
 	}
 
 	span{
 		display: block;
 		position: relative;
-		padding-left: 30px;
+		padding-left: 20px;
 
 		&:before{
 			content: '';
-			width: 20px;
-			height: 20px;
-			border: 2px solid #353434;
+			width: 16px;
+			height: 16px;
+			border: 1px solid #d7d7d7;
+			border-radius: 4px;
+			background: #FFF;
 			position: absolute;
 			left: 0;
 			top: 0;
@@ -135,12 +159,13 @@ button {
 
 		&:after{
 			content: '';
-			width: 20px;
-			height: 20px;
-			background: #353434;
+			width: 12px;
+			height: 12px;
+			background: $blue;
 			position: absolute;
-			left: 0;
-			top: 0;
+			border-radius: 3px;
+			left: 2px;
+			top: 2px;
 			z-index: 2;
 			opacity: 0;
 			transition: opacity 0.3s ease;

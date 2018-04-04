@@ -5,3 +5,4 @@
 //@prepros-append vendors/flickity.pkgd.min.js
 //@prepros-append vendors/lv-ripple.jquery.min.js
 //@prepros-append vendors/jquery.nice-select.min.js
+//@prepros-append vendors/ion.rangeSlider.min.js

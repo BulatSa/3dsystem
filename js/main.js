@@ -322,3 +322,110 @@ $(function($){
 /***********************
 Logos slider END
 ***********************/
+
+
+/***********************
+Nice select BEGIN
+***********************/
+$(function($){
+	$('.select-style').niceSelect();
+});
+/***********************
+Nice select END
+***********************/
+
+
+/***********************
+Catalog interactions BEGIN
+***********************/
+$(function($){
+	var btnSortOpen = $('.mob-open-sort');
+	var sortPanel = $('.s-sort');
+	btnSortOpen.on('click',function (e) {
+		e.preventDefault();
+		sortPanel.toggleClass('active');
+		btnSortOpen.toggleClass('active');
+	});
+
+	var btnFilterOpen = $('.mob-open-filter');
+	var filterPanel = $('.filter-block');
+	var filterPanelClose = $('.filter-block-close');
+
+	function closeMobFilter() {
+		filterPanel.removeClass('active');
+		btnFilterOpen.removeClass('active');
+		filterPanelClose.removeClass('visible');
+	}
+	function openMobFilter() {
+		filterPanel.addClass('active');
+		btnFilterOpen.addClass('active');
+		filterPanelClose.addClass('visible');
+	}
+
+	btnFilterOpen.on('click',function () {
+		openMobFilter();
+	});
+
+	filterPanelClose.on('click',function () {
+		closeMobFilter();
+	});
+
+	$(document).on('click touchstart',function (e){
+		var div = $(".mob-open-filter,.filter-block,.filter-block-close");
+		if (!div.is(e.target) && div.has(e.target).length === 0){
+			closeMobFilter();
+		}
+	});
+
+
+	$('.filter__title').on('click',function (e) {
+		e.preventDefault();
+		var thisTitle = $(this);
+		var thisFilter = thisTitle.parents('.filter');
+		var thisValues = thisFilter.find('.filter__values');
+		if (thisFilter.hasClass('opened')){
+			thisValues.slideUp(function () {
+				thisFilter.removeClass('opened');
+			});
+		} else {
+			thisValues.slideDown(function () {
+				thisFilter.addClass('opened');
+			});
+		}
+	});
+
+
+	// price-slider
+	var price_slider = $(".price_range");
+
+	price_slider.ionRangeSlider({
+		type: "double",
+		hide_min_max: true,
+		hide_from_to: true,
+		grid: false,
+		step: 100
+	});
+
+	price_slider.on('change', function () {
+		var from = $(this).data("from");
+		var to = $(this).data("to");
+		$('.price-filter--from').val(from);
+		$('.price-filter--to').val(to);
+	});
+
+	var price_slider_data = price_slider.data("ionRangeSlider");
+	$('.price-filter--from').on('change', function () {
+		price_slider_data.update({
+			from: $(this).val()
+		});
+	});
+	$('.price-filter--to').on('change', function () {
+		price_slider_data.update({
+			to: $(this).val()
+		});
+	})
+	// price-slider
+});
+/***********************
+Catalog interactions END
+***********************/
