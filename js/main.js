@@ -214,7 +214,6 @@ $(function(){
 				$('.header__cart-wrap--mobile').toggleClass('open');
 			}
 		}
-
 	});
 
 	$(document).on('click touchstart',function (e){
@@ -239,7 +238,7 @@ $(function(){
 
 		$('.mobile-menu__cat .i-down').not(self).removeClass('active');
 		self.toggleClass('active');
-	})
+	});
 });
 /***********************
  Mob menu END
@@ -272,22 +271,6 @@ $(function () {
 		offset: '85%'
 	});
 
-	if($(window).width() > 1024) {
-		$('.header__middle-wrap').waypoint(function () {
-			$(this.element).toggleClass('fixed');
-		}, {
-			offset: '-200'
-		});
-
-		$('.header__middle-wrap').waypoint(function () {
-			$(this.element).toggleClass('prefixed');
-		}, {
-			offset: '-160'
-		});
-
-		$('.header-sec').css('height', $('.header-sec').outerHeight());
-	}
-
 	if($(window).width() < 1025) {
 		$('.header__middle-wrap').waypoint(function () {
 			$('.header__cart-wrap--mobile').toggleClass('active');
@@ -295,7 +278,6 @@ $(function () {
 			offset: '-40'
 		});
 	}
-
 });
 /***********************
  Waypoints END
