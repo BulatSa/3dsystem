@@ -2,6 +2,15 @@
 
 <section class="mobile-menu-sec">
 	<div class="mobile-menu">
+		<div class="mobile-menu__static">
+			<form class="form-search">
+				<input type="text" class="input-text input-text--search" placeholder="Поиск">
+				<button><i class="i-search"></i></button>
+			</form>
+		</div>
+		<div class="mobile-menu__static">
+			<a href="#" class="header__top-call header__top-call--menu fancy" data-fancybox="#modalcall">Обратный звонок</a>
+		</div>
 		<ul class="mobile-menu__cat">
 			<li>
 				<a href="#">3D принтеры</a>
@@ -80,15 +89,6 @@
 				<li><a href="#">Политика конфиденциальности</a></li>
 			</ul>
 		</div>
-		<div class="mobile-menu__static">
-			<form class="form-search">
-				<input type="text" class="input-text input-text--search" placeholder="Поиск">
-				<button><i class="i-search"></i></button>
-			</form>
-		</div>
-		<div class="mobile-menu__static">
-			<a href="#" class="header__top-call header__top-call--menu fancy" data-fancybox="#modalcall">Обратный звонок</a>
-		</div>
 	</div>
 </section>
 
@@ -110,26 +110,38 @@
 					<a href="tel:88002000574" class="header__top-phone"><i class="i-phone"></i><span>8 800 200-05-74</span></a>
 					<a href="#" class="header__top-call fancy-modal" data-src="#modal-call">Обратный звонок</a>
 					<a href="#" class="header__cabinet"><i class="i-person"></i><span>Личный кабинет</span></a>
+					<div class="header__cart-wrap header__cart-wrap--mobile">
+						<a href="#" class="header__compare"><i class="i-compare"><sup>52</sup></i></a>
+						<a href="#" class="header__cart">
+							<i class="i-card"><sup>3</sup></i>
+							<span class="header__cart-info">
+						<b>Корзина: 3 товара</b>
+						<span>на сумму 135 000 <span class="rub">c</span></span>
+					</span>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="header__middle container">
-			<a href="#" class="header__logo">
-				<img src="img/logo-top.svg" alt="3D System Pro">
-			</a>
-			<form class="form-search">
-				<input type="text" class="input-text input-text--search" placeholder="Поиск">
-				<button><i class="i-search"></i></button>
-			</form>
-			<div class="header__cart-wrap">
-				<a href="#" class="header__compare"><i class="i-compare"><sup>52</sup></i></a>
-				<a href="#" class="header__cart">
-					<i class="i-card"><sup>3</sup></i>
-					<span class="header__cart-info">
-						<b>Корзина: 3 товара</b>
-						<span>на сумму 135 000 a</span>
-					</span>
+		<div class="header__middle-wrap">
+			<div class="header__middle container">
+				<a href="#" class="header__logo">
+					<img src="img/logo-top.svg" alt="3D System Pro">
 				</a>
+				<form class="form-search">
+					<input type="text" class="input-text input-text--search" placeholder="Поиск">
+					<button><i class="i-search"></i></button>
+				</form>
+				<div class="header__cart-wrap">
+					<a href="#" class="header__compare"><i class="i-compare"><sup>52</sup></i></a>
+					<a href="#" class="header__cart">
+						<i class="i-card"><sup>3</sup></i>
+						<span class="header__cart-info">
+						<b>Корзина: 3 товара</b>
+						<span>на сумму 135 000 <span class="rub">c</span></span>
+					</span>
+					</a>
+				</div>
 			</div>
 		</div>
 		<div class="header__bottom container">

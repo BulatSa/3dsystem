@@ -209,13 +209,25 @@ $(function(){
 		e.preventDefault();
 		$(this).toggleClass('active');
 		$('.mobile-menu-sec').toggleClass('active');
+		if($(window).width() < 420) {
+			if(!$('.header__cart-wrap--mobile').hasClass('active')) {
+				$('.header__cart-wrap--mobile').toggleClass('open');
+			}
+		}
+
 	});
 
 	$(document).on('click touchstart',function (e){
+		e.preventDefault();
 		var div = $(".mobile-menu-sec,.header__top-burger");
 		if (!div.is(e.target) && div.has(e.target).length === 0){
 			$('.burger').removeClass('active');
 			$('.mobile-menu-sec').removeClass('active');
+			if($(window).width() < 420) {
+				if(!$('.header__cart-wrap--mobile').hasClass('active')) {
+					$('.header__cart-wrap--mobile').removeClass('open');
+				}
+			}
 		}
 	});
 
@@ -260,6 +272,31 @@ $(function () {
 	}, {
 		offset: '85%'
 	});
+
+	if($(window).width() > 1024) {
+		$('.header__middle-wrap').waypoint(function () {
+			$(this.element).toggleClass('fixed');
+		}, {
+			offset: '-200'
+		});
+
+		$('.header__middle-wrap').waypoint(function () {
+			$(this.element).toggleClass('prefixed');
+		}, {
+			offset: '-160'
+		});
+
+		$('.header-sec').css('height', $('.header-sec').outerHeight());
+	}
+
+	if($(window).width() < 1025) {
+		$('.header__middle-wrap').waypoint(function () {
+			$('.header__cart-wrap--mobile').toggleClass('active');
+		}, {
+			offset: '-40'
+		});
+	}
+
 });
 /***********************
  Waypoints END
