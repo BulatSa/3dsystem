@@ -218,10 +218,9 @@ $(function(){
 	});
 
 	$(document).on('click touchstart',function (e){
-		e.preventDefault();
 		var div = $(".mobile-menu-sec,.header__top-burger");
 		if (!div.is(e.target) && div.has(e.target).length === 0){
-			$('.burger').removeClass('active');
+			$('.header__top-burger').removeClass('active');
 			$('.mobile-menu-sec').removeClass('active');
 			if($(window).width() < 420) {
 				if(!$('.header__cart-wrap--mobile').hasClass('active')) {
