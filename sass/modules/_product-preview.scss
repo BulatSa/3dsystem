@@ -99,6 +99,7 @@
 	footer{
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		position: absolute;
 		width: 100%;
 		padding: 0 $pad-s;
@@ -115,6 +116,9 @@
 			opacity: 1;
 			padding: 0 $pad-xxs $pad-xxs $pad-xxs;
 		}
+		@include res(xxs){
+			padding: 0 6px 6px 6px;
+		}
 
 		.btn--red{
 			width: 100%;
@@ -124,8 +128,8 @@
 			@include res(xxl){
 				font-size: 14px;
 			}
-			@include res(xxl){
-
+			@include res(xxs){
+				font-size: 12px;
 			}
 		}
 
@@ -133,8 +137,8 @@
 			flex-shrink: 0;
 			margin-left: $pad-xxs;
 			@include res(xxs){
-				/*margin-left: 0;
-				margin-bottom: $pad-xxs;*/
+				width: 35px;
+				height: 35px;
 			}
 		}
 	}

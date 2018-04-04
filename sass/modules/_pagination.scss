@@ -1,10 +1,56 @@
+.pagination{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid $gray-border;
+	border-radius: 15px;
+	text-align: center;
+	padding: $pad-m $pad-s;
+	@include res(xxl){
+		padding: $pad-s;
+	}
+	@include res(s){
+		flex-wrap: wrap;
+		padding: $pad-s 0 $pad-xs 0;
+	}
+
+	.pagination-list{
+		margin: 0 $pad-s;
+	}
+
+	&__link{
+		font-size: 12px;
+		@extend %link-blue;
+		@include res(s){
+			margin: 0 14px;
+		}
+
+		&--disabled{
+			color: $gray-text;
+			pointer-events: none;
+		}
+
+		@include res(s){
+			order: 1;
+		}
+	}
+
+	.pagination-list{
+		@include res(s){
+			width: 100%;
+			order: 2;
+			margin-top: $pad-xs;
+		}
+	}
+}
+
 .pagination-list{
 	list-style: none;
 
 	li{
 		display: inline-block;
 		vertical-align: top;
-		margin: 2px;
+		margin: 2px 0;
 
 		a{
 			display: block;

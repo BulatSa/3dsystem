@@ -78,41 +78,42 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<a href="#" class="printer-cart">
 					<img src="img/header/deal-1.jpg" alt="">
 					<span class="printer-cart__title">Лучшие предложения</span>
 					<span class="printer-cart__price">от 700 <span class="rub">c</span></span>
 				</a>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<a href="#" class="printer-cart">
 					<img src="img/header/deal-2.jpg" alt="">
 					<span class="printer-cart__title">Лучшие предложения</span>
 					<span class="printer-cart__price">от 1 700 <span class="rub">c</span></span>
 				</a>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<a href="#" class="printer-cart">
 					<img src="img/header/deal-3.jpg" alt="">
 					<span class="printer-cart__title">Лучшие предложения</span>
 					<span class="printer-cart__price">от 10 500 <span class="rub">c</span></span>
 				</a>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<a href="#" class="printer-cart">
 					<img src="img/header/deal-4.jpg" alt="">
 					<span class="printer-cart__title">Лучшие предложения</span>
 					<span class="printer-cart__price">от 700 000<span class="rub">c</span></span>
 				</a>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<a href="#" class="printer-cart">
 					<img src="img/header/deal-5.jpg" alt="">
 					<span class="printer-cart__title">Лучшие предложения</span>
 					<span class="printer-cart__price">от 7 000 000<span class="rub">c</span></span>
 				</a>
-			</div><div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			</div>
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<a href="#" class="printer-cart">
 					<img src="img/header/deal-6.jpg" alt="">
 					<span class="printer-cart__title">Лучшие предложения</span>
@@ -133,7 +134,7 @@
 		</div>
 
 		<div class="row product-list">
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -157,7 +158,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -180,7 +181,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -197,7 +198,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -214,7 +215,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -231,7 +232,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -248,7 +249,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -265,7 +266,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -282,7 +283,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -299,7 +300,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -316,7 +317,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -333,7 +334,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="product-preview">
 					<header>
 						<a href="#">
@@ -459,7 +460,7 @@
 		</div>
 
 		<div class="row home-promos">
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="preview">
 					<a href="#">
 						<img src="/img/home/promo.jpg" alt="243x194" class="preview__img">
@@ -474,7 +475,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="preview">
 					<a href="#">
 						<img src="/img/home/promo-1.jpg" alt="243x194" class="preview__img">
@@ -489,7 +490,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="preview">
 					<a href="#">
 						<img src="/img/home/promo.jpg" alt="243x194" class="preview__img">
@@ -504,7 +505,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="preview">
 					<a href="#">
 						<img src="/img/home/promo-1.jpg" alt="243x194" class="preview__img">
@@ -519,7 +520,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="preview">
 					<a href="#">
 						<img src="/img/preview/243x194.png" alt="243x194" class="preview__img">
@@ -534,7 +535,7 @@
 					</footer>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_l grid-4_m grid-6_s grid-12_xxs">
+			<div class="grid-2 grid-3_l grid-4_m grid-6_s">
 				<div class="preview">
 					<a href="#">
 						<img src="/img/home/promo.jpg" alt="243x194" class="preview__img">
@@ -590,7 +591,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="grid-4 grid-6_l grid-4_m grid-6_s grid-12_xxs">
+					<div class="grid-4 grid-6_l grid-4_m grid-6_s">
 						<div class="preview">
 							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video preview__video" title="Посмотреть видео">
 								<img src="/img/home/blog-1.jpg" alt="243x194" class="preview__img">
@@ -606,7 +607,7 @@
 							</footer>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-4_m grid-6_s grid-12_xxs">
+					<div class="grid-4 grid-6_l grid-4_m grid-6_s">
 						<div class="preview">
 							<a href="#">
 								<img src="/img/home/promo-1.jpg" alt="243x194" class="preview__img">
@@ -621,7 +622,7 @@
 							</footer>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-4_m grid-6_s grid-12_xxs">
+					<div class="grid-4 grid-6_l grid-4_m grid-6_s">
 						<div class="preview">
 							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video preview__video" title="Посмотреть видео">
 								<img src="/img/preview/243x194.png" alt="243x194" class="preview__img">

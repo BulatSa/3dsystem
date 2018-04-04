@@ -70,6 +70,15 @@
 		a{
 			@extend %link-blue-hover;
 		}
+		@include res(xxs){
+			font-size: 14px;
+		}
+	}
+
+	.small-text{
+		@include res(xxs){
+			font-size: 10px;
+		}
 	}
 
 	&__footer{
