@@ -238,6 +238,12 @@
 	@include res(m) {
 		margin-right: 40px;
 	}
+	@include res(s){
+		max-width: 160px;
+	}
+	@include res(xxs){
+		max-width: 140px;
+	}
 	img {
 		display: block;
 		max-width: 100%;
