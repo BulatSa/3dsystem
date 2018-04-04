@@ -1,0 +1,23 @@
+//s-sort
+.s-sort{
+	margin-bottom: 80px;
+}
+
+.sort-panel{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: $gray-bg;
+	border-radius: 15px;
+	padding: $pad-s;
+
+	&__block{
+		display: flex;
+		align-items: center;
+	}
+
+	&__title{
+		margin-right: $pad-xs;
+	}
+}
+//s-sort

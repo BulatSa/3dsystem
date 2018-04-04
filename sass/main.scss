@@ -5,6 +5,7 @@
 @import 'vendors/fancybox';
 @import 'vendors/flickity';
 @import 'vendors/lv-ripple';
+@import 'vendors/nice-select';
 
 @import 'base/reset';
 @import 'base/fonts';
@@ -24,5 +25,8 @@
 @import 'modules/preview';
 @import 'modules/s-pay-methods';
 @import 'modules/footer';
+@import 'modules/page-title';
+@import 'modules/pagination';
 
 @import 'pages/home';
+@import 'pages/catalog';

@@ -655,7 +655,7 @@
 	<div class="container">
 
 		<div class="section-title">
-			<p class="h1"><a href="#">Новинки</a></p>
+			<p class="h1"><a href="/catalog.php">Новинки</a></p>
 		</div>
 
 		<div class="row product-list">
