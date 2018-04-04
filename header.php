@@ -46,7 +46,7 @@
 			</form>
 		</div>
 		<div class="mobile-menu__static">
-			<a href="#" class="header__top-call header__top-call--menu fancy" data-fancybox="#modalcall">Обратный звонок</a>
+			<a href="#" class="header__top-call header__top-call--menu fancy-modal" data-src="#modal-call">Обратный звонок</a>
 		</div>
 		<ul class="mobile-menu__cat">
 			<li>
