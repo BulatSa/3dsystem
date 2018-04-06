@@ -3,7 +3,7 @@
 
 <section class="s-page-title">
 	<div class="container">
-		<h1 class="h1">3D принтер PICASO DESIGNER X PRO</h1>
+		<h1 class="h1">3D принтер PICASO DESIGNER X PRO 2</h1>
 	</div>
 </section>
 
