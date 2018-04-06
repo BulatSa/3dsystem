@@ -275,7 +275,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -298,7 +298,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -315,7 +315,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -332,7 +332,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -349,7 +349,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -373,7 +373,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -396,7 +396,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -413,7 +413,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -430,7 +430,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -447,7 +447,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -471,7 +471,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -494,7 +494,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -511,7 +511,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -528,7 +528,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -545,7 +545,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -569,7 +569,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -592,7 +592,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -609,7 +609,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -626,7 +626,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>
@@ -643,7 +643,7 @@
 							</main>
 							<footer>
 								<button class="btn btn--red">В корзину</button>
-								<button class="btn btn--round"><i class="i-compare"></i></button>
+								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
 					</div>

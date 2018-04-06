@@ -76,4 +76,8 @@ $cross-bg-color--hover: darken($red,10%);
 			outline: none;
 		}
 	}
+
+	svg{
+		display: none;
+	}
 }
