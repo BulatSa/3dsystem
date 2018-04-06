@@ -41,6 +41,12 @@
 			}
 		}
 	}
+
+	&__btns{
+		margin-top: $pad-xs;
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 .fancybox-slide--current {

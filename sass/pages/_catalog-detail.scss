@@ -4,6 +4,12 @@
 	border-radius: 15px;
 	overflow: hidden;
 	height: 0;
+	@include res(m){
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 500px;
+		margin-bottom: $pad-m;
+	}
 
 	&.flickity-enabled{
 		height: auto;
@@ -44,12 +50,18 @@
 //product-right
 .product-right{
 	padding-left: 25px;
+	@include res(l){
+		padding-left: 0;
+	}
 
 	&__header{
 		margin-bottom: $pad-xs;
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-between;
+		@include res(xs){
+			flex-direction: column;
+		}
 	}
 }
 
@@ -72,6 +84,9 @@
 	@include res(l){
 		font-size: 24px;
 	}
+	@include res(s){
+		font-size: 20px;
+	}
 
 	&--old{
 		font-size: 20px;
@@ -80,12 +95,18 @@
 		@include res(xxl){
 			font-size: 16px;
 		}
+		@include res(l){
+			font-size: 14px;
+		}
 	}
 }
 
 .product-distr{
 	display: flex;
 	align-items: center;
+	@include res(xs){
+		margin-top: $pad-xxs;
+	}
 
 	&__logo{
 		padding: 10px 20px;
@@ -114,6 +135,215 @@
 	&:hover{
 		.product-distr__logo{
 			border-color: $blue;
+		}
+	}
+}
+
+
+.product-gift{
+	display: flex;
+	align-items: flex-start;
+	background: $gray-bg;
+	border-radius: 15px;
+	padding: $pad-xxs;
+	margin-bottom: $pad-xs;
+	@include res(xs){
+		padding: 5px;
+	}
+
+	&__thumb{
+		position: relative;
+		flex-shrink: 0;
+		width: 100px;
+		height: 100px;
+		background: #FFF;
+		border-radius: 15px;
+		padding: $pad-xxs;
+		@include res(l){
+			width: 80px;
+			height: 80px;
+		}
+		@include res(xs){
+			width: 60px;
+			height: 60px;
+		}
+
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	&__content{
+		padding: $pad-xs;
+		flex-shrink: 1;
+		@include res(l){
+			padding: $pad-xxs;
+		}
+		@include res(xs){
+			padding: 0 5px 5px 10px;
+		}
+
+		.h3{
+			@include res(s){
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+
+.product-triggers{
+	margin-bottom: $pad-xs;
+	@include res(m){
+		margin-bottom: $pad-m;
+	}
+}
+
+.product-trigger{
+	display: flex;
+	align-items: center;
+	margin-bottom: $pad-xxs;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	&__icon{
+		flex-shrink: 0;
+		width: 60px;
+		text-align: center;
+
+		i{
+			font-size: 27px;
+		}
+	}
+
+	&__text{
+		@extend .small-text;
+	}
+
+	&__descr{
+		display: inline-block;
+		position: relative;
+		@include res(m){
+			display: block;
+		}
+
+		figure{
+			display: block;
+			width: 20px;
+			height: 20px;
+			border-radius: 10px;
+			background: $blue;
+			color: #FFF;
+			text-align: center;
+			line-height: 20px;
+			margin-left: $pad-xxs;
+			cursor: help;
+			@include res(m){
+				margin-left: 0;
+				margin-top: 4px;
+			}
+		}
+
+		&:hover{
+			.product-trigger__descr-pop{
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+
+	&__descr-pop{
+		position: absolute;
+		top: 100%;
+		right: 0;
+		background: #FFF;
+		border-radius: 15px;
+		padding: $pad-xs;
+		width: 300px;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+		font-size: 12px;
+		z-index: 10;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.3s ease;
+		@include res(m){
+			right: initial;
+			left: 0;
+			width: 200px;
+			font-size: 10px;
+			padding: $pad-xxs;
+		}
+	}
+}
+
+
+.product-actions{
+	margin-bottom: $pad-xxs;
+	@include res(m){
+		margin-bottom: $pad-m;
+	}
+
+	.btn{
+		margin: 0 4px 4px 0;
+	}
+}
+
+
+.product-related{
+
+	&__title{
+		margin-bottom: $pad-xs;
+	}
+}
+
+.related-row{
+	display: flex;
+	@include res(s){
+		flex-wrap: wrap;
+	}
+
+	&__item{
+		position: relative;
+		width: 150px;
+		margin-right: 60px;
+		flex-shrink: 1;
+		@include res(xxl){
+			margin-right: 40px;
+		}
+		@include res(s){
+			width: 31%;
+			margin-right: 3%;
+			margin-bottom: 10px;
+		}
+
+		&:after{
+			content: '+';
+			font-size: 36px;
+			line-height: 1;
+			font-weight: bold;
+			position: absolute;
+			right: -45px;
+			top: calc(50% - 18px);
+			@include res(xxl){
+				font-size: 24px;
+				right: -30px;
+				top: calc(50% - 12px);
+			}
+			@include res(s){
+				display: none;
+			}
+		}
+
+		&:last-child{
+			margin-right: 0;
+
+			&:after{
+				display: none;
+			}
 		}
 	}
 }

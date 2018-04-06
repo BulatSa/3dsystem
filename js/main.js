@@ -144,6 +144,12 @@ $(function () {
 	init_fancy();
 	init_fancy__video();
 });
+
+/* Add to cart modal open
+$.fancybox.open({
+	src  : '#modal-addtocart'
+});
+*/
 /***********************
  fancybox END
  ***********************/
