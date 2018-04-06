@@ -1,0 +1,58 @@
+.def-arrows{
+	.flickity-prev-next-button{
+		background: transparent;
+		width: 80px;
+		height: 100%;
+		top: 0;
+		transform: none;
+		border-radius: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		@include res(xxl){
+			width: 60px;
+		}
+		@include res(s){
+			width: 40px;
+		}
+		@include res(xs){
+			width: 30px;
+		}
+
+		&.next{
+			right: 0;
+		}
+
+		&.previous{
+			left: 0;
+		}
+
+		.flickity-button-icon{
+			display: block;
+			position: relative;
+			width: 50%;
+			height: auto;
+			left: 0;
+			top: 0;
+			fill: #000;
+			transition: fill 0.3s ease;
+		}
+
+		&:focus,&:hover{
+			box-shadow: none;
+			.flickity-button-icon{
+				fill: $blue;
+			}
+		}
+
+		&:disabled{
+			opacity: 0.2;
+			pointer-events: all;
+			&:hover{
+				.flickity-button-icon{
+					fill: #000;
+				}
+			}
+		}
+	}
+}

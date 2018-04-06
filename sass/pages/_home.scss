@@ -17,61 +17,7 @@
 		height: auto;
 	}
 
-	.flickity-prev-next-button{
-		background: transparent;
-		width: 5%;
-		height: 100%;
-		top: 0;
-		transform: none;
-		border-radius: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		@include res(l){
-			width: 40px;
-			height: 40px;
-		}
 
-		&.next{
-			right: 0;
-		}
-
-		&.previous{
-			left: 0;
-			@include res(l){
-				left: initial;
-				right: 40px;
-			}
-		}
-
-		.flickity-button-icon{
-			display: block;
-			position: relative;
-			width: 50%;
-			height: auto;
-			left: 0;
-			top: 0;
-			fill: #000;
-			transition: fill 0.3s ease;
-		}
-
-		&:focus,&:hover{
-			box-shadow: none;
-			.flickity-button-icon{
-				fill: $blue;
-			}
-		}
-
-		&:disabled{
-			opacity: 0.2;
-			pointer-events: all;
-			&:hover{
-				.flickity-button-icon{
-					fill: #000;
-				}
-			}
-		}
-	}
 
 	&__item{
 		width: 100%;
