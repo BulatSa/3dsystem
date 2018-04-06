@@ -162,7 +162,7 @@
 		</div>
 		<div class="header__middle-wrap">
 			<div class="header__middle container">
-				<a href="#" class="header__logo">
+				<a href="/" class="header__logo">
 					<img src="img/logo-top.svg" alt="3D System Pro">
 				</a>
 				<form class="form-search">

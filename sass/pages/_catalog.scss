@@ -66,33 +66,27 @@
 }
 
 .catalog-aside{
-	width: 240px;
+	width: 270px;
 	flex-shrink: 0;
-	margin-right: 30px;
+	padding-right: 30px;
 	@include res(xxl){
-		margin-right: 14px;
-		width: 205px;
+		padding-right: 20px;
+		width: 225px;
 	}
 	@include res(l){
 		width: 0;
-		margin-right: 0;
+		padding-right: 0;
 	}
 }
 
 .catalog-main{
 	flex-shrink: 1;
-
-	&__product{
-		width: 20%;
-		@include res(xxl){
-			width: 25%;
-		}
-		@include res(m){
-			width: calc(100% / 3);
-		}
-		@include res(s){
-			width: 50%;
-		}
+	width: calc(100% - 270px);
+	@include res(xxl){
+		width: calc(100% - 225px);
+	}
+	@include res(l){
+		width: 100%;
 	}
 }
 //s-catalog
