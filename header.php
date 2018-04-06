@@ -46,7 +46,7 @@
 			</form>
 		</div>
 		<div class="mobile-menu__static">
-			<a href="#" class="header__top-call header__top-call--menu fancy" data-fancybox="#modalcall">Обратный звонок</a>
+			<a href="#" class="header__top-call header__top-call--menu fancy-modal" data-src="#modal-call">Обратный звонок</a>
 		</div>
 		<ul class="mobile-menu__cat">
 			<li>
@@ -162,7 +162,7 @@
 		</div>
 		<div class="header__middle-wrap">
 			<div class="header__middle container">
-				<a href="#" class="header__logo">
+				<a href="/" class="header__logo">
 					<img src="img/logo-top.svg" alt="3D System Pro">
 				</a>
 				<form class="form-search">

@@ -7,6 +7,10 @@
 	display: none !important;
 }
 
+.grid-5-in-row{
+	width: 20%;
+}
+
 @for $i from 0 through 12 {
 	.grid-#{$i} {
 		@extend %grid;
@@ -43,23 +47,6 @@
 	@include res(s){
 		padding-left: 14px;
 		padding-right: 14px;
-	}
-}
-
-.def-sec {
-	padding-top: $pad-l;
-	padding-bottom: $pad-l;
-	@include res(xxl) {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-	@include res(l) {
-		padding-top: $pad-m;
-		padding-bottom: $pad-m;
-	}
-	@include res(s) {
-		padding-top: $pad-s;
-		padding-bottom: $pad-s;
 	}
 }
 
