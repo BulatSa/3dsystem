@@ -2,7 +2,7 @@
 
 <section class="s-banner-slider">
 	<div class="container">
-		<div class="banner-slider">
+		<div class="banner-slider def-arrows">
 			<a href="#" class="banner-slider__item">
 				<picture>
 					<source media="(max-width: 680px)" srcset="/img/home/banner_s.jpg">

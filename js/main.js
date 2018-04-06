@@ -447,3 +447,21 @@ $(function($){
 /***********************
 Catalog interactions END
 ***********************/
+
+
+/***********************
+Product Details BEGIN
+***********************/
+$(function($){
+	$('.product-slider').flickity({
+		adaptiveHeight: true,
+		dragThreshold: 6,
+		imagesLoaded: true,
+		pageDots: false,
+		lazyLoad: true,
+		arrowShape: 'M28.6,49c-0.5,0.5-0.5,1.4,0,2L74,96.4l-2.1,2.2c-0.5,0.5-1.4,0.5-1.9,0L22.4,51c-0.5-0.5-0.5-1.4,0-2L70,1.5 c0.5-0.5,1.4-0.5,1.9,0l0,0L74,3.7'
+	});
+});
+/***********************
+Product Details END
+***********************/
