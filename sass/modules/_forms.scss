@@ -121,23 +121,15 @@ button {
 				border: 1px solid $blue;
 			}
 		}
-	}
 
-	&:hover{
-		span{
-			&:before{
-				border: 1px solid $blue;
-			}
-		}
-	}
-
-	&--disabled{
-		pointer-events: none;
-		user-select: none;
-		span{
+		&:disabled + span{
+			pointer-events: none;
+			user-select: none;
 			color: $gray-text;
 		}
 	}
+
+
 
 	span{
 		display: block;
@@ -173,6 +165,12 @@ button {
 
 		a{
 			color: #353434;
+		}
+
+		&:hover{
+			&:before{
+				border: 1px solid $blue;
+			}
 		}
 	}
 }

@@ -140,18 +140,16 @@
 	}
 
 	&__title{
-		height: 39px;
+		height: 2.4em;
 		overflow: hidden;
 		display: block;
 		margin-bottom: $pad-s;
 		@extend %link-blue-hover;
 		@include res(xxl){
 			font-size: 14px;
-			height: 33px;
 		}
 		@include res(s){
 			font-size: 12px;
-			height: 29px;
 			margin-bottom: $pad-xs;
 		}
 	}
@@ -192,16 +190,31 @@
 
 //mini
 .product-preview--mini{
+	@include res(xs){
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
 
 	header{
 		@include res(xs){
-			padding: 5px 5px 0 5px;
+			flex-shrink: 0;
+			width: 120px;
+			padding: 10px;
+			@include res(xxs){
+				width: 80px;
+			}
 		}
 	}
 
 	main{
 		@include res(xs){
-			padding: 5px 5px 5px;
+			flex-shrink: 0;
+			width: calc(100% - 210px);
+			padding: 10px 0;
+		}
+		@include res(xxs){
+			width: calc(100% - 170px);
 		}
 	}
 
@@ -209,18 +222,31 @@
 		font-size: 11px;
 		height: auto;
 		margin-bottom: 15px;
+		@include res(xs){
+			margin-bottom: 18px;
+		}
 	}
 
 	.product-preview__price{
 		font-size: 16px;
 		@include res(xs){
-			font-size: 13px;
+			font-size: 16px;
 		}
 	}
 
 	footer{
 		.btn--red{
 			font-size: 11px;
+			@include res(xs){
+				//margin-left: 30%;
+				width: auto;
+				font-size: 10px;
+				padding: 6px 10px;
+			}
+		}
+		@include res(xs){
+			width: 90px;
+			padding: 10px;
 		}
 	}
 
