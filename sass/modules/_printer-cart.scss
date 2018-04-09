@@ -4,7 +4,7 @@
 	margin-bottom: 20px;
 	padding: 5px 5px;
 	border-radius: 15px;
-	box-shadow: 0 0 10px 0 transparent;
+	box-shadow: 0 4px 10px 0 rgba(65, 68, 107, 0);
 	background: #f0f0f7;
 	transition: all 0.3s ease;
 	overflow: hidden;
@@ -12,7 +12,7 @@
 		margin-bottom: 16px;
 	}
 	&:hover {
-		box-shadow: 0 0 10px 0 transparentize(#000, 0.8);
+		box-shadow: 0 4px 10px 0 rgba(65, 68, 107, 0.25);
 		.printer-cart__title {
 			color: $blue;
 		}
