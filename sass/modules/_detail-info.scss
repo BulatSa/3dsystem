@@ -1,0 +1,78 @@
+.detail-info-sec {}
+
+.detail-info {}
+
+.detail-info__nav {
+	display: flex;
+	flex-wrap: wrap;
+	span {
+		display: block;
+		margin-right: 5px;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		padding-left: $pad-s;
+		padding-right: $pad-s;
+		border-radius: 5px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: $font-head;
+		transition: all 0.3s ease;
+		cursor: pointer;
+		background: transparent;
+		@include res(xxl) {
+			padding-left: $pad-xs;
+			padding-right: $pad-xs;
+		}
+		@include res(s) {
+			margin-bottom: 5px;
+		}
+		&:hover {
+			color: $blue;
+			background: #f5f5fa;
+		}
+		&.active {
+			color: $blue;
+			background: #f5f5fa;
+		}
+	}
+}
+
+.detail-info__items {
+	padding-top: $pad-s;
+	@include res(s) {
+		padding-top: $pad-xxs;
+	}
+}
+
+.detail-info__item {
+	padding: $pad-m $pad-m;
+	border: 1px solid $gray-border;
+	border-radius: 15px;
+	@include res(l) {
+		padding: $pad-s $pad-s;
+	}
+	@include res(s) {
+		padding: $pad-s $pad-xs;
+	}
+}
+
+.detail-info__item-text {
+	max-width: 630px;
+	@include res(s) {
+		margin-bottom: $pad-s;
+	}
+	.btn {
+		margin-top: $pad-s;
+	}
+}
+
+.detail-info__item-more {
+
+}
+
+.detail-info__item-review {
+	margin-top: $pad-l;
+	@include res(s) {
+		margin-top: $pad-s;
+	}
+}
