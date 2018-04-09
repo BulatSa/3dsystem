@@ -112,7 +112,7 @@
 									</a>
 								</header>
 								<main>
-									<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер CyberMicro PLUS</a>
+									<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер CyberMicro PLUS</a>
 									<span class="product-preview__price">
 									<span class="price--old">590 000 <span class="rub">c</span></span>
 									<span>555 590 <span class="rub">c</span></span>
@@ -131,7 +131,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Hercukes Strong 2017</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Hercukes Strong 2017</a>
 								<span class="product-preview__price">
 									<span>555 590 <span class="rub">c</span></span>
 								</span>
@@ -149,7 +149,7 @@
 										</a>
 									</header>
 									<main>
-										<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Hercukes Strong 2017</a>
+										<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Hercukes Strong 2017</a>
 										<span class="product-preview__price">
 									<span>555 590 <span class="rub">c</span></span>
 								</span>

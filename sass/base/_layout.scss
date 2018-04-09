@@ -27,3 +27,15 @@
 		padding-bottom: 20px;
 	}
 }
+
+.border-block{
+	border-radius: 15px;
+	border: 1px solid $gray-border;
+	padding: $pad-m;
+	@include res(l){
+		padding: $pad-s;
+	}
+	@include res(s){
+		padding: $pad-s $pad-xs;
+	}
+}
