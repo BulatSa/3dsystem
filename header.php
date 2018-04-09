@@ -65,48 +65,82 @@
 				<a href="#">3D Сканеры</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">Строительные</a></li>
-					<li><a href="#">Персональные</a></li>
-					<li><a href="#">Профессиональные</a></li>
 					<li><a href="#">Лучшие предложения</a></li>
 					<li><a href="#">Промышленные</a></li>
-					<li><a href="#">Готовые решения</a></li>
+					<li><a href="#">Персональные</a></li>
+					<li><a href="#">Профессиональные</a></li>
+					<li><a href="#">Готовые решение</a></li>
 				</ul>
 			</li>
 			<li>
 				<a href="#">Аксессуары</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">Промышленные</a></li>
-					<li><a href="#">Персональные</a></li>
-					<li><a href="#">Профессиональные</a></li>
-					<li><a href="#">Строительные</a></li>
-					<li><a href="#">Лучшие предложения</a></li>
-					<li><a href="#">Готовые решения</a></li>
+					<li><a href="#">Инструменты и принадлежности</a></li>
+					<li><a href="#">Адгезионные материалы</a></li>
+					<li><a href="#">Материалы для постобработки</a></li>
+					<li><a href="#">Ультразвуковые ванны</a></li>
+					<li><a href="#">Комплектующие</a></li>
+					<li><a href="#">Доп оборудование</a></li>
 				</ul>
 			</li>
 			<li>
 				<a href="#">Гаджеты</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">Строительные</a></li>
-					<li><a href="#">Персональные</a></li>
-					<li><a href="#">Лучшие предложения</a></li>
-					<li><a href="#">Промышленные</a></li>
-					<li><a href="#">Готовые решения</a></li>
-					<li><a href="#">Профессиональные</a></li>
+					<li><a href="#">3D ручки</a></li>
+					<li><a href="#">3D манипуляторы</a></li>
+					<li><a href="#">Виртуальная реальность</a></li>
 				</ul>
 			</li>
 			<li>
 				<a href="#">Расходные материалы</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">Строительные</a></li>
-					<li><a href="#">Персональные</a></li>
-					<li><a href="#">Лучшие предложения</a></li>
-					<li><a href="#">Промышленные</a></li>
-					<li><a href="#">Готовые решения</a></li>
-					<li><a href="#">Профессиональные</a></li>
+					<li><a href="#">Для 3D ручек</a></li>
+					<li><a href="#">CyberFiber</a></li>
+					<li><a href="#">Bestfilament</a></li>
+					<li><a href="#">MakerBot</a></li>
+					<li><a href="#">Print Product</a></li>
+					<li><a href="#">REC</a></li>
+					<li><a href="#">Esun</a></li>
+					<li><a href="#">Стримпласт</a></li>
+					<li><a href="#">3D Systems</a></li>
+					<li><a href="#">Stratasys</a></li>
+					<li><a href="#">FunToDo</a></li>
+					<li><a href="#">3DSLA</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Станки ЧПУ</a>
+				<i class="i-down"></i>
+				<ul class="mobile-menu__sub">
+					<li><a href="#">Лазерно-гравировальные станки</a></li>
+					<li><a href="#">Лазерные станки по дереву</a></li>
+					<li><a href="#">Гравировальные станки</a></li>
+					<li><a href="#">Фрезерные станки</a></li>
+					<li><a href="#">Токарные станки</a></li>
+					<li><a href="#">Фрезерные напольные станки</a></li>
+					<li><a href="#">Фрезерные станки по дереву</a></li>
+					<li><a href="#">Профессиональные станки</a></li>
+					<li><a href="#">Волоконные маркировщики металла</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Робототехника</a>
+				<i class="i-down"></i>
+				<ul class="mobile-menu__sub">
+					<li><a href="#">Lego</a></li>
+					<li><a href="#">Kuka</a></li>
+					<li><a href="#">Другие</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Литьевое оборудование</a>
+				<i class="i-down"></i>
+				<ul class="mobile-menu__sub">
+					<li><a href="#">Indutherm</a></li>
+					<li><a href="#">Другие</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -193,83 +227,70 @@
 
 			<div class="header__bottom-cat-wrap">
 				<div class="header__bottom-cat bottom-cat" id="catalog">
-					<div class="bottom-cat__deals">
-						<a href="#" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-1.jpg" alt="">
-							<span class="printer-cart__title">Лучшие предложения</span>
-						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-2.jpg" alt="">
-							<span class="printer-cart__title">Персональные</span>
-						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-3.jpg" alt="">
-							<span class="printer-cart__title">Профессиональные</span>
-						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-4.jpg" alt="">
-							<span class="printer-cart__title">Промышленные</span>
-						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-5.jpg" alt="">
-							<span class="printer-cart__title">Строительные</span>
-						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-6.jpg" alt="">
-							<span class="printer-cart__title">Готовые решения</span>
-						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-6.jpg" alt="">
-							<span class="printer-cart__title">Готовые решения</span>
-						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-6.jpg" alt="">
-							<span class="printer-cart__title">Готовые решения</span>
-						</a>
-					</div>
-					<div class="bottom-cat__fabricators">
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-1.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-2.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-3.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-4.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-5.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-6.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-7.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-8.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-6.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-7.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-8.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-6.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-7.jpg" alt="">
-						</a>
-						<a href="#" class="bottom-cat__fabricator">
-							<img src="img/header/fabric-8.jpg" alt="">
-						</a>
+					<div class="bottom-cat__links">
+						<div class="bottom-cat__link">
+							<a href="#" class="h3">3D принтеры</a>
+							<a href="#">Лучшие предложения</a>
+							<a href="#">Промышленные</a>
+							<a href="#">Строительные</a>
+							<a href="#">Персональные</a>
+							<a href="#">Профессиональные</a>
+							<a href="#">Готовые решение</a>
+						</div>
+						<div class="bottom-cat__link">
+							<a href="#" class="h3">3D Сканеры</a>
+							<a href="#">Лучшие предложения</a>
+							<a href="#">Промышленные</a>
+							<a href="#">Персональные</a>
+							<a href="#">Профессиональные</a>
+							<a href="#">Готовые решение</a>
+						</div>
+						<div class="bottom-cat__link">
+							<a href="#" class="h3">Аксессуары</a>
+							<a href="#">Инструменты и принадлежности</a>
+							<a href="#">Адгезионные материалы</a>
+							<a href="#">Материалы для постобработки</a>
+							<a href="#">Ультразвуковые ванны</a>
+							<a href="#">Комплектующие</a>
+							<a href="#">Доп оборудование</a>
+						</div>
+						<div class="bottom-cat__link">
+							<a href="#" class="h3">Гаджеты</a>
+							<a href="#">3D ручки</a>
+							<a href="#">3D манипуляторы</a>
+							<a href="#">Виртуальная реальность</a>
+						</div>
+						<div class="bottom-cat__link">
+							<a href="#" class="h3">Расходные материалы</a>
+							<a href="#">Для 3D ручек</a>
+							<a href="#">CyberFiber</a>
+							<a href="#">Bestfilament</a>
+							<a href="#">MakerBot</a>
+							<a href="#">Print Product</a>
+							<a href="#">REC</a>
+							<a href="#">Другие</a>
+						</div>
+						<div class="bottom-cat__link">
+							<a href="#" class="h3">Станки ЧПУ</a>
+							<a href="#">Лазерно-гравировальные станки</a>
+							<a href="#">Лазерные станки по дереву</a>
+							<a href="#">Гравировальные станки</a>
+							<a href="#">Фрезерные станки</a>
+							<a href="#">Токарные станки</a>
+							<a href="#">Фрезерные напольные станки</a>
+							<a href="#">Другие</a>
+						</div>
+						<div class="bottom-cat__link">
+							<a href="#" class="h3">Робототехника</a>
+							<a href="#">Lego</a>
+							<a href="#">Kuka</a>
+							<a href="#">Другие</a>
+						</div>
+						<div class="bottom-cat__link">
+							<a href="#" class="h3">Литьевое оборудование</a>
+							<a href="#">Indutherm</a>
+							<a href="#">Другие</a>
+						</div>
 					</div>
 				</div>
 				<div class="header__bottom-cat bottom-cat" id="printer">
