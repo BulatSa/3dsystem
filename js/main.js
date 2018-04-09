@@ -445,3 +445,73 @@ $(function($){
 /***********************
 Product Details END
 ***********************/
+
+
+/***********************
+Product Tabs BEGIN
+***********************/
+$(function ($) {
+
+	function changeProductTabLink($thisTabLink){
+		$('.detail-info__nav span').not($thisTabLink).removeClass('active');
+		$thisTabLink.addClass('active');
+	};
+
+	function changeProductTab($thisTabDetail){
+		$('.detail-info__item').not($thisTabDetail).removeClass('active');
+		$thisTabDetail.addClass('active');
+	};
+
+	$('.detail-info__nav span').on('click', function (e) {
+		var $thisTabLink = $(this);
+		var thisTabLinkData = $(this).data('link');
+		var $thisTabDetail = $('.detail-info__item#' + thisTabLinkData);
+		changeProductTabLink($thisTabLink);
+		changeProductTab($thisTabDetail);
+	});
+
+	$('.detail-info__item-text .btn[data-link]').on('click', function (e) {
+		e.preventDefault();
+		var thisTabLinkData = $(this).data('link');
+		var $thisTabLink = $('.detail-info__nav [data-link=' + thisTabLinkData +']');
+		var $thisTabDetail = $('.detail-info__item#' + thisTabLinkData);
+		changeProductTabLink($thisTabLink);
+		changeProductTab($thisTabDetail);
+	});
+});
+/***********************
+Product Tabs END
+***********************/
+
+
+/***********************
+Product Descr Open BEGIN
+***********************/
+$(function($){
+	var $detailInfoBtn = $('.detail-info__item-more');
+	var $detailInfoDescr = $detailInfoBtn.siblings('.detail-info__item-descr');
+
+	if ($detailInfoDescr.height() > 400) {
+		$detailInfoDescr.addClass('closed');
+	} else {
+		$detailInfoBtn.hide();
+	}
+
+	$detailInfoBtn.on('click', function (e) {
+		e.preventDefault();
+		var $thisBtn = $(this);
+
+		if(!($thisBtn.hasClass('open'))) {
+			$detailInfoDescr.removeClass('closed');
+			$thisBtn.text('Свернуть');
+		} else {
+			$thisBtn.text('Далее');
+			$detailInfoDescr.addClass('closed');
+		}
+
+		$thisBtn.toggleClass('open');
+	});
+});
+/***********************
+Product Descr Open END
+***********************/

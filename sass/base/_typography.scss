@@ -72,6 +72,13 @@ h3, .h3 {
 			margin-bottom: 0;
 		}
 	}
+	a {
+		color: $blue;
+		transition: all 0.3s ease;
+		&:hover {
+			color: $red;
+		}
+	}
 	ul {
 		list-style: none;
 		li {
