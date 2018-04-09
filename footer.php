@@ -144,7 +144,7 @@
 
 	<div id="modal-addtocart" class="modal">
 		<header class="modal__header">
-			<p class="h2 modal__title">Товар добавлен в корзину</p>
+			<p class="h3 modal__title">Товар добавлен в корзину</p>
 		</header>
 		<div class="modal__content">
 			<p>Количество товаров в корзине: <span>3</span></p>

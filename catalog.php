@@ -274,7 +274,7 @@
 							</span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -297,7 +297,7 @@
 							</span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -314,7 +314,7 @@
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -331,7 +331,7 @@
 								<span class="product-preview__price">10 590<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -348,7 +348,7 @@
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -372,7 +372,7 @@
 							</span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -395,7 +395,7 @@
 							</span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -412,7 +412,7 @@
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -429,7 +429,7 @@
 								<span class="product-preview__price">10 590<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -446,7 +446,7 @@
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -470,7 +470,7 @@
 							</span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -493,7 +493,7 @@
 							</span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -510,7 +510,7 @@
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -527,7 +527,7 @@
 								<span class="product-preview__price">10 590<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -544,7 +544,7 @@
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -568,7 +568,7 @@
 							</span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -591,7 +591,7 @@
 							</span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -608,7 +608,7 @@
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -625,7 +625,7 @@
 								<span class="product-preview__price">10 590<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>
@@ -642,7 +642,7 @@
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 							</footer>
 						</div>

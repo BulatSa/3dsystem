@@ -47,7 +47,7 @@
 							<div class="product-price product-price--old">354 000 <span class="rub">c</span></div>
 							<!--<div class="h2">Под заказ</div>-->
 						</div>
-						<a href="/img/preview/786x590.png" class="product-distr fancy">
+						<a href="/img/preview/786x590.png" class="product-distr fancy" rel="nofollow">
 							<div class="product-distr__logo">
 								<img src="/img/product-detail/picasa.png" alt="picaso">
 							</div>
@@ -93,8 +93,8 @@
 					</div>
 					
 					<div class="product-actions">
-						<a href="#" class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</a>
-						<a href="#" class="btn btn--blue fancy-modal" data-src="#modal-oneclick">Купить в 1 клик</a>
+						<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
+						<button class="btn btn--blue fancy-modal" data-src="#modal-oneclick">Купить в 1 клик</button>
 						<!-- Если под заказ -->
 						<!--<a href="#" class="btn btn--red">Запросить КП</a>-->
 						<!-- Если под заказ -->
@@ -119,7 +119,7 @@
 								</span>
 								</main>
 								<footer>
-									<button class="btn btn--red">В корзину</button>
+									<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 								</footer>
 							</div>
 							</div>
@@ -137,7 +137,7 @@
 								</span>
 							</main>
 							<footer>
-								<button class="btn btn--red">В корзину</button>
+								<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 							</footer>
 						</div>
 							</div>
@@ -155,7 +155,7 @@
 								</span>
 									</main>
 									<footer>
-										<button class="btn btn--red">В корзину</button>
+										<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 									</footer>
 								</div>
 							</div>
