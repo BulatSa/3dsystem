@@ -40,7 +40,11 @@
 		font-size: 14px;
 	}
 	@include res(s) {
-		font-size: 14px;
+		font-size: 12px;
+	}
+	@include res(xxs){
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 }
 
@@ -60,5 +64,6 @@
 	}
 	@include res(xxs){
 		font-size: 12px;
+		margin-left: 5px;
 	}
 }

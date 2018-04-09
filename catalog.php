@@ -82,16 +82,16 @@
 								<input type="checkbox" name="filter_1" value="XXX" checked>
 								<span>MakerBot</span>
 							</label>
-							<label class="style-checkbox style-checkbox--disabled">
-								<input type="checkbox" name="filter_1" value="XXX">
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" disabled>
 								<span>Picaso 3D</span>
 							</label>
 							<label class="style-checkbox">
 								<input type="checkbox" name="filter_1" value="XXX">
 								<span>Zenit</span>
 							</label>
-							<label class="style-checkbox style-checkbox--disabled">
-								<input type="checkbox" name="filter_1" value="XXX">
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" disabled>
 								<span>Imprinta</span>
 							</label>
 							<label class="style-checkbox">

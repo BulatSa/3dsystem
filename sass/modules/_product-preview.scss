@@ -140,18 +140,16 @@
 	}
 
 	&__title{
-		height: 39px;
+		height: 2.4em;
 		overflow: hidden;
 		display: block;
 		margin-bottom: $pad-s;
 		@extend %link-blue-hover;
 		@include res(xxl){
 			font-size: 14px;
-			height: 33px;
 		}
 		@include res(s){
 			font-size: 12px;
-			height: 29px;
 			margin-bottom: $pad-xs;
 		}
 	}
