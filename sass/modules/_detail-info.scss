@@ -5,7 +5,7 @@
 .detail-info__nav {
 	display: flex;
 	flex-wrap: wrap;
-	span {
+	button {
 		display: block;
 		margin-right: 5px;
 		padding-top: 6px;
@@ -32,6 +32,10 @@
 		}
 		&.active {
 			color: $blue;
+			background: #f5f5fa;
+		}
+		&:focus{
+			outline: none;
 			background: #f5f5fa;
 		}
 	}

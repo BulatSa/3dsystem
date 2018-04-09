@@ -451,33 +451,25 @@ Product Details END
 Product Tabs BEGIN
 ***********************/
 $(function ($) {
+	function selectProductTab(tabId) {
+		$('.detail-info__nav button').removeClass('active');
+		$('.detail-info__nav [data-link=' + tabId + ']').addClass('active');
+		$('.detail-info__item').removeClass('active');
+		$('#' + tabId).addClass('active');
+	}
 
-	function changeProductTabLink($thisTabLink){
-		$('.detail-info__nav span').not($thisTabLink).removeClass('active');
-		$thisTabLink.addClass('active');
-	};
-
-	function changeProductTab($thisTabDetail){
-		$('.detail-info__item').not($thisTabDetail).removeClass('active');
-		$thisTabDetail.addClass('active');
-	};
-
-	$('.detail-info__nav span').on('click', function (e) {
-		var $thisTabLink = $(this);
-		var thisTabLinkData = $(this).data('link');
-		var $thisTabDetail = $('.detail-info__item#' + thisTabLinkData);
-		changeProductTabLink($thisTabLink);
-		changeProductTab($thisTabDetail);
-	});
-
-	$('.detail-info__item-text .btn[data-link]').on('click', function (e) {
+	$('[data-link]').on('click',function (e) {
 		e.preventDefault();
-		var thisTabLinkData = $(this).data('link');
-		var $thisTabLink = $('.detail-info__nav [data-link=' + thisTabLinkData +']');
-		var $thisTabDetail = $('.detail-info__item#' + thisTabLinkData);
-		changeProductTabLink($thisTabLink);
-		changeProductTab($thisTabDetail);
+		var tabId = $(this).data('link');
+		selectProductTab(tabId);
+		var dataScroll = $(this).data('scroll');
+		if (dataScroll !== undefined){
+			var destination = $(dataScroll).offset().top;
+			$('html,body').stop().animate({scrollTop: destination}, 500);
+		}
 	});
+
+	selectProductTab('descr');
 });
 /***********************
 Product Tabs END
