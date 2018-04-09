@@ -60,7 +60,7 @@
 							<img src="/img/product-detail/gift.jpg" alt="11">
 						</div>
 						<div class="product-gift__content">
-							<p class="h2">Подарок</p>
+							<p class="h2">Подарок будет ждать в&nbsp;корзине</p>
 							<p class="h3">Катушка TiTi Flex Soft PrintProduct, 1.75 мм, 500 гр черный</p>
 						</div>
 					</div>
@@ -95,8 +95,8 @@
 					<div class="product-actions">
 						<button class="btn btn--red fancy-modal" data-src="#modal-addtocart">В корзину</button>
 						<button class="btn btn--blue fancy-modal" data-src="#modal-oneclick">Купить в 1 клик</button>
-						<!-- Если под заказ -->
-						<!--<a href="#" class="btn btn--red">Запросить КП</a>-->
+						<!-- Если под заказ. Всплывашка внизу этой страницы-->
+						<!--<a href="#" class="btn btn--red fancy-modal" data-src="#modal-kompred">Запросить КП</a>-->
 						<!-- Если под заказ -->
 						<button class="btn btn--round" title="Добавить к сравнению"><i class="i-compare"></i></button>
 					</div>
@@ -238,5 +238,27 @@
 		</div>
 	</div>
 </section>
+
+
+<div id="modal-kompred" class="modal">
+	<header class="modal__header">
+		<p class="h3 modal__title">Запросить коммерческое предложение</p>
+	</header>
+	<div class="modal__content">
+		<p class="modal__descr">Оставьте заявку и&nbsp;наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
+		<form class="ajax-form vertical-form">
+			<input type="hidden" value="Покупка в 1 клик" name="form_subject">
+			<input type="hidden" value="ИМЯ ПРОДУКТА СЮДА" name="user_product" data-label="Интересующий товар">
+			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
+			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="E-mail"  class="input-text" data-req="true">
+			<button type="submit" class="btn btn--blue">Отправить</button>
+			<label class="style-check-ios">
+				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+				<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
+			</label>
+		</form>
+	</div>
+</div>
 
 <?php include('footer.php'); ?>
