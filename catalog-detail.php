@@ -112,7 +112,7 @@
 									</a>
 								</header>
 								<main>
-									<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер CyberMicro PLUS</a>
+									<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер CyberMicro PLUS</a>
 									<span class="product-preview__price">
 									<span class="price--old">590 000 <span class="rub">c</span></span>
 									<span>555 590 <span class="rub">c</span></span>
@@ -131,7 +131,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Hercukes Strong 2017</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Hercukes Strong 2017</a>
 								<span class="product-preview__price">
 									<span>555 590 <span class="rub">c</span></span>
 								</span>
@@ -149,7 +149,7 @@
 										</a>
 									</header>
 									<main>
-										<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Hercukes Strong 2017</a>
+										<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Hercukes Strong 2017</a>
 										<span class="product-preview__price">
 									<span>555 590 <span class="rub">c</span></span>
 								</span>
@@ -173,12 +173,13 @@
 <section class="detail-info-sec s-def">
 	<div class="detail-info container">
 		<div class="detail-info__nav">
-			<span data-link="descr" class="active">Описание</span>
-			<span data-link="chars">Характеристики</span>
-			<span data-link="instr">Инструкции</span>
-			<span data-link="reviews">отзывы</span>
+			<button data-link="descr" class="active">Описание</button>
+			<button data-link="chars">Характеристики</button>
+			<button data-link="instr">Инструкции</button>
+			<button data-link="reviews">отзывы</button>
 		</div>
 		<div class="detail-info__items">
+
 			<div class="detail-info__item active" id="descr">
 				<div class="row">
 					<div class="grid-6 grid-12_s">
@@ -196,7 +197,7 @@
 								</ul>
 								<p>3D Принтер Designer X PRO создан компанией Picaso 3D из России. Это новый продукт на рынке, 3D печать с которым становится быстрее и качественнее! Благодаря уникальной технологии JetSwitch Picaso, которая отвечает за переключение экструдера между материалами, пользователь сможет уменьшить время 3D печати примерно в 10 раз.</p>
 							</div>
-							<a href="#" class="detail-info__item-more btn btn--small">Далее</a>
+							<button class="detail-info__item-more btn btn--small">Далее</button>
 						</div>
 					</div>
 					<div class="grid-6 grid-12_s">
@@ -214,7 +215,7 @@
 									<li>Программное обеспечение:Polygon</li>
 								</ul>
 							</div>
-							<a href="#" class="btn btn--small" data-link="chars">Все характеристики</a>
+							<button class="btn btn--small" data-link="chars" data-scroll=".detail-info-sec">Все характеристики</button>
 						</div>
 					</div>
 					<div class="grid-6 grid-12_m">
@@ -236,104 +237,46 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="detail-info__item" id="chars">
-				<div class="row">
-					<div class="grid-6 grid-12_s">
-						<div class="detail-info__item-text">
-							<div class="user-content user-content--mini">
-								<p class="h1">Характеристики</p>
-								<ul>
-									<li>Количество головок: 2 экструдера</li>
-									<li>Область построения: 20 х 20 х 21 см.</li>
-									<li>Скорость печати: до 30 см3/ч</li>
-									<li>Подогреваемый рабочий стол: Да</li>
-									<li>Материал печати: ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS</li>
-									<li>Материал поддержки: Из материала печати, PVA, HIPS</li>
-									<li>Толщина нити (мм): 1.75</li>
-									<li>Программное обеспечение:Polygon</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+				<div class="user-content user-content--mini">
+					<p class="h1">Характеристики</p>
+					<ul>
+						<li>Количество головок: 2 экструдера</li>
+						<li>Область построения: 20 х 20 х 21 см.</li>
+						<li>Скорость печати: до 30 см3/ч</li>
+						<li>Подогреваемый рабочий стол: Да</li>
+						<li>Материал печати: ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS</li>
+						<li>Материал поддержки: Из материала печати, PVA, HIPS</li>
+						<li>Толщина нити (мм): 1.75</li>
+						<li>Программное обеспечение:Polygon</li>
+						<li>Количество головок: 2 экструдера</li>
+						<li>Область построения: 20 х 20 х 21 см.</li>
+						<li>Скорость печати: до 30 см3/ч</li>
+						<li>Подогреваемый рабочий стол: Да</li>
+						<li>Материал печати: ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS</li>
+						<li>Материал поддержки: Из материала печати, PVA, HIPS</li>
+						<li>Толщина нити (мм): 1.75</li>
+						<li>Программное обеспечение:Polygon</li>
+					</ul>
 				</div>
 			</div>
+
 			<div class="detail-info__item" id="instr">
-				<div class="row">
-					<div class="grid-6 grid-12_s">
-						<div class="detail-info__item-text">
-							<div class="user-content user-content--mini">
-								<p class="h1">Инструкции</p>
-								<p>Такой принтер может использоваться с разными целями:</p>
-								<ul>
-									<li><a href="#">Создание прототипов механизмов для проверки качества их работы.</a></li>
-									<li><a href="#">Печать оригинальных элементов декора, спроектированных вами.</a></li>
-									<li><a href="#">Изучение работы принтера в школе или институте на практическом уроке с целью создания реальной модели.</a></li>
-								</ul>
-								<p>Такой принтер может использоваться с разными целями:</p>
-								<ul>
-									<li><a href="#">Создание прототипов механизмов для проверки качества их работы.</a></li>
-									<li><a href="#">Печать оригинальных элементов декора, спроектированных вами.</a></li>
-									<li><a href="#">Изучение работы принтера в школе или институте на практическом уроке с целью создания реальной модели.</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
+				<div class="user-content user-content--mini">
+					<p class="h1">Инструкции</p>
+					<ul>
+						<li><a href="#">Инструкция по работе с принтером</a></li>
+						<li><a href="#">Техника безопасности при работе</a></li>
+						<li><a href="#">Как напечатать себе дом, чтобы выдержал зиму</a></li>
+					</ul>
 				</div>
 			</div>
+
 			<div class="detail-info__item" id="reviews">
-				<div class="row">
-					<div class="grid-6 grid-12_s">
-						<div class="detail-info__item-text">
-							<div class="user-content user-content--mini">
-								<p class="h1">Описание</p>
-								<p>3D Принтер Designer X PRO создан компанией Picaso 3D из России. Это новый продукт на рынке, 3D печать с которым становится быстрее и качественнее! Благодаря уникальной технологии JetSwitch Picaso, которая отвечает за переключение экструдера между материалами, пользователь сможет уменьшить время 3D печати примерно в 10 раз.</p>
-								<p>Такой принтер может использоваться с разными целями:</p>
-								<ul>
-									<li>Печать деталей для рабочих механизмов: от мелких до крупных, которые могут быть установлены в систему.</li>
-									<li>Создание прототипов механизмов для проверки качества их работы.</li>
-									<li>Печать оригинальных элементов декора, спроектированных вами.</li>
-									<li>Изучение работы принтера в школе или институте на практическом уроке с целью создания реальной модели.</li>
-									<li>Для личного пользования –3D печать аксессуаров по собственным эскизам.</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="grid-6 grid-12_s">
-						<div class="detail-info__item-text">
-							<div class="user-content user-content--mini">
-								<p class="h2">Характеристики</p>
-								<ul>
-									<li>Количество головок: 2 экструдера</li>
-									<li>Область построения: 20 х 20 х 21 см.</li>
-									<li>Скорость печати: до 30 см3/ч</li>
-									<li>Подогреваемый рабочий стол: Да</li>
-									<li>Материал печати: ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS</li>
-									<li>Материал поддержки: Из материала печати, PVA, HIPS</li>
-									<li>Толщина нити (мм): 1.75</li>
-									<li>Программное обеспечение:Polygon</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="grid-6 grid-12_m">
-						<div class="detail-info__item-review d-review">
-							<p class="h2">Обзор</p>
-							<div class="d-review__info">
-								<a href="#" class="d-review__video">
-									<img src="img/product-detail/review.jpg" alt="">
-								</a>
-								<div class="d-review__text">
-									<span class="d-review__date">22.03.2018</span>
-									<a href="#" class="d-review__link">
-										<span class="h3">Пятая катушка пластика в подарок!</span>
-										<p>Закажи 4 катушки любого пластика CyberFiber и получи пятую в подарок!</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<p class="h1">Отзывы</p>
 			</div>
+
 		</div>
 	</div>
 </section>

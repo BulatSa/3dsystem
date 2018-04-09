@@ -98,6 +98,103 @@
 								<input type="checkbox" name="filter_1" value="XXX">
 								<span>3D Quality</span>
 							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" checked>
+								<span>Cyberon</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" checked>
+								<span>MakerBot</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" disabled>
+								<span>Picaso 3D</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX">
+								<span>Zenit</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" disabled>
+								<span>Imprinta</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX">
+								<span>3D Quality</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" checked>
+								<span>Cyberon</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" checked>
+								<span>MakerBot</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" disabled>
+								<span>Picaso 3D</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX">
+								<span>Zenit</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" disabled>
+								<span>Imprinta</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX">
+								<span>3D Quality</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" checked>
+								<span>Cyberon</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" checked>
+								<span>MakerBot</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" disabled>
+								<span>Picaso 3D</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX">
+								<span>Zenit</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" disabled>
+								<span>Imprinta</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX">
+								<span>3D Quality</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" checked>
+								<span>Cyberon</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" checked>
+								<span>MakerBot</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" disabled>
+								<span>Picaso 3D</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX">
+								<span>Zenit</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX" disabled>
+								<span>Imprinta</span>
+							</label>
+							<label class="style-checkbox">
+								<input type="checkbox" name="filter_1" value="XXX">
+								<span>3D Quality</span>
+							</label>
+
 						</div>
 					</div>
 
@@ -267,7 +364,7 @@
 								</div>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 								<span class="product-preview__price">
 								<span class="price--old">6 590 000<span class="rub">c</span></span>
 								<span>5 555 590<span class="rub">c</span></span>
@@ -290,7 +387,7 @@
 								</div>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер MakerBot Replicator + (PLUS)</a>
 								<span class="product-preview__price">
 								<span class="price--old">590 000 <span class="rub">c</span></span>
 								<span>555 590 <span class="rub">c</span></span>
@@ -310,7 +407,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">PLA пластик 1,75 Экофил Стримпласт серебристо-серый</a>
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -327,7 +424,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 								<span class="product-preview__price">10 590<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -344,7 +441,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -365,7 +462,7 @@
 								</div>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 								<span class="product-preview__price">
 								<span class="price--old">6 590 000<span class="rub">c</span></span>
 								<span>5 555 590<span class="rub">c</span></span>
@@ -388,7 +485,7 @@
 								</div>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 								<span class="product-preview__price">
 								<span class="price--old">590 000 <span class="rub">c</span></span>
 								<span>555 590 <span class="rub">c</span></span>
@@ -408,7 +505,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -425,7 +522,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 								<span class="product-preview__price">10 590<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -442,7 +539,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -463,7 +560,7 @@
 								</div>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 								<span class="product-preview__price">
 								<span class="price--old">6 590 000<span class="rub">c</span></span>
 								<span>5 555 590<span class="rub">c</span></span>
@@ -486,7 +583,7 @@
 								</div>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 								<span class="product-preview__price">
 								<span class="price--old">590 000 <span class="rub">c</span></span>
 								<span>555 590 <span class="rub">c</span></span>
@@ -506,7 +603,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -523,7 +620,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 								<span class="product-preview__price">10 590<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -540,7 +637,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -561,7 +658,7 @@
 								</div>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 								<span class="product-preview__price">
 								<span class="price--old">6 590 000<span class="rub">c</span></span>
 								<span>5 555 590<span class="rub">c</span></span>
@@ -584,7 +681,7 @@
 								</div>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 								<span class="product-preview__price">
 								<span class="price--old">590 000 <span class="rub">c</span></span>
 								<span>555 590 <span class="rub">c</span></span>
@@ -604,7 +701,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -621,7 +718,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 								<span class="product-preview__price">10 590<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -638,7 +735,7 @@
 								</a>
 							</header>
 							<main>
-								<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 								<span class="product-preview__price">180 000<span class="rub">c</span></span>
 							</main>
 							<footer>
@@ -661,6 +758,56 @@
 						<li><a href="#">8</a></li>
 					</ul>
 					<a href="#" class="pagination__link">Вперед</a>
+				</div>
+
+				<div class="catalog-description border-block user-content">
+					<h2>Домашние 3Д-принтеры</h2>
+					<p>
+						Распространенное мнение, что трехмерная техника — сложное, исключительно профессиональное устройство, без сомнения, устарело. Сегодня принтеры, способные создавать 3D-объекты, приобретают и для использования вне офисного пространства — в рабочих и творческих целях. Известен пример американской энтузиастки многомерного моделирования, которая изготовила виниловую пластинку, предварительно обеспечив ее специализированным ПО.
+					</p>
+					<p>
+						Если владелец не планирует масштабный «технический прорыв», а хочет печатать объекты небольшими партиями, нуждается в негабаритной технике, домашний 3D-принтер станет ему прекрасным помощником: купить его можно с легкостью, цена достаточно невелика, а работать можно и с пластиками, и по металлу. На рынке представлено много устройств, которые подходят под требования техники для дома:
+					</p>
+					<ul>
+						<li>достаточно компактные, чтобы не занимать место на рабочем столе или полке — по размерам они приближены к стандартным лазерным принтерам;</li>
+						<li>простые в использовании — даже если бытовой 3D-принтер нужно собирать самостоятельно в домашних условиях, с ним не возникнет трудностей — производители поставляют в комплекте с ним подробные инструкции;</li>
+						<li>безопасные — с ними может работать совершенно неподготовленный человек, который хочет познакомиться с технологией;</li>
+						<li>недорогие — многие (если не все) пользователи согласятся, что самый лучший 3D-принтер для дома — это бюджетный, но полноценно выполняющий свои «обязанности» агрегат.</li>
+					</ul>
+					<table>
+						<tr>
+							<td>достаточно компактные</td>
+							<td>даже если бытовой 3D-принтер</td>
+						</tr>
+						<tr>
+							<td>даже если бытовой 3D-принтер</td>
+							<td>пользователи согласятся</td>
+						</tr>
+						<tr>
+							<td>недорогие — многие (если не все) пользователи согласятся, что самый лучший 3D-принтер для дома</td>
+							<td>это бюджетный, но полноценно выполняющий свои «обязанности» агрегат</td>
+						</tr>
+					</table>
+					<p>
+						Приобрести подходящую модель от <a href="#">Wanhao</a> или другого бренда всегда можно в нашей компании. ABS3D — поставщик надежной, высококачественной и доступной техники для профессиональных нужд. Мы предлагаем технику для <a href="#">бизнеса</a>, проектирования, строительства, производства, а также расходные материалы к ней.
+					</p>
+					<h3>Бытовые 3D-принтеры: выбор и возможности</h3>
+					<p>
+						Лучшие 3D-принтеры для дома назвать сложно, ведь на рынке представлены разнообразные устройства, и у каждого из них — свои достоинства. Если хочется приобрести то, которое печатает при помощи нескольких материалов, стоит обратить внимание на небольшие и облегченные CubeProTrio. В них предусмотрена поддержка одновременно трех видов сырья, что актуально для проектирования, архитектурных работ — например, корпус моделей будет изготовлен из ABS-пластика, а внутренние элементы — из нейлона или PLA. По тому же принципу работает 3D-принтер для домашнего пользования AirWolf 3D HD2x — он поддерживает два вида материалов.
+					</p>
+					<p>
+						Модели от известной марки MakerBot (например, Replicator 2) подойдут перфекционистам, которым важна высокая точность, и они готовы за это платить — не самые дешевые устройства.
+					</p>
+					<p>
+						Продукцию компании нередко приобретают те, кому нужен 3Д-принтер для домашнего бизнеса. Компенсируют стоимость надежность, отменное качество печати, минимальный коэффициент усадки материала и расширенная рабочая область. Если нужно купить 3D-принтер для дома недорого, стоит обратить внимание на наш каталог — цена техники доступна, а возможности широки. Мы предлагаем компактные модели, которые можно брать с собой во время деловых поездок, устройства, поддерживающие работу с разными пластиками, нейлоном. Принтеры от <a href="#">Picaso</a> или любого другого представленного у нас бренда — гарантированно качественная и надежная техника.
+					</p>
+					<h2>Сколько стоит 3Д-принтер для дома</h2>
+					<p>
+						Выбирая технику (и ее стоимость), нужно ориентироваться на цели приобретения. Профессиональная модель для проектирования, архитектуры, дизайна должна иметь расширенный функционал — подобные 3Д-принтеры для дома могут обойтись в более, чем 1000 американских долларов, но быстро окупают себя. Можно найти технику от российских брендов, которые мало отличаются от западных. Например, техника <a href="#">Hercules</a> оснащена закрытыми камерами и LCD-дисплеями. Она точна, совместима с профильным и сложным ПО, производительна и доступна.
+					</p>
+					<p>
+						Домашний 3Д-принтер — это, как правило, небольшая модель из нижнего ценового сегмента (до 400-500 долларов). Он подходит для требующих точности, но не «объемных» пространственных работ. Базовое приспособление можно приобрести менее чем за 300 долларов. При этом принтеры печатают полноценные модели, совместимы с популярными ОС, весят не больше ноутбука и весьма производительны.
+					</p>
 				</div>
 			</main>
 

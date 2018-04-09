@@ -145,7 +145,7 @@
 						</div>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 						<span class="product-preview__price">
 							<span class="price--old">6 590 000<span class="rub">c</span></span>
 							<span>5 555 590<span class="rub">c</span></span>
@@ -168,7 +168,7 @@
 						</div>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 						<span class="product-preview__price">
 							<span class="price--old">590 000 <span class="rub">c</span></span>
 							<span>555 590 <span class="rub">c</span></span>
@@ -188,7 +188,7 @@
 						</a>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 						<span class="product-preview__price">180 000<span class="rub">c</span></span>
 					</main>
 					<footer>
@@ -205,7 +205,7 @@
 						</a>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 						<span class="product-preview__price">10 590<span class="rub">c</span></span>
 					</main>
 					<footer>
@@ -222,7 +222,7 @@
 						</a>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 						<span class="product-preview__price">180 000<span class="rub">c</span></span>
 					</main>
 					<footer>
@@ -239,7 +239,7 @@
 						</a>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 						<span class="product-preview__price">180 000<span class="rub">c</span></span>
 					</main>
 					<footer>
@@ -260,7 +260,7 @@
 						</div>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 						<span class="product-preview__price">
 							<span class="price--old">6 590 000<span class="rub">c</span></span>
 							<span>5 555 590<span class="rub">c</span></span>
@@ -283,7 +283,7 @@
 						</div>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 						<span class="product-preview__price">
 							<span class="price--old">590 000 <span class="rub">c</span></span>
 							<span>555 590 <span class="rub">c</span></span>
@@ -303,7 +303,7 @@
 						</a>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 						<span class="product-preview__price">180 000<span class="rub">c</span></span>
 					</main>
 					<footer>
@@ -320,7 +320,7 @@
 						</a>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер Picaso Designer X PRO</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</a>
 						<span class="product-preview__price">10 590<span class="rub">c</span></span>
 					</main>
 					<footer>
@@ -337,7 +337,7 @@
 						</a>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 						<span class="product-preview__price">180 000<span class="rub">c</span></span>
 					</main>
 					<footer>
@@ -354,7 +354,7 @@
 						</a>
 					</header>
 					<main>
-						<a href="/catalog-detail.php" class="h3 product-preview__title">3D принтер</a>
+						<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер</a>
 						<span class="product-preview__price">180 000<span class="rub">c</span></span>
 					</main>
 					<footer>
