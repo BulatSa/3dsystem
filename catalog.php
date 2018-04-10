@@ -7,6 +7,21 @@
 	</div>
 </section>
 
+
+<section class="s-catalog-subcats">
+	<div class="container">
+		<ul>
+			<li><a href="/catalog.php" class="btn btn--small">Лучшие предложения</a></li>
+			<li><a href="/catalog.php" class="btn btn--small">Промышленные</a></li>
+			<li><a href="/catalog.php" class="btn btn--small">Строительные</a></li>
+			<li><a href="/catalog.php" class="btn btn--small">Персональные</a></li>
+			<li><a href="/catalog.php" class="btn btn--small">Профессиональные</a></li>
+			<li><a href="/catalog.php" class="btn btn--small">Готовые решения</a></li>
+		</ul>
+	</div>
+</section>
+
+
 <section class="s-catalog-mob-btns">
 	<div class="container">
 		<button class="btn mob-open-filter">Фильтр <i class="i-down"></i></button>
