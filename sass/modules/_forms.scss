@@ -27,9 +27,6 @@ button {
 		font-style: italic;
 		opacity: 1;
 		transition: all 0.3s ease;
-		@include res(l){
-			font-size: 16px;
-		}
 	}
 
 	&:hover{
@@ -54,10 +51,6 @@ button {
 		padding: 9px 20px;
 		border-color: #959595;
 		border-radius: 25px;
-		font-style: italic;
-		@include placeholder {
-			font-style: italic;
-		}
 	}
 }
 
