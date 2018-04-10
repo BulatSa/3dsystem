@@ -165,7 +165,7 @@
 
 <section class="header-sec">
 	<div class="header">
-		<div class="header__top-wrap">
+		<div class="header__top-wrap compensate-for-scrollbar">
 			<div class="header__top container">
 				<a href="#" class="header__top-burger">
 					<figure></figure>
@@ -201,7 +201,7 @@
 				</a>
 				<form class="form-search">
 					<input type="text" class="input-text input-text--search" placeholder="Поиск">
-					<button><i class="i-search"></i></button>
+					<button type="submit" title="Найти"><i class="i-search"></i></button>
 				</form>
 				<div class="header__cart-wrap">
 					<a href="#" class="header__compare"><i class="i-compare"><sup>52</sup></i></a>
@@ -209,7 +209,7 @@
 						<i class="i-card"><sup>3</sup></i>
 						<span class="header__cart-info">
 						<b>Корзина: 3 товара</b>
-						<span>на сумму 135 000 <span class="rub">c</span></span>
+						<span>на сумму 135 000 <span class="rub">a</span></span>
 					</span>
 					</a>
 				</div>

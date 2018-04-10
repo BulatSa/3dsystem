@@ -50,15 +50,10 @@
 }
 
 .detail-info__item {
-	position: absolute;
-	top: 0;
-	left: 0;
+	display: none;
 	padding: $pad-m $pad-m;
 	border: 1px solid $gray-border;
 	border-radius: 15px;
-	opacity: 0;
-	visibility: hidden;
-	transition: all 0.3s ease;
 	z-index: 0;
 	@include res(l) {
 		padding: $pad-s $pad-s;
@@ -67,9 +62,7 @@
 		padding: $pad-s $pad-xs;
 	}
 	&.active {
-		position: relative;
-		opacity: 1;
-		visibility: visible;
+		display: block;
 		z-index: 1;
 	}
 }
@@ -116,5 +109,16 @@
 	margin-top: $pad-l;
 	@include res(s) {
 		margin-top: $pad-s;
+	}
+}
+
+.detail-info__params-table{
+	strong{
+		display: block;
+		line-height: 1.3;
+	}
+	@include res(xs){
+		margin-left: -16px;
+		margin-right: -16px;
 	}
 }
