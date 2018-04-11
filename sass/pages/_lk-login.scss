@@ -1,0 +1,53 @@
+.s-auth{
+
+}
+
+.form-block{
+
+	&__header{
+		text-align: center;
+		margin-bottom: 20px;
+		max-width: 440px;
+		margin-left: auto;
+		margin-right: auto;
+
+		.h2{
+			margin-bottom: 10px;
+		}
+	}
+
+	.social-links{
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+
+	.vertical-form{
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&__forgot{
+		text-align: right;
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		bottom: 10px;
+		right: 0;
+		font-size: 12px;
+		@extend %link-blue;
+		border-bottom: 1px dotted currentColor;
+	}
+}
+
+.auth-descr-block{
+	max-width: 440px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: $pad-m 0;
+	@include res(l){
+		padding: $pad-s 0;
+	}
+}

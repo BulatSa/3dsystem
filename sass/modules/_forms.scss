@@ -20,6 +20,10 @@ button {
 	background: #FFF;
 	transition: all 0.3s ease;
 	box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0);
+	@include res(xs){
+		font-size: 14px;
+		padding: 10px 20px;
+	}
 
 	@include placeholder {
 		color: $gray-text;
@@ -42,8 +46,9 @@ button {
 	}
 
 	&.error{
-		border: 1px solid $red;
-		background: #f7e0e5;
+		border: 1px solid $orange;
+		background: lighten($orange,40%);
+		box-shadow: 0 3px 8px -3px $orange;
 	}
 
 	&--search {
@@ -248,8 +253,14 @@ button {
 
 //vertical-form
 .vertical-form{
+	position: relative;
+
 	.input-text{
 		width: 100%;
+		margin-bottom: $pad-xxs;
+	}
+
+	.input-group{
 		margin-bottom: $pad-xxs;
 	}
 
@@ -258,3 +269,67 @@ button {
 	}
 }
 //vertical-form
+
+
+//input-group
+.input-group{
+	display: block;
+
+	&__label{
+		display: block;
+		color: $gray-text;
+		font-size: 12px;
+		padding-left: $pad-m;
+		margin-bottom: 4px;
+		@include res(xs){
+			padding-left: $pad-s;
+		}
+	}
+}
+//input-group
+
+
+//error-block
+.error-block{
+	background: $orange;
+	color: #FFF;
+	border-radius: 15px;
+	margin-bottom: $pad-xs;
+	padding: 5px $pad-xs;
+	font-size: 12px;
+}
+//error-block
+
+
+//pass-wrap
+.pass-wrap{
+	position: relative;
+
+	input{
+		z-index: 1;
+	}
+
+	i{
+		display: block;
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		right: 0;
+		color: $gray-border;
+		width: 50px;
+		height: 100%;
+		text-align: center;
+		font-size: 20px;
+		transition: color 0.3s ease;
+
+		&:hover{
+			color: #000;
+		}
+
+
+		&.active{
+			color: $blue;
+		}
+	}
+}
+//pass-wrap
