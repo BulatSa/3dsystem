@@ -40,6 +40,10 @@
 <section class="mobile-menu-sec">
 	<div class="mobile-menu">
 		<div class="mobile-menu__static">
+			<!--<a href="/lk-login.php" class="header__cabinet"><i class="i-person"></i><span>Войти</span></a>-->
+			<a href="#" class="header__cabinet"><i class="i-person"></i><span>Личный кабинет</span></a>
+		</div>
+		<div class="mobile-menu__static">
 			<form class="form-search">
 				<input type="text" class="input-text input-text--search" placeholder="Поиск">
 				<button><i class="i-search"></i></button>
@@ -180,9 +184,7 @@
 				<div class="header__top-contact">
 					<a href="tel:88002000574" class="header__top-phone"><i class="i-phone"></i><span>8 800 200-05-74</span></a>
 					<a href="#" class="header__top-call fancy-modal" data-src="#modal-call">Обратный звонок</a>
-					<!-- Если не авторизован-->
-					<a href="/lk-login.php" class="header__cabinet"><i class="i-person"></i><span>Войти</span></a>
-					<!---->
+					<!--<a href="/lk-login.php" class="header__cabinet"><i class="i-person"></i><span>Войти</span></a>-->
 					<a href="#" class="header__cabinet"><i class="i-person"></i><span>Личный кабинет</span></a>
 					<div class="header__cart-wrap header__cart-wrap--mobile">
 						<a href="#" class="header__compare"><i class="i-compare"><sup>52</sup></i></a>
