@@ -1,6 +1,17 @@
 .user-cart-sec {}
 
-.user-cart {}
+.user-cart {
+
+	.product-gift{
+		@include res(xs){
+			padding: $pad-xxs;
+		}
+		&__content{
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+}
 
 .user-cart__item {
 	position: relative;
@@ -114,6 +125,16 @@
 		padding: 0 5px $pad-xxs;
 		margin-bottom: $pad-xxs;
 		border-bottom: 1px solid #dedede;
+	}
+
+	&--old{
+		display: block;
+		margin-top: -10px;
+		color: $gray-text;
+		text-decoration: line-through;
+		@include res(s){
+			margin-top: 0;
+		}
 	}
 }
 
@@ -298,9 +319,13 @@ a.user-cart__item-value {
 	}
 	.btn {
 		position: absolute;
-		right: 1px;
-		top: 1px;
-		bottom: 1px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
 		z-index: 2;
 		width: 70px;
 		border-radius: 0 25px 25px 0;
@@ -311,14 +336,13 @@ a.user-cart__item-value {
 	i {
 		display: block;
 		position: relative;
-		right: 0.2em;
 		font-size: 26px;
+		right: 0.1em;
 		@include res(xxl) {
-			right: 0.4em;
 			font-size: 22px;
 		}
-		@include res(xs) {
-			right: 0.2em;
+		@include res(xs){
+			font-size: 18px;
 		}
 	}
 }
