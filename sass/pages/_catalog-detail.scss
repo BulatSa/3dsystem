@@ -147,9 +147,6 @@
 	border-radius: 15px;
 	padding: $pad-xxs;
 	margin-bottom: $pad-xs;
-	@include res(xs){
-		padding: 5px;
-	}
 
 	&__thumb{
 		position: relative;
@@ -189,6 +186,10 @@
 			@include res(s){
 				font-size: 12px;
 			}
+		}
+
+		.btn{
+			margin-top: 10px;
 		}
 	}
 }
