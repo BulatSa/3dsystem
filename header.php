@@ -222,7 +222,7 @@
 		</div>
 		<div class="header__bottom container">
 			<ul class="header__bottom-links">
-				<li><a href="/catalog.php" data-category="catalog">Каталог</a></li>
+				<li><a href="/catalog-root.php" data-category="catalog">Каталог</a></li>
 				<li><a href="/catalog.php" data-category="printer">3D принтеры</a></li>
 				<li><a href="/catalog.php" data-category="scan">3D Сканеры</a></li>
 				<li><a href="/catalog.php" data-category="access">Аксессуары</a></li>
@@ -301,27 +301,27 @@
 				<div class="header__bottom-cat bottom-cat" id="printer">
 					<div class="bottom-cat__deals">
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-4.jpg" alt="">
+							<img src="img/cats/subcat-4.jpg" alt="">
 							<span class="printer-cart__title">Промышленные</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-5.jpg" alt="">
+							<img src="img/cats/subcat-5.jpg" alt="">
 							<span class="printer-cart__title">Строительные</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-6.jpg" alt="">
+							<img src="img/cats/subcat-6.jpg" alt="">
 							<span class="printer-cart__title">Готовые решения</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-1.jpg" alt="">
+							<img src="img/cats/subcat-1.jpg" alt="">
 							<span class="printer-cart__title">Лучшие предложения</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-2.jpg" alt="">
+							<img src="img/cats/subcat-2.jpg" alt="">
 							<span class="printer-cart__title">Персональные</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-3.jpg" alt="">
+							<img src="img/cats/subcat-3.jpg" alt="">
 							<span class="printer-cart__title">Профессиональные</span>
 						</a>
 					</div>
@@ -355,15 +355,15 @@
 				<div class="header__bottom-cat bottom-cat" id="scan">
 					<div class="bottom-cat__deals">
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-4.jpg" alt="">
+							<img src="img/cats/subcat-4.jpg" alt="">
 							<span class="printer-cart__title">Промышленные</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-5.jpg" alt="">
+							<img src="img/cats/subcat-5.jpg" alt="">
 							<span class="printer-cart__title">Строительные</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-6.jpg" alt="">
+							<img src="img/cats/subcat-6.jpg" alt="">
 							<span class="printer-cart__title">Готовые решения</span>
 						</a>
 					</div>
@@ -406,29 +406,20 @@
 				<div class="header__bottom-cat bottom-cat" id="access">
 					<div class="bottom-cat__deals">
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-3.jpg" alt="">
-							<span class="printer-cart__title">Профессиональные</span>
-						</a>
-						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-4.jpg" alt="">
+							<img src="img/cats/subcat-4.jpg" alt="">
 							<span class="printer-cart__title">Промышленные</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-1.jpg" alt="">
-							<span class="printer-cart__title">Лучшие предложения</span>
-						</a>
-						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-2.jpg" alt="">
-							<span class="printer-cart__title">Персональные</span>
-						</a>
-
-						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-5.jpg" alt="">
+							<img src="img/cats/subcat-5.jpg" alt="">
 							<span class="printer-cart__title">Строительные</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-6.jpg" alt="">
+							<img src="img/cats/subcat-6.jpg" alt="">
 							<span class="printer-cart__title">Готовые решения</span>
+						</a>
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
+							<img src="img/cats/subcat-1.jpg" alt="">
+							<span class="printer-cart__title">Лучшие предложения</span>
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
@@ -469,30 +460,21 @@
 				</div>
 				<div class="header__bottom-cat bottom-cat" id="gadget">
 					<div class="bottom-cat__deals">
-						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-4.jpg" alt="">
+						<<a href="/catalog.php" class="bottom-cat__deal printer-cart">
+							<img src="img/cats/subcat-4.jpg" alt="">
 							<span class="printer-cart__title">Промышленные</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-5.jpg" alt="">
-							<span class="printer-cart__title">Строительные</span>
-						</a>
-						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-1.jpg" alt="">
+							<img src="img/cats/subcat-1.jpg" alt="">
 							<span class="printer-cart__title">Лучшие предложения</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-2.jpg" alt="">
+							<img src="img/cats/subcat-2.jpg" alt="">
 							<span class="printer-cart__title">Персональные</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-3.jpg" alt="">
+							<img src="img/cats/subcat-3.jpg" alt="">
 							<span class="printer-cart__title">Профессиональные</span>
-						</a>
-
-						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-6.jpg" alt="">
-							<span class="printer-cart__title">Готовые решения</span>
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
@@ -534,30 +516,25 @@
 				<div class="header__bottom-cat bottom-cat" id="material">
 					<div class="bottom-cat__deals">
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-5.jpg" alt="">
+							<img src="img/cats/subcat-4.jpg" alt="">
+							<span class="printer-cart__title">Промышленные</span>
+						</a>
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
+							<img src="img/cats/subcat-5.jpg" alt="">
 							<span class="printer-cart__title">Строительные</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-6.jpg" alt="">
+							<img src="img/cats/subcat-6.jpg" alt="">
 							<span class="printer-cart__title">Готовые решения</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-1.jpg" alt="">
+							<img src="img/cats/subcat-1.jpg" alt="">
 							<span class="printer-cart__title">Лучшие предложения</span>
 						</a>
 						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-2.jpg" alt="">
+							<img src="img/cats/subcat-2.jpg" alt="">
 							<span class="printer-cart__title">Персональные</span>
 						</a>
-						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-3.jpg" alt="">
-							<span class="printer-cart__title">Профессиональные</span>
-						</a>
-						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
-							<img src="img/header/deal-4.jpg" alt="">
-							<span class="printer-cart__title">Промышленные</span>
-						</a>
-
 					</div>
 					<div class="bottom-cat__fabricators">
 						<a href="/catalog.php" class="bottom-cat__fabricator">

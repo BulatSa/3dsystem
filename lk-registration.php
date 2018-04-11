@@ -21,15 +21,15 @@
 						</div>
 						<label class="input-group">
 							<span class="input-group__label">Имя</span>
-							<input type="text" name="xxasdasdx" placeholder="Имя" class="input-text">
+							<input type="text" name="xxasdasdx" placeholder="Иван" class="input-text">
 						</label>
 						<label class="input-group">
 							<span class="input-group__label">Фамилия</span>
-							<input type="text" name="xxx" placeholder="Фамилия" class="input-text">
+							<input type="text" name="xxx" placeholder="Иванов" class="input-text">
 						</label>
 						<label class="input-group">
 							<span class="input-group__label">Введите e–mail*</span>
-							<input type="email" name="xxx" placeholder="E-mail*" class="input-text error">
+							<input type="email" name="xxx" placeholder="hello@primer.ru*" class="input-text error">
 						</label>
 						<label class="input-group">
 							<span class="input-group__label">Введите пароль*</span>

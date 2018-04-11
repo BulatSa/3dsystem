@@ -1,0 +1,18 @@
+.cat-root-list{
+	font-size: 12px;
+	list-style: none;
+	padding: 0 $pad-xxs $pad-xs $pad-xs;
+	@include res(xxl){
+		padding: 0 0 $pad-xs 0;
+	}
+
+	li{
+		display: block;
+		margin-bottom: 12px;
+		line-height: 1.2;
+
+		a{
+			@extend %link-blue-hover;
+		}
+	}
+}
