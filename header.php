@@ -50,97 +50,97 @@
 		</div>
 		<ul class="mobile-menu__cat">
 			<li>
-				<a href="#">3D принтеры</a>
+				<a href="/catalog.php">3D принтеры</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">Лучшие предложения</a></li>
-					<li><a href="#">Персональные</a></li>
-					<li><a href="#">Профессиональные</a></li>
-					<li><a href="#">Промышленные</a></li>
-					<li><a href="#">Строительные</a></li>
-					<li><a href="#">Готовые решения</a></li>
+					<li><a href="/catalog.php">Лучшие предложения</a></li>
+					<li><a href="/catalog.php">Персональные</a></li>
+					<li><a href="/catalog.php">Профессиональные</a></li>
+					<li><a href="/catalog.php">Промышленные</a></li>
+					<li><a href="/catalog.php">Строительные</a></li>
+					<li><a href="/catalog.php">Готовые решения</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="#">3D Сканеры</a>
+				<a href="/catalog.php">3D Сканеры</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">Лучшие предложения</a></li>
-					<li><a href="#">Промышленные</a></li>
-					<li><a href="#">Персональные</a></li>
-					<li><a href="#">Профессиональные</a></li>
-					<li><a href="#">Готовые решение</a></li>
+					<li><a href="/catalog.php">Лучшие предложения</a></li>
+					<li><a href="/catalog.php">Промышленные</a></li>
+					<li><a href="/catalog.php">Персональные</a></li>
+					<li><a href="/catalog.php">Профессиональные</a></li>
+					<li><a href="/catalog.php">Готовые решение</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="#">Аксессуары</a>
+				<a href="/catalog.php">Аксессуары</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">Инструменты и принадлежности</a></li>
-					<li><a href="#">Адгезионные материалы</a></li>
-					<li><a href="#">Материалы для постобработки</a></li>
-					<li><a href="#">Ультразвуковые ванны</a></li>
-					<li><a href="#">Комплектующие</a></li>
-					<li><a href="#">Доп оборудование</a></li>
+					<li><a href="/catalog.php">Инструменты и принадлежности</a></li>
+					<li><a href="/catalog.php">Адгезионные материалы</a></li>
+					<li><a href="/catalog.php">Материалы для постобработки</a></li>
+					<li><a href="/catalog.php">Ультразвуковые ванны</a></li>
+					<li><a href="/catalog.php">Комплектующие</a></li>
+					<li><a href="/catalog.php">Доп оборудование</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="#">Гаджеты</a>
+				<a href="/catalog.php">Гаджеты</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">3D ручки</a></li>
-					<li><a href="#">3D манипуляторы</a></li>
-					<li><a href="#">Виртуальная реальность</a></li>
+					<li><a href="/catalog.php">3D ручки</a></li>
+					<li><a href="/catalog.php">3D манипуляторы</a></li>
+					<li><a href="/catalog.php">Виртуальная реальность</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="#">Расходные материалы</a>
+				<a href="/catalog.php">Расходные материалы</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">Для 3D ручек</a></li>
-					<li><a href="#">CyberFiber</a></li>
-					<li><a href="#">Bestfilament</a></li>
-					<li><a href="#">MakerBot</a></li>
-					<li><a href="#">Print Product</a></li>
-					<li><a href="#">REC</a></li>
-					<li><a href="#">Esun</a></li>
-					<li><a href="#">Стримпласт</a></li>
-					<li><a href="#">3D Systems</a></li>
-					<li><a href="#">Stratasys</a></li>
-					<li><a href="#">FunToDo</a></li>
-					<li><a href="#">3DSLA</a></li>
+					<li><a href="/catalog.php">Для 3D ручек</a></li>
+					<li><a href="/catalog.php">CyberFiber</a></li>
+					<li><a href="/catalog.php">Bestfilament</a></li>
+					<li><a href="/catalog.php">MakerBot</a></li>
+					<li><a href="/catalog.php">Print Product</a></li>
+					<li><a href="/catalog.php">REC</a></li>
+					<li><a href="/catalog.php">Esun</a></li>
+					<li><a href="/catalog.php">Стримпласт</a></li>
+					<li><a href="/catalog.php">3D Systems</a></li>
+					<li><a href="/catalog.php">Stratasys</a></li>
+					<li><a href="/catalog.php">FunToDo</a></li>
+					<li><a href="/catalog.php">3DSLA</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="#">Станки ЧПУ</a>
+				<a href="/catalog.php">Станки ЧПУ</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">Лазерно-гравировальные станки</a></li>
-					<li><a href="#">Лазерные станки по дереву</a></li>
-					<li><a href="#">Гравировальные станки</a></li>
-					<li><a href="#">Фрезерные станки</a></li>
-					<li><a href="#">Токарные станки</a></li>
-					<li><a href="#">Фрезерные напольные станки</a></li>
-					<li><a href="#">Фрезерные станки по дереву</a></li>
-					<li><a href="#">Профессиональные станки</a></li>
-					<li><a href="#">Волоконные маркировщики металла</a></li>
+					<li><a href="/catalog.php">Лазерно-гравировальные станки</a></li>
+					<li><a href="/catalog.php">Лазерные станки по дереву</a></li>
+					<li><a href="/catalog.php">Гравировальные станки</a></li>
+					<li><a href="/catalog.php">Фрезерные станки</a></li>
+					<li><a href="/catalog.php">Токарные станки</a></li>
+					<li><a href="/catalog.php">Фрезерные напольные станки</a></li>
+					<li><a href="/catalog.php">Фрезерные станки по дереву</a></li>
+					<li><a href="/catalog.php">Профессиональные станки</a></li>
+					<li><a href="/catalog.php">Волоконные маркировщики металла</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="#">Робототехника</a>
+				<a href="/catalog.php">Робототехника</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">Lego</a></li>
-					<li><a href="#">Kuka</a></li>
-					<li><a href="#">Другие</a></li>
+					<li><a href="/catalog.php">Lego</a></li>
+					<li><a href="/catalog.php">Kuka</a></li>
+					<li><a href="/catalog.php">Другие</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="#">Литьевое оборудование</a>
+				<a href="/catalog.php">Литьевое оборудование</a>
 				<i class="i-down"></i>
 				<ul class="mobile-menu__sub">
-					<li><a href="#">Indutherm</a></li>
-					<li><a href="#">Другие</a></li>
+					<li><a href="/catalog.php">Indutherm</a></li>
+					<li><a href="/catalog.php">Другие</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -165,7 +165,7 @@
 
 <section class="header-sec">
 	<div class="header">
-		<div class="header__top-wrap">
+		<div class="header__top-wrap compensate-for-scrollbar">
 			<div class="header__top container">
 				<a href="#" class="header__top-burger">
 					<figure></figure>
@@ -180,6 +180,9 @@
 				<div class="header__top-contact">
 					<a href="tel:88002000574" class="header__top-phone"><i class="i-phone"></i><span>8 800 200-05-74</span></a>
 					<a href="#" class="header__top-call fancy-modal" data-src="#modal-call">Обратный звонок</a>
+					<!-- Если не авторизован
+					<a href="#" class="header__cabinet"><i class="i-person"></i><span>Войти</span></a>
+					-->
 					<a href="#" class="header__cabinet"><i class="i-person"></i><span>Личный кабинет</span></a>
 					<div class="header__cart-wrap header__cart-wrap--mobile">
 						<a href="#" class="header__compare"><i class="i-compare"><sup>52</sup></i></a>
@@ -201,7 +204,7 @@
 				</a>
 				<form class="form-search">
 					<input type="text" class="input-text input-text--search" placeholder="Поиск">
-					<button><i class="i-search"></i></button>
+					<button type="submit" title="Найти"><i class="i-search"></i></button>
 				</form>
 				<div class="header__cart-wrap">
 					<a href="#" class="header__compare"><i class="i-compare"><sup>52</sup></i></a>
@@ -209,7 +212,7 @@
 						<i class="i-card"><sup>3</sup></i>
 						<span class="header__cart-info">
 						<b>Корзина: 3 товара</b>
-						<span>на сумму 135 000 <span class="rub">c</span></span>
+						<span>на сумму 135 000 <span class="rub">a</span></span>
 					</span>
 					</a>
 				</div>
@@ -217,375 +220,375 @@
 		</div>
 		<div class="header__bottom container">
 			<ul class="header__bottom-links">
-				<li><a href="#" data-category="catalog">Каталог</a></li>
-				<li><a href="#" data-category="printer">3D принтеры</a></li>
-				<li><a href="#" data-category="scan">3D Сканеры</a></li>
-				<li><a href="#" data-category="access">Аксессуары</a></li>
-				<li><a href="#" data-category="gadget">Гаджеты</a></li>
-				<li><a href="#" data-category="material">Расходные материалы</a></li>
+				<li><a href="/catalog.php" data-category="catalog">Каталог</a></li>
+				<li><a href="/catalog.php" data-category="printer">3D принтеры</a></li>
+				<li><a href="/catalog.php" data-category="scan">3D Сканеры</a></li>
+				<li><a href="/catalog.php" data-category="access">Аксессуары</a></li>
+				<li><a href="/catalog.php" data-category="gadget">Гаджеты</a></li>
+				<li><a href="/catalog.php" data-category="material">Расходные материалы</a></li>
 			</ul>
 
 			<div class="header__bottom-cat-wrap">
 				<div class="header__bottom-cat bottom-cat" id="catalog">
 					<div class="bottom-cat__links">
 						<div class="bottom-cat__link">
-							<a href="#" class="h3">3D принтеры</a>
-							<a href="#">Лучшие предложения</a>
-							<a href="#">Промышленные</a>
-							<a href="#">Строительные</a>
-							<a href="#">Персональные</a>
-							<a href="#">Профессиональные</a>
-							<a href="#">Готовые решение</a>
+							<a href="/catalog.php" class="h3">3D принтеры</a>
+							<a href="/catalog.php">Лучшие предложения</a>
+							<a href="/catalog.php">Промышленные</a>
+							<a href="/catalog.php">Строительные</a>
+							<a href="/catalog.php">Персональные</a>
+							<a href="/catalog.php">Профессиональные</a>
+							<a href="/catalog.php">Готовые решения</a>
 						</div>
 						<div class="bottom-cat__link">
-							<a href="#" class="h3">3D Сканеры</a>
-							<a href="#">Лучшие предложения</a>
-							<a href="#">Промышленные</a>
-							<a href="#">Персональные</a>
-							<a href="#">Профессиональные</a>
-							<a href="#">Готовые решение</a>
+							<a href="/catalog.php" class="h3">3D Сканеры</a>
+							<a href="/catalog.php">Лучшие предложения</a>
+							<a href="/catalog.php">Промышленные</a>
+							<a href="/catalog.php">Персональные</a>
+							<a href="/catalog.php">Профессиональные</a>
+							<a href="/catalog.php">Готовые решения</a>
 						</div>
 						<div class="bottom-cat__link">
-							<a href="#" class="h3">Аксессуары</a>
-							<a href="#">Инструменты и принадлежности</a>
-							<a href="#">Адгезионные материалы</a>
-							<a href="#">Материалы для постобработки</a>
-							<a href="#">Ультразвуковые ванны</a>
-							<a href="#">Комплектующие</a>
-							<a href="#">Доп оборудование</a>
+							<a href="/catalog.php" class="h3">Аксессуары</a>
+							<a href="/catalog.php">Инструменты и принадлежности</a>
+							<a href="/catalog.php">Адгезионные материалы</a>
+							<a href="/catalog.php">Материалы для постобработки</a>
+							<a href="/catalog.php">Ультразвуковые ванны</a>
+							<a href="/catalog.php">Комплектующие</a>
+							<a href="/catalog.php">Доп оборудование</a>
 						</div>
 						<div class="bottom-cat__link">
-							<a href="#" class="h3">Гаджеты</a>
-							<a href="#">3D ручки</a>
-							<a href="#">3D манипуляторы</a>
-							<a href="#">Виртуальная реальность</a>
+							<a href="/catalog.php" class="h3">Гаджеты</a>
+							<a href="/catalog.php">3D ручки</a>
+							<a href="/catalog.php">3D манипуляторы</a>
+							<a href="/catalog.php">Виртуальная реальность</a>
 						</div>
 						<div class="bottom-cat__link">
-							<a href="#" class="h3">Расходные материалы</a>
-							<a href="#">Для 3D ручек</a>
-							<a href="#">CyberFiber</a>
-							<a href="#">Bestfilament</a>
-							<a href="#">MakerBot</a>
-							<a href="#">Print Product</a>
-							<a href="#">REC</a>
-							<a href="#">Другие</a>
+							<a href="/catalog.php" class="h3">Расходные материалы</a>
+							<a href="/catalog.php">Для 3D ручек</a>
+							<a href="/catalog.php">CyberFiber</a>
+							<a href="/catalog.php">Bestfilament</a>
+							<a href="/catalog.php">MakerBot</a>
+							<a href="/catalog.php">Print Product</a>
+							<a href="/catalog.php">REC</a>
+							<a href="/catalog.php">Другие</a>
 						</div>
 						<div class="bottom-cat__link">
-							<a href="#" class="h3">Станки ЧПУ</a>
-							<a href="#">Лазерно-гравировальные станки</a>
-							<a href="#">Лазерные станки по дереву</a>
-							<a href="#">Гравировальные станки</a>
-							<a href="#">Фрезерные станки</a>
-							<a href="#">Токарные станки</a>
-							<a href="#">Фрезерные напольные станки</a>
-							<a href="#">Другие</a>
+							<a href="/catalog.php" class="h3">Станки ЧПУ</a>
+							<a href="/catalog.php">Лазерно-гравировальные станки</a>
+							<a href="/catalog.php">Лазерные станки по дереву</a>
+							<a href="/catalog.php">Гравировальные станки</a>
+							<a href="/catalog.php">Фрезерные станки</a>
+							<a href="/catalog.php">Токарные станки</a>
+							<a href="/catalog.php">Фрезерные напольные станки</a>
+							<a href="/catalog.php">Другие</a>
 						</div>
 						<div class="bottom-cat__link">
-							<a href="#" class="h3">Робототехника</a>
-							<a href="#">Lego</a>
-							<a href="#">Kuka</a>
-							<a href="#">Другие</a>
+							<a href="/catalog.php" class="h3">Робототехника</a>
+							<a href="/catalog.php">Lego</a>
+							<a href="/catalog.php">Kuka</a>
+							<a href="/catalog.php">Другие</a>
 						</div>
 						<div class="bottom-cat__link">
-							<a href="#" class="h3">Литьевое оборудование</a>
-							<a href="#">Indutherm</a>
-							<a href="#">Другие</a>
+							<a href="/catalog.php" class="h3">Литьевое оборудование</a>
+							<a href="/catalog.php">Indutherm</a>
+							<a href="/catalog.php">Другие</a>
 						</div>
 					</div>
 				</div>
 				<div class="header__bottom-cat bottom-cat" id="printer">
 					<div class="bottom-cat__deals">
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-4.jpg" alt="">
 							<span class="printer-cart__title">Промышленные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-5.jpg" alt="">
 							<span class="printer-cart__title">Строительные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-6.jpg" alt="">
 							<span class="printer-cart__title">Готовые решения</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-1.jpg" alt="">
 							<span class="printer-cart__title">Лучшие предложения</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-2.jpg" alt="">
 							<span class="printer-cart__title">Персональные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-3.jpg" alt="">
 							<span class="printer-cart__title">Профессиональные</span>
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-1.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-2.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-3.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-4.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-5.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
 					</div>
 				</div>
 				<div class="header__bottom-cat bottom-cat" id="scan">
 					<div class="bottom-cat__deals">
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-4.jpg" alt="">
 							<span class="printer-cart__title">Промышленные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-5.jpg" alt="">
 							<span class="printer-cart__title">Строительные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-6.jpg" alt="">
 							<span class="printer-cart__title">Готовые решения</span>
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-1.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-2.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-3.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-4.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-5.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
 					</div>
 				</div>
 				<div class="header__bottom-cat bottom-cat" id="access">
 					<div class="bottom-cat__deals">
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-3.jpg" alt="">
 							<span class="printer-cart__title">Профессиональные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-4.jpg" alt="">
 							<span class="printer-cart__title">Промышленные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-1.jpg" alt="">
 							<span class="printer-cart__title">Лучшие предложения</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-2.jpg" alt="">
 							<span class="printer-cart__title">Персональные</span>
 						</a>
 
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-5.jpg" alt="">
 							<span class="printer-cart__title">Строительные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-6.jpg" alt="">
 							<span class="printer-cart__title">Готовые решения</span>
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-1.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-2.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-3.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-4.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-5.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
 					</div>
 				</div>
 				<div class="header__bottom-cat bottom-cat" id="gadget">
 					<div class="bottom-cat__deals">
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-4.jpg" alt="">
 							<span class="printer-cart__title">Промышленные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-5.jpg" alt="">
 							<span class="printer-cart__title">Строительные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-1.jpg" alt="">
 							<span class="printer-cart__title">Лучшие предложения</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-2.jpg" alt="">
 							<span class="printer-cart__title">Персональные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-3.jpg" alt="">
 							<span class="printer-cart__title">Профессиональные</span>
 						</a>
 
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-6.jpg" alt="">
 							<span class="printer-cart__title">Готовые решения</span>
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-1.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-2.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-3.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-4.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-5.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
 					</div>
 				</div>
 				<div class="header__bottom-cat bottom-cat" id="material">
 					<div class="bottom-cat__deals">
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-5.jpg" alt="">
 							<span class="printer-cart__title">Строительные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-6.jpg" alt="">
 							<span class="printer-cart__title">Готовые решения</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-1.jpg" alt="">
 							<span class="printer-cart__title">Лучшие предложения</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-2.jpg" alt="">
 							<span class="printer-cart__title">Персональные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-3.jpg" alt="">
 							<span class="printer-cart__title">Профессиональные</span>
 						</a>
-						<a href="#" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/header/deal-4.jpg" alt="">
 							<span class="printer-cart__title">Промышленные</span>
 						</a>
 
 					</div>
 					<div class="bottom-cat__fabricators">
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-1.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-2.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-3.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-4.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-5.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="#" class="bottom-cat__fabricator">
+						<a href="/catalog.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
 					</div>

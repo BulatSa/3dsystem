@@ -241,24 +241,68 @@
 			<div class="detail-info__item" id="chars">
 				<div class="user-content user-content--mini">
 					<p class="h1">Характеристики</p>
-					<ul>
-						<li>Количество головок: 2 экструдера</li>
-						<li>Область построения: 20 х 20 х 21 см.</li>
-						<li>Скорость печати: до 30 см3/ч</li>
-						<li>Подогреваемый рабочий стол: Да</li>
-						<li>Материал печати: ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS</li>
-						<li>Материал поддержки: Из материала печати, PVA, HIPS</li>
-						<li>Толщина нити (мм): 1.75</li>
-						<li>Программное обеспечение:Polygon</li>
-						<li>Количество головок: 2 экструдера</li>
-						<li>Область построения: 20 х 20 х 21 см.</li>
-						<li>Скорость печати: до 30 см3/ч</li>
-						<li>Подогреваемый рабочий стол: Да</li>
-						<li>Материал печати: ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS</li>
-						<li>Материал поддержки: Из материала печати, PVA, HIPS</li>
-						<li>Толщина нити (мм): 1.75</li>
-						<li>Программное обеспечение:Polygon</li>
-					</ul>
+					<table class="detail-info__params-table">
+						<tr>
+							<td><strong>Количество головок:</strong></td>
+							<td>2 экструдера</td>
+						</tr>
+						<tr>
+							<td><strong>Область построения:</strong></td>
+							<td>20 х 20 х 21 см.</td>
+						</tr>
+						<tr>
+							<td><strong>Скорость печати:</strong></td>
+							<td>до 30 см3/ч</td>
+						</tr>
+						<tr>
+							<td><strong>Подогреваемый рабочий стол:</strong></td>
+							<td>Да</td>
+						</tr>
+						<tr>
+							<td><strong>Материал печати:</strong></td>
+							<td>ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBSABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS</td>
+						</tr>
+						<tr>
+							<td><strong>Количество головок:</strong></td>
+							<td>2 экструдера</td>
+						</tr>
+						<tr>
+							<td><strong>Область построения:</strong></td>
+							<td>20 х 20 х 21 см.</td>
+						</tr>
+						<tr>
+							<td><strong>Скорость печати:</strong></td>
+							<td>до 30 см3/ч</td>
+						</tr>
+						<tr>
+							<td><strong>Подогреваемый рабочий стол:</strong></td>
+							<td>Да</td>
+						</tr>
+						<tr>
+							<td><strong>Материал печати:</strong></td>
+							<td>ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS</td>
+						</tr>
+						<tr>
+							<td><strong>Количество головок:</strong></td>
+							<td>2 экструдера</td>
+						</tr>
+						<tr>
+							<td><strong>Область построения:</strong></td>
+							<td>20 х 20 х 21 см.</td>
+						</tr>
+						<tr>
+							<td><strong>Скорость печати:</strong></td>
+							<td>до 30 см3/ч</td>
+						</tr>
+						<tr>
+							<td><strong>Подогреваемый рабочий стол:</strong></td>
+							<td>Да</td>
+						</tr>
+						<tr>
+							<td><strong>Материал печати:</strong></td>
+							<td>ABS, PLA, ABS/PBT, ABS/PC, FLEX, HIPS, NYLON, PC, PETG, SBS</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 

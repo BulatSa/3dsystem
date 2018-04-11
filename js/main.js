@@ -511,3 +511,22 @@ $(function($){
 /***********************
 Product Descr Open END
 ***********************/
+
+
+/***********************
+User-content BEGIN
+***********************/
+$(function($){
+	$('.user-content img').each(function () {
+		var self = $(this);
+		var selfAlt = self.attr('title');
+		if (selfAlt !== undefined){
+			$('<div class="img-descr">'+selfAlt+'</div>').insertAfter(self);
+		}
+	});
+
+	$(".user-content").fitVids();
+});
+/***********************
+User-content END
+***********************/

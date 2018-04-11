@@ -12,12 +12,14 @@
 
 .header__top-wrap {
 	background: #191f28;
+	width: 100%;
 	@include res(l) {
 		position: fixed;
 		top: 0;
 		left: 0;
 		right: 0;
 		z-index: 100;
+		width: auto;
 	}
 }
 

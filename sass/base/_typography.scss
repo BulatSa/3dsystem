@@ -64,10 +64,10 @@ h3, .h3 {
 	}
 
 	h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5{
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 	}
 
-	p, ul, ol, table, img{
+	p, ul, ol, table, img, .img-descr,iframe,.fluid-width-video-wrapper{
 		position: relative;
 		margin-bottom: 20px;
 		@include res(l) {
@@ -76,6 +76,12 @@ h3, .h3 {
 		&:last-child {
 			margin-bottom: 0;
 		}
+	}
+
+	img{
+		max-width: 100%;
+		height: auto;
+		border-radius: 15px;
 	}
 
 	a {
@@ -112,6 +118,10 @@ h3, .h3 {
 	table{
 		border-collapse: collapse;
 
+		tr:nth-child(2n){
+			background: $gray-bg;
+		}
+
 		td{
 			border: 1px solid $gray-border;
 			padding: $pad-xxs;
@@ -134,4 +144,20 @@ h3, .h3 {
 	font-family: 'ALS Rubl';
 	font-weight: normal;
 	font-size: 75%;
+}
+
+.img-descr{
+	color: $gray-text;
+	margin-top: -15px;
+}
+
+
+.fluid-width-video-wrapper{
+	border-radius: 15px;
+	overflow: hidden;
+	background: $gray-bg;
+	
+	iframe{
+		transform: translate3d(0,0,0);
+	}
 }
