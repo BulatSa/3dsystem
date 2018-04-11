@@ -78,6 +78,9 @@ $(function () {
 	$("input[type='tel']").mask("+7 (999) 999-99-99");
 });
 
+$("input.error").on('focus', function () {
+	$(this).removeClass('error');
+});
 /***********************
  Input mask END
  ***********************/
@@ -430,6 +433,59 @@ Catalog interactions END
 
 
 /***********************
+Range filter BEGIN
+***********************/
+$(function($){
+	var range_slider = $(".range-filter__slider");
+
+	function updateRangeFilter(filter,whatChange) {
+		var fromInput = filter.find('.range-filter--from');
+		var toInput = filter.find('.range-filter--to');
+		var fromInputVal = fromInput.val();
+		var toInputVal = toInput.val();
+		var slider = filter.find('.range-filter__slider');
+		var sliderData = slider.data("ionRangeSlider");
+		var fromSlider = slider.data("from");
+		var toSlider = slider.data("to");
+
+		if (whatChange === "slider"){
+			fromInput.val(fromSlider);
+			toInput.val(toSlider);
+		} else {
+			sliderData.update({
+				from: fromInputVal,
+				to: toInputVal
+			});
+		}
+
+		return false;
+	}
+
+	range_slider.ionRangeSlider({
+		type: "double",
+		hide_min_max: true,
+		hide_from_to: true,
+		grid: false,
+		step: 1
+	});
+
+	range_slider.on('change', function () {
+		var thisFilter = $(this).parents('.filter');
+		updateRangeFilter(thisFilter,"slider");
+	});
+
+	$('.range-filter--from,.range-filter--to').on('change', function () {
+		var thisFilter = $(this).parents('.filter');
+		updateRangeFilter(thisFilter,"input");
+	});
+
+});
+/***********************
+Range filter END
+***********************/
+
+
+/***********************
 Product Details BEGIN
 ***********************/
 $(function($){
@@ -530,3 +586,22 @@ $(function($){
 /***********************
 User-content END
 ***********************/
+
+
+/***********************
+ Password Open BEGIN
+ ***********************/
+$(function($){
+	$('.pass-wrap .i-eye').on('click', function () {
+		var passInput = $(this).siblings('input')[0];
+		$(this).toggleClass('active');
+		if (passInput.type === 'password') {
+			passInput.type = 'text';
+		} else {
+			passInput.type = 'password';
+		}
+	})
+});
+/***********************
+ Password Open END
+ ***********************/

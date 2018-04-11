@@ -76,7 +76,6 @@
 								<input type="text" class="price_range" data-min="1100" data-max="25000" data-from="2000" data-to="8000">
 							</div>
 						</div>
-
 					</div>
 
 					<div class="filter opened">
@@ -231,6 +230,20 @@
 						</div>
 					</div>
 
+					<div class="filter opened">
+						<span class="h3 filter__title">Min толщина слоя (микрон)</span>
+						<div class="filter__values">
+							<div class="range-filter">
+								<div class="range-filter__header">
+									<input type="text" placeholder="5" class="range-filter--from">
+									<figure></figure>
+									<input type="text" placeholder="150" class="range-filter--to">
+								</div>
+								<input type="text" class="range-filter__slider" data-min="5" data-max="150" data-from="5" data-to="150">
+							</div>
+						</div>
+					</div>
+
 					<div class="filter">
 						<span class="filter__title">Количество экструдеров</span>
 						<div class="filter__values">
@@ -269,24 +282,6 @@
 
 					<div class="filter">
 						<span class="filter__title">Материал печати</span>
-						<div class="filter__values">
-							<label class="style-checkbox">
-								<input type="checkbox" name="filter_1" value="XXX" checked>
-								<span>DLP</span>
-							</label>
-							<label class="style-checkbox">
-								<input type="checkbox" name="filter_1" value="XXX" checked>
-								<span>FDM</span>
-							</label>
-							<label class="style-checkbox">
-								<input type="checkbox" name="filter_1" value="XXX">
-								<span>SLA</span>
-							</label>
-						</div>
-					</div>
-
-					<div class="filter">
-						<span class="filter__title">Min толщина слоя (микрон)</span>
 						<div class="filter__values">
 							<label class="style-checkbox">
 								<input type="checkbox" name="filter_1" value="XXX" checked>

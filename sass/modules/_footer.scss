@@ -177,6 +177,8 @@
 
 	button{
 		position: absolute;
+		padding-top: 0;
+		padding-bottom: 0;
 		right: 1px;
 		top: 1px;
 		bottom: 1px;
@@ -231,6 +233,17 @@
 		&:hover{
 			background: $blue;
 			color: #FFF;
+		}
+	}
+	
+	&--black{
+		a{
+			background: #000;
+			color: #FFF;
+
+			&:hover{
+				background: $blue;
+			}
 		}
 	}
 }
