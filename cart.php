@@ -4,7 +4,7 @@
 	<div class="container">
 		<h1 class="h1">Корзина</h1>
 		<div class="user-cart__order-action user-cart__order-action--head">
-			<a href="#" class="btn btn--blue">Продолжить покупки</a>
+			<a href="#" class="btn">Продолжить покупки</a>
 			<a href="#" class="btn btn--red">Оформить заказ</a>
 		</div>
 	</div>
@@ -140,7 +140,7 @@
 						<span class="user-cart__order-value">822 000 <span class="rub">c</span></span>
 					</div>
 					<div class="user-cart__order-action">
-						<a href="#" class="btn btn--blue">Продолжить покупки</a>
+						<a href="#" class="btn">Продолжить покупки</a>
 						<a href="#" class="btn btn--red">Оформить заказ</a>
 					</div>
 				</div>
