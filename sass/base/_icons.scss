@@ -24,6 +24,12 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-reload:before {
+	content: "\e912";
+}
+.i-remove:before {
+	content: "\e913";
+}
 .i-soc-you:before {
 	content: "\e911";
 }
