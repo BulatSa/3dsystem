@@ -138,10 +138,8 @@
 	@include res(s) {
 		font-size: 12px;
 	}
-	i {
-		@include res(xxs) {
-			display: none;
-		}
+	@include res(xs){
+		margin-right: 0;
 	}
 }
 
@@ -151,7 +149,7 @@
 	color: $blue;
 	border-bottom: 1px solid transparent;
 	transition: all 0.3s ease;
-	@include res(xs) {
+	@include res(s) {
 		display: none;
 	}
 	&:hover {
@@ -168,22 +166,16 @@
 .header__cabinet {
 	display: flex;
 	align-items: center;
+	@include res(xs){
+		display: none;
+	}
 	&:hover {
 		span {
 			color: $blue;
 		}
 	}
-	i {
-		@include res(s) {
-			margin: 0;
-			padding-left: 10px;
-		}
-	}
 	span {
 		transition: all 0.3s ease;
-		@include res(s) {
-			display: none;
-		}
 	}
 }
 

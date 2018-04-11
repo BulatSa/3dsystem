@@ -18,7 +18,18 @@
 }
 
 .mobile-menu {
+	.header__cabinet{
+		display: flex;
+		align-items: center;
 
+		i{
+			margin-right: 10px;
+			font-size: 24px;
+			@include res(l) {
+				font-size: 20px;
+			}
+		}
+	}
 }
 
 .mobile-menu__cat {
