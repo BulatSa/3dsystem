@@ -186,12 +186,12 @@
 					<a href="#" class="header__cabinet"><i class="i-person"></i><span>Личный кабинет</span></a>
 					<div class="header__cart-wrap header__cart-wrap--mobile">
 						<a href="#" class="header__compare"><i class="i-compare"><sup>52</sup></i></a>
-						<a href="#" class="header__cart">
+						<a href="/cart.php" class="header__cart">
 							<i class="i-card"><sup>3</sup></i>
 							<span class="header__cart-info">
-						<b>Корзина: 3 товара</b>
-						<span>на сумму 135 000 <span class="rub">c</span></span>
-					</span>
+								<b>Корзина: 3 товара</b>
+								<span>на сумму 135 000 <span class="rub">c</span></span>
+							</span>
 						</a>
 					</div>
 				</div>
@@ -207,13 +207,13 @@
 					<button type="submit" title="Найти"><i class="i-search"></i></button>
 				</form>
 				<div class="header__cart-wrap">
-					<a href="#" class="header__compare"><i class="i-compare"><sup>52</sup></i></a>
-					<a href="#" class="header__cart">
+					<a href="#" class="header__compare" title="Перейти к сравнению"><i class="i-compare"><sup>52</sup></i></a>
+					<a href="/cart.php" class="header__cart">
 						<i class="i-card"><sup>3</sup></i>
 						<span class="header__cart-info">
-						<b>Корзина: 3 товара</b>
-						<span>на сумму 135 000 <span class="rub">a</span></span>
-					</span>
+							<b>Корзина: 3 товара</b>
+							<span>на сумму 135 000 <span class="rub">a</span></span>
+						</span>
 					</a>
 				</div>
 			</div>
