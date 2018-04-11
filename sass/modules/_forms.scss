@@ -19,7 +19,7 @@ button {
 	border-radius: 25px;
 	background: #FFF;
 	transition: all 0.3s ease;
-	box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0);
+	box-shadow: 0 0 20px 0 transparentize($blue,1);
 	@include res(xs){
 		font-size: 14px;
 		padding: 10px 20px;
@@ -39,7 +39,7 @@ button {
 	&:focus{
 		outline: none;
 		border: 1px solid $blue;
-		box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.5);
+		box-shadow: 0 0 20px 0 transparentize($blue,0.7);
 		@include placeholder {
 			opacity: 0;
 		}
@@ -48,7 +48,7 @@ button {
 	&.error{
 		border: 1px solid $orange;
 		background: lighten($orange,40%);
-		box-shadow: 0 3px 8px -3px $orange;
+		box-shadow: 0 0 20px 0 rgba(255, 35, 0, 0.3);
 	}
 
 	&--search {
@@ -204,6 +204,7 @@ button {
 		&.error + span{
 			&:before{
 				background: $red;
+				box-shadow: 0 0 20px 0 rgba(255, 35, 0, 0.6);
 			}
 		}
 	}
@@ -266,6 +267,7 @@ button {
 
 	.style-check-ios{
 		margin-top: $pad-xs;
+		margin-bottom: $pad-xs;
 	}
 }
 //vertical-form
@@ -291,11 +293,12 @@ button {
 
 //error-block
 .error-block{
-	background: $orange;
-	color: #FFF;
-	border-radius: 15px;
-	margin-bottom: $pad-xs;
-	padding: 5px $pad-xs;
+	background: linear-gradient(to right,#f34d4d,#ff8025);
+	box-shadow: 0 0 30px 0 rgba(255, 35, 0, 0.6);
+	color: #ffffff;
+	border-radius: 6px;
+	margin-bottom: 15px;
+	padding: 8px 15px;
 	font-size: 12px;
 }
 //error-block

@@ -1,0 +1,41 @@
+.tabs{
+	display: flex;
+	flex-wrap: wrap;
+
+	&__item{
+		display: block;
+		margin: 0 5px 5px 0;
+		padding: 6px 20px;
+		border-radius: 5px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: "Exo", Arial, sans-serif;
+		transition: all 0.3s ease;
+		cursor: pointer;
+		background: transparent;
+
+		&.active{
+			color: #2f7bff;
+			background: #f5f5fa;
+		}
+
+		&:hover{
+			color: #2f7bff;
+			background: #f5f5fa;
+		}
+
+		&:focus{
+			outline: none;
+			background: #f5f5fa;
+		}
+
+		&--exit{
+			color: $red;
+
+			&:hover{
+				color: $red;
+				background: #ffd3d5;
+			}
+		}
+	}
+}

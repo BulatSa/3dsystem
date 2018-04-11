@@ -35,7 +35,7 @@
 							<span class="input-group__label">Введите пароль*</span>
 							<span class="pass-wrap">
 								<input type="password" name="yyy" placeholder="Пароль*"  class="input-text">
-								<i class="i-search i-eye" title="Показать пароль"></i>
+								<i class="i-eye" title="Показать пароль"></i>
 							</span>
 						</label>
 						<button type="submit" class="btn btn--red">Вход</button>
