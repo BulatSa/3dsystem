@@ -3,9 +3,15 @@
 <section class="s-page-title">
 	<div class="container">
 		<h1 class="h1">Корзина</h1>
-		<div class="user-cart__order-action user-cart__order-action--head">
-			<a href="#" class="btn">Продолжить покупки</a>
-			<a href="#" class="btn btn--red">Оформить заказ</a>
+	</div>
+</section>
+
+
+<section class="s-def-bottom">
+	<div class="container">
+		<div class="border-block user-content">
+			<p class="h2">В корзине пусто. Выберите нужный товар в каталоге</p>
+			<a href="/catalog.php" class="btn btn--blue">Перейти в каталог</a>
 		</div>
 	</div>
 </section>
@@ -13,6 +19,12 @@
 
 <section class="user-cart-sec s-def-bottom">
 	<div class="user-cart container">
+
+		<div class="user-cart__order-action user-cart__order-action--head">
+			<a href="#" class="btn">Продолжить покупки</a>
+			<a href="#" class="btn btn--red">Оформить заказ</a>
+		</div>
+
 		<div class="row">
 
 			<div class="grid-8 grid-12_l">

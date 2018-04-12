@@ -581,7 +581,7 @@
 					<a href="#" class="btn btn--small">Подробнее</a>
 				</div>
 
-				<p class="h2 home-news-title"><a href="#">Новости</a></p>
+				<p class="h2 home-news-title"><a href="/news.php">Новости</a></p>
 				<div class="home-news-list">
 					<article class="news-intro">
 						<time datetime="2018-03-22" class="small-text">22 марта 2018</time>

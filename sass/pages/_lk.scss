@@ -3,3 +3,173 @@
 	padding-bottom: $pad-s;
 }
 //s-lk-nav
+
+
+//history-list
+.history-list{
+
+}
+
+
+.history-item{
+	display: flex;
+	align-items: stretch;
+	border: 1px solid $gray-border;
+	border-radius: 15px;
+	margin-bottom: $pad-s;
+	@include res(m){
+		flex-direction: column;
+	}
+
+	&__left{
+		padding: $pad-s;
+		width: 65%;
+		@include res(l){
+			width: 75%;
+			flex-shrink: 1;
+		}
+		@include res(m){
+			width: 100%;
+		}
+		@include res(s){
+			padding: $pad-xs $pad-xxs;
+		}
+	}
+
+	&__right{
+		padding: $pad-s;
+		background: $gray-bg;
+		width: 35%;
+		flex-shrink: 0;
+		border-radius: 0 15px 15px 0;
+		@include res(l){
+			width: 300px;
+			flex-shrink: 0;
+		}
+		@include res(m){
+			width: 100%;
+			border-radius: 0 0 15px 15px;
+		}
+		@include res(s){
+			padding: $pad-xs $pad-xxs;
+		}
+	}
+
+	&__title{
+		margin-bottom: $pad-xs;
+		@include res(xs){
+			margin-bottom: $pad-xxs;
+		}
+	}
+
+	&__table{
+		width: 100%;
+		@include res(l){
+			font-size: 12px;
+		}
+
+
+		th,td{
+			padding: 8px $pad-xxs;
+			vertical-align: top;
+			@include res(s){
+				padding: 6px 5px 6px 0;
+			}
+
+			&:first-child{
+				@include res(xs){
+					display: none;
+				}
+			}
+		}
+
+		th{
+			font-weight: normal;
+			color: $gray-text;
+			font-size: 12px;
+			text-align: left;
+			line-height: 1.2;
+			white-space: nowrap;
+			@include res(xs){
+				font-size: 10px;
+			}
+		}
+
+		.h3{
+			@include res(l){
+				font-size: 12px;
+			}
+			a{
+				@extend %link-blue-hover;
+			}
+		}
+	}
+
+	&__prodname{
+		width: 50%;
+	}
+
+	&__price{
+		white-space: nowrap;
+		
+		&--old{
+			white-space: nowrap;
+			color: $gray-text;
+			text-decoration: line-through;
+		}
+	}
+
+	&__status{
+		text-align: right;
+		padding-bottom: 3px;
+		margin-bottom: $pad-xs;
+		@include res(xs){
+			margin-bottom: $pad-xxs;
+		}
+
+		span{
+			display: inline-block;
+			font-size: 12px;
+			line-height: 1;
+			white-space: nowrap;
+			color: $blue;
+			background: #FFF;
+			border-radius: 15px;
+			padding: 9px 15px;
+		}
+	}
+
+	&__itog{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: $pad-xxs;
+		line-height: 1.2;
+		@include res(xs){
+			font-size: 12px;
+		}
+
+		span{
+			&:last-child{
+				text-align: right;
+			}
+		}
+	}
+
+	hr{
+		margin: $pad-xs 0;
+		border: none;
+		color: #d2d2d2;
+		background-color: #d2d2d2;
+		height: 1px;
+	}
+
+	&__actions{
+		margin-top: $pad-xs;
+		text-align: right;
+
+		.btn{
+			margin-left: 4px;
+		}
+	}
+}
+//history-list

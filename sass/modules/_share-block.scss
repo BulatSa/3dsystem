@@ -1,0 +1,55 @@
+.share-block{
+	padding: $pad-m 0;
+	display: flex;
+	align-items: center;
+	@include res(xs){
+		flex-direction: column;
+	}
+
+	&__title{
+		display: flex;
+		align-items: center;
+		margin-right: 20px;
+		@include res(xs){
+			margin-right: 0;
+			margin-bottom: $pad-xs;
+		}
+
+		img{
+			flex-shrink: 0;
+			margin-right: 10px;
+		}
+
+		div{
+			font-size: 12px;
+			line-height: 1.1;
+			max-width: 90px;
+		}
+	}
+
+	.ya-share2__container_size_m{
+		.ya-share2__badge{
+			border-radius: 15px;
+			height: 30px;
+			padding: 2px;
+		}
+
+		.ya-share2__icon{
+			position: relative;
+			height: 26px;
+			width: 26px;
+		}
+
+		.ya-share2__counter{
+			display: inline-block;
+			height: 26px;
+			line-height: 26px;
+			padding: 0 $pad-xs 0 5px;
+			font-size: 10px;
+
+			&:before{
+				display: none;
+			}
+		}
+	}
+}
