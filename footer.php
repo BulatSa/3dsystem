@@ -29,10 +29,11 @@
 					<li><a href="#">Гарантийное обслуживание</a></li>
 					<li class="active"><a href="#">Доставка и оплата</a></li>
 					<li><a href="#">Блог</a></li>
-					<li><a href="#">Новости</a></li>
+					<li><a href="/news.php">Новости</a></li>
 					<li><a href="#">Акции</a></li>
 					<li><a href="#">Отзывы</a></li>
 					<li><a href="#">Услуги</a></li>
+					<li><a href="/brands.php">Бренды</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
 			</div>
