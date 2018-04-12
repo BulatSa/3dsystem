@@ -10,6 +10,9 @@
 		display: block;
 		margin-bottom: 12px;
 		line-height: 1.2;
+		@include res(xs){
+			font-size: 10px;
+		}
 
 		a{
 			@extend %link-blue-hover;
