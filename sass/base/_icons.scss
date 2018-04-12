@@ -24,6 +24,9 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-eye:before {
+	content: "\e914";
+}
 .i-reload:before {
 	content: "\e912";
 }
