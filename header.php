@@ -460,7 +460,7 @@
 				</div>
 				<div class="header__bottom-cat bottom-cat" id="gadget">
 					<div class="bottom-cat__deals">
-						<<a href="/catalog.php" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/cats/subcat-4.jpg" alt="">
 							<span class="printer-cart__title">Промышленные</span>
 						</a>
