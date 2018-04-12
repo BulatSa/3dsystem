@@ -326,28 +326,28 @@
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-1.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-2.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-3.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-4.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-5.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
 					</div>
@@ -368,37 +368,37 @@
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-1.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-2.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-3.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-4.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-5.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
 					</div>
@@ -423,44 +423,44 @@
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-1.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-2.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-3.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-4.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-5.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
 					</div>
 				</div>
 				<div class="header__bottom-cat bottom-cat" id="gadget">
 					<div class="bottom-cat__deals">
-						<<a href="/catalog.php" class="bottom-cat__deal printer-cart">
+						<a href="/catalog.php" class="bottom-cat__deal printer-cart">
 							<img src="img/cats/subcat-4.jpg" alt="">
 							<span class="printer-cart__title">Промышленные</span>
 						</a>
@@ -478,37 +478,37 @@
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-1.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-2.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-3.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-4.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-5.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
 					</div>
@@ -537,37 +537,37 @@
 						</a>
 					</div>
 					<div class="bottom-cat__fabricators">
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-1.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-2.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-3.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-4.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-5.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-6.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-7.jpg" alt="">
 						</a>
-						<a href="/catalog.php" class="bottom-cat__fabricator">
+						<a href="/brands-detail.php" class="bottom-cat__fabricator">
 							<img src="img/header/fabric-8.jpg" alt="">
 						</a>
 					</div>
