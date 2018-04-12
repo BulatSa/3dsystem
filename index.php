@@ -80,42 +80,42 @@
 		<div class="row">
 			<div class="grid-2 grid-4_l grid-6_s">
 				<a href="/catalog.php" class="printer-cart">
-					<img src="img/header/deal-1.jpg" alt="">
+					<img src="img/cats/subcat-1.jpg" alt="">
 					<span class="printer-cart__title">Лучшие предложения</span>
 					<span class="printer-cart__price">от 700 <span class="rub">c</span></span>
 				</a>
 			</div>
 			<div class="grid-2 grid-4_l grid-6_s">
 				<a href="/catalog.php" class="printer-cart">
-					<img src="img/header/deal-2.jpg" alt="">
+					<img src="img/cats/subcat-2.jpg" alt="">
 					<span class="printer-cart__title">Персональные</span>
 					<span class="printer-cart__price">от 1 700 <span class="rub">c</span></span>
 				</a>
 			</div>
 			<div class="grid-2 grid-4_l grid-6_s">
 				<a href="/catalog.php" class="printer-cart">
-					<img src="img/header/deal-3.jpg" alt="">
+					<img src="img/cats/subcat-3.jpg" alt="">
 					<span class="printer-cart__title">Профессиональные</span>
 					<span class="printer-cart__price">от 10 500 <span class="rub">c</span></span>
 				</a>
 			</div>
 			<div class="grid-2 grid-4_l grid-6_s">
 				<a href="/catalog.php" class="printer-cart">
-					<img src="img/header/deal-4.jpg" alt="">
+					<img src="img/cats/subcat-4.jpg" alt="">
 					<span class="printer-cart__title">Промышленные</span>
 					<span class="printer-cart__price">от 700 000<span class="rub">c</span></span>
 				</a>
 			</div>
 			<div class="grid-2 grid-4_l grid-6_s">
 				<a href="/catalog.php" class="printer-cart">
-					<img src="img/header/deal-5.jpg" alt="">
+					<img src="img/cats/subcat-5.jpg" alt="">
 					<span class="printer-cart__title">Строительные</span>
 					<span class="printer-cart__price">от 70 000 000<span class="rub">c</span></span>
 				</a>
 			</div>
 			<div class="grid-2 grid-4_l grid-6_s">
 				<a href="/catalog.php" class="printer-cart">
-					<img src="img/header/deal-6.jpg" alt="">
+					<img src="img/cats/subcat-6.jpg" alt="">
 					<span class="printer-cart__title">Готовые решения</span>
 					<span class="printer-cart__price">от 700 <span class="rub">c</span></span>
 				</a>

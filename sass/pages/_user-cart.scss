@@ -160,7 +160,7 @@ a.user-cart__item-value {
 		display: flex;
 		width: 100%;
 	}
-	form {
+	.count-items {
 		display: flex;
 		width: 80px;
 		font-size: 14px;
@@ -173,8 +173,13 @@ a.user-cart__item-value {
 		border: 1px solid #d7d7d7;
 		border-radius: 0;
 		-webkit-appearance: none;
+		transition: border 0.3s ease;
 		@include res(s) {
 			height: 25px;
+		}
+		&:focus{
+			outline: none;
+			border-color: $blue;
 		}
 	}
 	button {
@@ -201,6 +206,9 @@ a.user-cart__item-value {
 			border: 1px solid #d7d7d7;
 			border-left: none;
 			border-radius: 0 15px 15px 0;
+		}
+		&:focus{
+			outline: none;
 		}
 	}
 }
@@ -234,7 +242,7 @@ a.user-cart__item-value {
 		font-size: 16px;
 	}
 	&:hover {
-		box-shadow: 0 0 5px 0 transparentize($red, 0.5);
+		box-shadow: 0 2px 6px -2px rgba(255, 0, 0, 0.5);
 		i {
 			color: $red;
 		}

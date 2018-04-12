@@ -45,11 +45,11 @@
 							<div class="user-cart__item-count">
 								<span class="user-cart__item-title">Количество</span>
 								<span class="user-cart__item-value">
-									<form>
-									<button>-</button>
-									<input type="text" value="1">
-									<button>+</button>
-								</form>
+									<span class="count-items">
+										<button>-</button>
+										<input type="text" value="1" title="Кол-во">
+										<button>+</button>
+									</span>
 								</span>
 
 							</div>
@@ -77,11 +77,11 @@
 							<div class="user-cart__item-count">
 								<span class="user-cart__item-title">Количество</span>
 								<span class="user-cart__item-value">
-									<form>
-									<button>-</button>
-									<input type="text" value="1">
-									<button>+</button>
-								</form>
+									<span class="count-items">
+										<button>-</button>
+										<input type="text" value="1" title="Кол-во">
+										<button>+</button>
+									</span>
 								</span>
 
 							</div>
@@ -109,11 +109,11 @@
 							<div class="user-cart__item-count">
 								<span class="user-cart__item-title">Количество</span>
 								<span class="user-cart__item-value">
-									<form>
-									<button>-</button>
-									<input type="text" value="1">
-									<button>+</button>
-								</form>
+									<span class="count-items">
+										<button>-</button>
+										<input type="text" value="1" title="Кол-во">
+										<button>+</button>
+									</span>
 								</span>
 
 							</div>
