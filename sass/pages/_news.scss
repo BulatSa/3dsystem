@@ -1,0 +1,46 @@
+.s-news-list{
+	.pagination{
+		margin-top: $pad-l;
+		@include res(s){
+			margin-top: $pad-m;
+		}
+	}
+}
+
+.s-news-meta{
+	color: $gray-text;
+	padding-bottom: $pad-s;
+}
+
+.s-news-detail{
+
+	.user-content{
+		max-width: 1030px;
+	}
+}
+
+
+.subscribe-block{
+	background: url("../img/subscribe-bg.jpg") center top no-repeat $gray-bg;
+	background-size: cover;
+	border-radius: 15px;
+	text-align: center;
+	padding: $pad-l $pad-s;
+	@include res(xs){
+		padding: $pad-m $pad-xs;
+	}
+
+	.h2{
+		margin-bottom: $pad-s;
+	}
+
+	form{
+		max-width: 522px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.subscribe-group{
+		max-width: 100% !important;
+	}
+}
