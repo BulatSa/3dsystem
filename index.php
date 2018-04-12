@@ -592,7 +592,7 @@
 						<a href="#" class="h3 news-intro__title">Агентство Pen&Brain презентует концепцию сайта Агентство Pen&Brain презентует концепцию сайта</a>
 					</article>
 				</div>
-				<a href="#" class="btn btn--small">Все новости</a>
+				<a href="/news.php" class="btn btn--small">Все новости</a>
 			</div>
 
 			<div class="grid-6 grid-12_m grid-off-1 grid-off-0_m home-blog">

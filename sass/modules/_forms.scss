@@ -326,6 +326,9 @@ button {
 		height: 50px;
 		font-size: 18px;
 		transition: color 0.3s ease;
+		@include res(xs){
+			height: 40px;
+		}
 
 		&:hover{
 			color: #000;
