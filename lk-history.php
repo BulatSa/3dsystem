@@ -19,11 +19,19 @@
 </section>
 
 
+<section class="s-def-bottom">
+	<div class="container">
+		<div class="border-block">
+			<p class="h2">У вас еще нет заказов</p>
+		</div>
+	</div>
+</section>
+
+
 <section class="s-history">
 	<div class="container">
 		<div class="error-block">
-			<p>Неверный формат e-mail</p>
-			<p>Пароли не совпадают</p>
+			<p>Невозможно повторить заказ или другие ошибки</p>
 		</div>
 	</div>
 </section>

@@ -376,6 +376,8 @@ a.user-cart__item-value {
 	}
 	&--head {
 		display: none;
+		padding-top: 0;
+		padding-bottom: $pad-xxs;
 		@include res(l) {
 			display: flex;
 			flex-direction: row;

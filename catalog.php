@@ -361,6 +361,11 @@
 			</aside>
 
 			<main class="catalog-main">
+
+				<div class="border-block">
+					<p class="h2">В этой категории нет товаров</p>
+				</div>
+
 				<div class="row product-list">
 					<div class="grid-5-in-row grid-3_xxl grid-4_m grid-6_s">
 						<div class="product-preview">
