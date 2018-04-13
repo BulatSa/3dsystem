@@ -21,6 +21,10 @@
 			<br>
 			<li><a href="news.php">Новости</a></li>
 			<li><a href="news-detail.php">Новости детальная</a></li>
+			<li><a href="blog.php">Блог</a></li>
+			<li><a href="blog-detail.php">Блог детальная</a></li>
+			<li><a href="promo.php">Акции</a></li>
+			<li><a href="promo-detail.php">Акции детальная</a></li>
 			<br>
 			<li><a href="404.php">404 страница</a></li>
 		</ul>
