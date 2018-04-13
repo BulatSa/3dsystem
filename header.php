@@ -15,14 +15,15 @@
 	<title>3D Systems</title>
 
 	<!-- favocons -->
-	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-	<link rel="manifest" href="favicons/manifest.json">
-	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="favicons/favicon.ico">
-	<meta name="msapplication-config" content="favicons/browserconfig.xml">
-	<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#191f28">
 	<!-- favocons -->
 
 	<!-- og -->
@@ -218,7 +219,7 @@
 					<a href="/cart.php" class="header__cart">
 						<i class="i-card"><sup>3</sup></i>
 						<span class="header__cart-info">
-							<b>Корзина: 3 товара</b>
+							<b>Корзина</b>
 							<span>на сумму 135 000 <span class="rub">&#x20bd;</span></span>
 						</span>
 					</a>

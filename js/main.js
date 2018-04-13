@@ -75,7 +75,7 @@ $(function () {
  Input mask BEGIN
  ***********************/
 $(function () {
-	$("input[type='tel']").mask("+7 (999) 999-99-99");
+	//$("input[type='tel']").mask("+7 (999) 999-99-99");
 });
 
 $("input.error").on('focus', function () {
