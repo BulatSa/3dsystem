@@ -326,6 +326,48 @@ Logos slider END
 
 
 /***********************
+Mails BEGIN
+***********************/
+$(function($){
+	var mailsSlider = $('.mails__list').flickity({
+		wrapAround: false,
+		contain: true,
+		percentPosition: true,
+		groupCells: true,
+		dragThreshold: 6,
+		adaptiveHeight: true,
+		imagesLoaded: true,
+		pageDots: false,
+		prevNextButtons: false
+	});
+
+	$('.mails__nav-prev').on('click',function () {
+		mailsSlider.flickity('previous');
+	});
+	$('.mails__nav-next').on('click',function () {
+		mailsSlider.flickity('next');
+	})
+
+});
+/***********************
+Mails END
+***********************/
+
+
+/***********************
+Masonry BEGIN
+***********************/
+$('.reviews__list').masonry({
+	// set itemSelector so .grid-sizer is not used in layout
+
+	percentPosition: true
+})
+/***********************
+Masonry END
+***********************/
+
+
+/***********************
 Nice select BEGIN
 ***********************/
 $(function($){

@@ -23,6 +23,8 @@
 			<li><a href="news-detail.php">Новости детальная</a></li>
 			<br>
 			<li><a href="404.php">404 страница</a></li>
+			<br>
+			<li><a href="reviews.php">Отзывы</a></li>
 		</ul>
 	</div>
 </div>

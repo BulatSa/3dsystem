@@ -7,3 +7,4 @@
 //@prepros-append vendors/jquery.nice-select.min.js
 //@prepros-append vendors/ion.rangeSlider.min.js
 //@prepros-append vendors/jquery.fitvids.js
+//@prepros-append vendors/masonry.pkgd.min.js

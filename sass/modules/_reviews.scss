@@ -1,0 +1,49 @@
+.reviews-sec {}
+
+.reviews {}
+
+.reviews__list {}
+
+.reviews__item {
+	margin-bottom: $pad-m;
+	margin-left: $pad-xs;
+	margin-right: $pad-xs;
+	padding: $pad-xs $pad-xs;
+	border: 1px solid $gray-border;
+	border-radius: 15px;
+	@include res(l) {
+		margin-bottom: $pad-s;
+		margin-left: $pad-xxs;
+		margin-right: $pad-xxs;
+	}
+	@include res(s) {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: $pad-xs;
+		padding: $pad-xs $pad-xxs;
+	}
+	.user-content {
+		padding-bottom: $pad-xs;
+	}
+}
+
+.reviews__item-date {
+	display: block;
+	padding-bottom: $pad-xxs;
+	font-size: 12px;
+	color: #afafaf;
+}
+
+.reviews__item-author {
+	font-size: 16px;
+	@include res(s) {
+		font-size: 14px;
+	}
+	span {
+		font-family: $font-head;
+	}
+}
+
+.reviews__more {
+	text-align: center;
+}

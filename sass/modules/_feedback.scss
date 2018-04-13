@@ -1,0 +1,77 @@
+.feedback-sec {}
+
+.feedback {
+	padding: $pad-l $pad-s;
+	border-radius: 15px;
+	background: url("../img/subscribe-pattern.jpg");
+	@include res(m) {
+		padding: $pad-m $pad-xs;
+	}
+	@include res(xs) {
+		padding: $pad-s $pad-xs;
+	}
+	.h2 {
+		text-align: center;
+		margin-bottom: $pad-m;
+		@include res(m) {
+			margin-bottom: $pad-s;
+		}
+	}
+}
+
+.feedback__form {
+	max-width: 780px;
+	margin: 0 auto;
+	.ajax-form {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.input-text {
+		width: 100%;
+	}
+}
+
+.feedback__input {
+	width: 33.33333%;
+	padding-left: $pad-xs;
+	padding-right: $pad-xs;
+	padding-bottom: $pad-s;
+	@include res(l) {
+		padding-left: $pad-xxs;
+		padding-right: $pad-xxs;
+	}
+	@include res(s) {
+		width: 100%;
+		padding-bottom: $pad-xs;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	&--full {
+		width: 100%;
+	}
+}
+
+.feedback__submit {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: $pad-xs;
+	padding-right: $pad-xs;
+	@include res(l) {
+		padding-left: $pad-xxs;
+		padding-right: $pad-xxs;
+	}
+	@include res(xs) {
+		flex-direction: column;
+	}
+	label {
+		padding-right: 10px;
+		@include res(xs) {
+			padding-right: 0;
+			margin-bottom: $pad-s;
+		}
+	}
+	.btn {
+		flex-shrink: 0;
+	}
+}
