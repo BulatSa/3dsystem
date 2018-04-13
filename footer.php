@@ -29,10 +29,11 @@
 					<li><a href="#">Гарантийное обслуживание</a></li>
 					<li class="active"><a href="#">Доставка и оплата</a></li>
 					<li><a href="#">Блог</a></li>
-					<li><a href="#">Новости</a></li>
+					<li><a href="/news.php">Новости</a></li>
 					<li><a href="#">Акции</a></li>
 					<li><a href="#">Отзывы</a></li>
 					<li><a href="#">Услуги</a></li>
+					<li><a href="/brands.php">Бренды</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
 			</div>
@@ -100,75 +101,50 @@
 </footer>
 
 
+<button class="btn to-top-btn" title="Наверх">
+	<i class="i-left-arrow"></i>
+</button>
+
+
 <!-- Модальные окна -->
 <div class="modals-sec">
 
 	<div id="modal-call" class="modal">
-		<header class="modal__header">
-			<p class="h3 modal__title">Заказать обратный звонок</p>
-		</header>
-		<div class="modal__content">
-			<p class="modal__descr">Оставьте заявку и&nbsp;наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
-			<form class="ajax-form vertical-form">
-				<input type="hidden" value="Заказ обратного звонка" name="form_subject">
-				<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
-				<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
-				<button type="submit" class="btn btn--blue">Отправить</button>
-				<label class="style-check-ios">
-					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-					<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
-				</label>
-			</form>
+		<div class="modal__icon">
+			<img src="/img/modal-order.svg" alt="icon">
 		</div>
-	</div>
-
-	<div id="modal-oneclick" class="modal">
-		<header class="modal__header">
-			<p class="h3 modal__title">Покупка в 1 клик</p>
-		</header>
-		<div class="modal__content">
-			<p class="modal__descr">Оставьте заявку и&nbsp;наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
-			<form class="ajax-form vertical-form">
-				<input type="hidden" value="Покупка в 1 клик" name="form_subject">
-				<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
-				<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
-				<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="E-mail"  class="input-text" data-req="true">
-				<button type="submit" class="btn btn--blue">Отправить</button>
-				<label class="style-check-ios">
-					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-					<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
-				</label>
-			</form>
-		</div>
+		<p class="h2 modal__title">Заказать обратный звонок</p>
+		<form class="ajax-form vertical-form">
+			<input type="hidden" value="Заказ обратного звонка" name="form_subject">
+			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
+			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+			<button type="submit" class="btn btn--blue">Отправить</button>
+			<label class="style-check-ios">
+				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+				<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
+			</label>
+		</form>
 	</div>
 
 	<div id="modal-addtocart" class="modal">
-		<header class="modal__header">
-			<p class="h3 modal__title">Товар добавлен в корзину</p>
-		</header>
-		<div class="modal__content">
-			<p>Количество товаров в корзине: <span>3</span></p>
-			<div class="modal__btns">
-				<button class="btn" data-fancybox-close>Вернуться</button>
-				<a href="#" class="btn btn--red">Оформить заказ</a>
-			</div>
+		<p class="h2 modal__title">Товар добавлен в&nbsp;корзину</p>
+		<div class="modal__btns">
+			<button class="btn" data-fancybox-close>Вернуться</button>
+			<a href="#" class="btn btn--red">Оформить заказ</a>
 		</div>
 	</div>
 
-	<div id="modal-thanks" class="modal modal--thanks">
-		<header class="modal__header">
-			<p class="h2 modal__title">Спасибо за заявку!</p>
-		</header>
+	<div id="modal-thanks" class="modal">
+		<div class="modal__icon">
+			<img src="/img/thanks.svg" alt="icon">
+		</div>
+		<p class="h2 modal__title">Спасибо!</p>
 	</div>
 
 	<div id="modal-error" class="modal">
-		<header class="modal__header">
-			<p class="h2 modal__title">Что-то пошло не так.</p>
-		</header>
-		<div class="modal__content">
-			<p>Попробуйте еще раз.</p>
-			<p>Если постоянно видите эту ошибку, пожалуйста, обратитесь к администратору сайта. Мы будем очень благодарны.</p>
-		</div>
+		<p class="h2 modal__title">Что-то пошло не так.</p>
+		<p>Попробуйте еще раз.</p>
+		<p>Если постоянно видите эту ошибку, пожалуйста, обратитесь к администратору сайта. Мы будем очень благодарны.</p>
 	</div>
 
 </div>

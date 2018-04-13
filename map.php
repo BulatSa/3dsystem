@@ -5,7 +5,7 @@
 		<ul>
 			<li><a href="index.php">Главная</a></li>
 			<li><a href="catalog.php">Каталог</a></li>
-			<li><a href="catalog-root.php">Каталог корень</a></li>
+			<li><a href="catalog-root.php">Каталог кор  ень</a></li>
 			<li><a href="catalog-detail.php">Каталог детальная</a></li>
 			<li><a href="brands.php">Бренды</a></li>
 			<li><a href="brands-detail.php">Бренды детальная</a></li>
@@ -21,6 +21,10 @@
 			<br>
 			<li><a href="news.php">Новости</a></li>
 			<li><a href="news-detail.php">Новости детальная</a></li>
+			<li><a href="blog.php">Блог</a></li>
+			<li><a href="blog-detail.php">Блог детальная</a></li>
+			<li><a href="promo.php">Акции</a></li>
+			<li><a href="promo-detail.php">Акции детальная</a></li>
 			<br>
 			<li><a href="404.php">404 страница</a></li>
 			<br>

@@ -15,14 +15,15 @@
 	<title>3D Systems</title>
 
 	<!-- favocons -->
-	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-	<link rel="manifest" href="favicons/manifest.json">
-	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="favicons/favicon.ico">
-	<meta name="msapplication-config" content="favicons/browserconfig.xml">
-	<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#191f28">
 	<!-- favocons -->
 
 	<!-- og -->
@@ -152,9 +153,14 @@
 			<p>3D System Pro</p>
 			<ul>
 				<li><a href="#">О компании</a></li>
+				<li><a href="#">Гарантийное обслуживание</a></li>
+				<li class="active"><a href="#">Доставка и оплата</a></li>
+				<li><a href="/blog.php">Блог</a></li>
+				<li><a href="/news.php">Новости</a></li>
+				<li><a href="/promo.php">Акции</a></li>
+				<li><a href="#">Отзывы</a></li>
 				<li><a href="#">Услуги</a></li>
-				<li><a href="#">Акции</a></li>
-				<li><a href="#">Блог</a></li>
+				<li><a href="/brands.php">Бренды</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
 		</div>
@@ -177,8 +183,8 @@
 				<nav>
 					<a href="#">О компании</a>
 					<a href="#">Услуги</a>
-					<a href="#">Акции</a>
-					<a href="#">Блог</a>
+					<a href="/promo.php">Акции</a>
+					<a href="/blog.php">Блог</a>
 					<a href="#">Контакты</a>
 				</nav>
 				<div class="header__top-contact">
@@ -187,12 +193,12 @@
 					<!--<a href="/lk-login.php" class="header__cabinet"><i class="i-person"></i><span>Войти</span></a>-->
 					<a href="/lk-profile.php" class="header__cabinet"><i class="i-person"></i><span>Личный кабинет</span></a>
 					<div class="header__cart-wrap header__cart-wrap--mobile">
-						<a href="#" class="header__compare"><i class="i-compare"><sup>52</sup></i></a>
+						<a href="/compare.php" class="header__compare"><i class="i-compare"><sup>52</sup></i></a>
 						<a href="/cart.php" class="header__cart">
 							<i class="i-card"><sup>3</sup></i>
 							<span class="header__cart-info">
 								<b>Корзина: 3 товара</b>
-								<span>на сумму 135 000 <span class="rub">c</span></span>
+								<span>на сумму 135 000 <span class="rub">&#x20bd;</span></span>
 							</span>
 						</a>
 					</div>
@@ -209,12 +215,12 @@
 					<button type="submit" title="Найти"><i class="i-search"></i></button>
 				</form>
 				<div class="header__cart-wrap">
-					<a href="#" class="header__compare" title="Перейти к сравнению"><i class="i-compare"><sup>52</sup></i></a>
+					<a href="/compare.php" class="header__compare" title="Перейти к сравнению"><i class="i-compare"><sup>52</sup></i></a>
 					<a href="/cart.php" class="header__cart">
 						<i class="i-card"><sup>3</sup></i>
 						<span class="header__cart-info">
-							<b>Корзина: 3 товара</b>
-							<span>на сумму 135 000 <span class="rub">a</span></span>
+							<b>Корзина</b>
+							<span>на сумму 135 000 <span class="rub">&#x20bd;</span></span>
 						</span>
 					</a>
 				</div>

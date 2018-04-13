@@ -75,7 +75,7 @@ $(function () {
  Input mask BEGIN
  ***********************/
 $(function () {
-	$("input[type='tel']").mask("+7 (999) 999-99-99");
+	//$("input[type='tel']").mask("+7 (999) 999-99-99");
 });
 
 $("input.error").on('focus', function () {
@@ -646,4 +646,35 @@ $(function($){
 });
 /***********************
  Password Open END
+ ***********************/
+
+
+/***********************
+ To top btn BEGIN
+ ***********************/
+$(function($){
+	$(window).on('scroll',function () {
+		var scrolltop = $(this).scrollTop();
+		var to_top_btn = $('.to-top-btn');
+
+		if (scrolltop > 200){
+			to_top_btn.addClass('visible');
+		} else {
+			to_top_btn.removeClass('visible');
+		}
+
+		if(scrolltop+$(window).height()+50>=$(document).height()){
+			to_top_btn.addClass('ended');
+		} else {
+			to_top_btn.removeClass('ended');
+		}
+	});
+
+	$('.to-top-btn').on('click', function () {
+		$('html,body').stop().animate({scrollTop: 0}, 1000);
+		return false;
+	});
+});
+/***********************
+ To top btn END
  ***********************/

@@ -173,3 +173,16 @@
 		}
 	}
 }
+
+
+.preview-wall{
+	.preview{
+		margin-bottom: 35px;
+		@include res(l){
+			margin-bottom: 20px;
+		}
+		@include res(xxs){
+			margin-bottom: 10px;
+		}
+	}
+}

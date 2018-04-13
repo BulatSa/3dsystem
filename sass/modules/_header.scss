@@ -157,7 +157,7 @@
 	}
 	&--menu {
 		display: none;
-		@include res(xs) {
+		@include res(s) {
 			display: inline-block;
 		}
 	}
@@ -229,7 +229,7 @@
 
 .header__cart-wrap {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	margin-left: auto;
 	sup {
 		position: absolute;

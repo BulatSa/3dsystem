@@ -1,10 +1,5 @@
 .s-news-list{
-	.pagination{
-		margin-top: $pad-l;
-		@include res(s){
-			margin-top: $pad-m;
-		}
-	}
+
 }
 
 .s-news-meta{
@@ -16,6 +11,16 @@
 
 	.user-content{
 		max-width: 1030px;
+	}
+
+	&--video{
+		background: $gray-bg;
+		padding: $pad-l 0;
+		margin-bottom: $pad-m;
+		@include res(s){
+			padding: $pad-m 0;
+			margin-bottom: $pad-s;
+		}
 	}
 }
 

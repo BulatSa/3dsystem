@@ -51,8 +51,8 @@
 							</div>
 							<div class="user-cart__item-price">
 								<span class="user-cart__item-title">Цена</span>
-								<span class="user-cart__item-value h3">279 000 <span class="rub">c</span></span>
-								<span class="user-cart__item-value user-cart__item-value--old h3">279 000 <span class="rub">c</span></span>
+								<span class="user-cart__item-value h3">279 000 <span class="rub">&#x20bd;</span></span>
+								<span class="user-cart__item-value user-cart__item-value--old h3">279 000 <span class="rub">&#x20bd;</span></span>
 							</div>
 							<div class="user-cart__item-count">
 								<span class="user-cart__item-title">Количество</span>
@@ -67,7 +67,7 @@
 							</div>
 							<div class="user-cart__item-summ">
 								<span class="user-cart__item-title">Сумма</span>
-								<span class="user-cart__item-value h3">279 000 <span class="rub">c</span></span>
+								<span class="user-cart__item-value h3">279 000 <span class="rub">&#x20bd;</span></span>
 							</div>
 						</div>
 						<a href="#" class="user-cart__item-remove" title="Удалить товар"><i class="i-remove "></i></a>
@@ -84,7 +84,7 @@
 							</div>
 							<div class="user-cart__item-price">
 								<span class="user-cart__item-title">Цена</span>
-								<span class="user-cart__item-value h3">279 000 <span class="rub">c</span></span>
+								<span class="user-cart__item-value h3">279 000 <span class="rub">&#x20bd;</span></span>
 							</div>
 							<div class="user-cart__item-count">
 								<span class="user-cart__item-title">Количество</span>
@@ -99,7 +99,7 @@
 							</div>
 							<div class="user-cart__item-summ">
 								<span class="user-cart__item-title">Сумма</span>
-								<span class="user-cart__item-value h3">279 000 <span class="rub">c</span></span>
+								<span class="user-cart__item-value h3">279 000 <span class="rub">&#x20bd;</span></span>
 							</div>
 						</div>
 						<a href="#" class="user-cart__item-remove" title="Удалить товар"><i class="i-remove "></i></a>
@@ -116,7 +116,7 @@
 							</div>
 							<div class="user-cart__item-price">
 								<span class="user-cart__item-title">Цена</span>
-								<span class="user-cart__item-value h3">279 000 <span class="rub">c</span></span>
+								<span class="user-cart__item-value h3">279 000 <span class="rub">&#x20bd;</span></span>
 							</div>
 							<div class="user-cart__item-count">
 								<span class="user-cart__item-title">Количество</span>
@@ -131,7 +131,7 @@
 							</div>
 							<div class="user-cart__item-summ">
 								<span class="user-cart__item-title">Сумма</span>
-								<span class="user-cart__item-value h3">279 000 <span class="rub">c</span></span>
+								<span class="user-cart__item-value h3">279 000 <span class="rub">&#x20bd;</span></span>
 							</div>
 						</div>
 						<a href="#" class="user-cart__item-remove" title="Удалить товар"><i class="i-remove "></i></a>
@@ -148,11 +148,11 @@
 					</div>
 					<div class="user-cart__order-item">
 						<span class="user-cart__order-title">Сумма</span>
-						<span class="user-cart__order-value">822 000 <span class="rub">a</span></span>
+						<span class="user-cart__order-value">822 000 <span class="rub">&#x20bd;</span></span>
 					</div>
 					<div class="user-cart__order-item">
 						<span class="user-cart__order-title">Скидка</span>
-						<span class="user-cart__order-value">15 <span class="rub">a</span></span>
+						<span class="user-cart__order-value">15 <span class="rub">&#x20bd;</span></span>
 					</div>
 					<div class="user-cart__order-promo">
 						<span>Хотите скидку?</span>
@@ -163,7 +163,7 @@
 					</div>
 					<div class="user-cart__order-item user-cart__order-item--bold">
 						<span class="user-cart__order-title">К оплате</span>
-						<span class="user-cart__order-value">822 000 <span class="rub">c</span></span>
+						<span class="user-cart__order-value">822 000 <span class="rub">&#x20bd;</span></span>
 					</div>
 					<div class="user-cart__order-action">
 						<a href="#" class="btn">Продолжить покупки</a>
