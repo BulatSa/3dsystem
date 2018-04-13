@@ -5,7 +5,7 @@
 		<ul>
 			<li><a href="index.php">Главная</a></li>
 			<li><a href="catalog.php">Каталог</a></li>
-			<li><a href="catalog-root.php">Каталог корень</a></li>
+			<li><a href="catalog-root.php">Каталог кор  ень</a></li>
 			<li><a href="catalog-detail.php">Каталог детальная</a></li>
 			<li><a href="brands.php">Бренды</a></li>
 			<li><a href="brands-detail.php">Бренды детальная</a></li>
