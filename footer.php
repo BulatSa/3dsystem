@@ -126,21 +126,6 @@
 		</form>
 	</div>
 
-	<div id="modal-oneclick" class="modal">
-		<p class="h2 modal__title">Покупка в 1 клик</p>
-		<form class="ajax-form vertical-form">
-			<input type="hidden" value="Покупка в 1 клик" name="form_subject">
-			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
-			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
-			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="E-mail"  class="input-text" data-req="true">
-			<button type="submit" class="btn btn--blue">Отправить</button>
-			<label class="style-check-ios">
-				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-				<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
-			</label>
-		</form>
-	</div>
-
 	<div id="modal-addtocart" class="modal">
 		<p class="h2 modal__title">Товар добавлен в&nbsp;корзину</p>
 		<div class="modal__btns">
@@ -149,7 +134,7 @@
 		</div>
 	</div>
 
-	<div id="modal-thanks" class="modal modal--thanks">
+	<div id="modal-thanks" class="modal">
 		<div class="modal__icon">
 			<img src="/img/thanks.svg" alt="icon">
 		</div>

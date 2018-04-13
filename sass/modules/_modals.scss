@@ -32,22 +32,16 @@
 		margin-bottom: $pad-xs;
 	}
 
-	&--thanks{
-		&:before{
-			display: none;
-		}
-		.modal__header{
-			border-radius: 15px;
-			.modal__title{
-				padding: $pad-xs 0;
-			}
-		}
-	}
-
 	&__btns{
 		margin-top: $pad-xs;
 		display: flex;
 		justify-content: space-between;
+	}
+	
+	&--oneclick{
+		padding: 0;
+		background: #FFF;
+		width: 740px;
 	}
 }
 
@@ -76,3 +70,61 @@
 .fancybox-slide--video{
 	padding: 40px 18px;
 }
+
+
+//modal-oneclick
+.oneclick{
+	display: flex;
+	@include res(xs){
+		flex-direction: column;
+	}
+
+	&__left{
+		width: 50%;
+		flex-shrink: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: $pad-xs;
+		@include res(xs){
+			width: 100%;
+			padding: $pad-xxs;
+		}
+	}
+
+	&__right{
+		width: 50%;
+		flex-shrink: 0;
+		background: url("../img/pattern-gray-modal.png") center top $gray-bg;
+		padding: $pad-s $pad-m;
+		border-radius: 0 15px 15px 0;
+		@include res(s){
+			padding: $pad-s $pad-xs;
+		}
+		@include res(xs){
+			width: 100%;
+			border-radius: 0 0 15px 15px;
+		}
+	}
+
+	.product-preview{
+		width: 240px;
+		@include res(xs){
+			width: 140px;
+		}
+		&:hover{
+			box-shadow: 0 0 0 1px $gray-border;
+			transform: none;
+		}
+		&:before{
+			display: none;
+		}
+
+		&__title{
+			&:hover{
+				color: inherit;
+			}
+		}
+	}
+}
+//modal-oneclick

@@ -326,6 +326,47 @@
 </section>
 
 
+
+<div id="modal-oneclick" class="modal modal--oneclick">
+	<div class="oneclick">
+		<div class="oneclick__left">
+			<div class="product-preview">
+				<header>
+					<figure>
+						<img src="/img/preview/pr_3.jpg" alt="1">
+					</figure>
+				</header>
+				<main>
+					<p class="h3 product-preview__title" title="Название принтера">3D принтер Picaso Designer X PRO</p href="/catalog-detail.php">
+					<span class="product-preview__price">
+							<span class="price--old">590 000 <span class="rub">&#x20bd;</span></span>
+							<span>555 590 <span class="rub">&#x20bd;</span></span>
+						</span>
+				</main>
+			</div>
+		</div>
+		<div class="oneclick__right">
+			<div class="modal__icon">
+				<img src="/img/modal-cart.svg" alt="icon">
+			</div>
+			<p class="h2 modal__title">Экспресс заказ</p>
+			<form class="ajax-form vertical-form">
+				<input type="hidden" value="Покупка в 1 клик" name="form_subject">
+				<input type="hidden" value="ИМЯ ПРОДУКТА СЮДА" name="user_product" data-label="Интересующий товар">
+				<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
+				<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+				<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="E-mail"  class="input-text" data-req="true">
+				<button type="submit" class="btn btn--blue">Заказать</button>
+				<label class="style-check-ios">
+					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+					<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
+				</label>
+			</form>
+		</div>
+	</div>
+</div>
+
+
 <div id="modal-kompred" class="modal">
 	<header class="modal__header">
 		<p class="h3 modal__title">Запросить коммерческое предложение</p>
@@ -333,7 +374,7 @@
 	<div class="modal__content">
 		<p class="modal__descr">Оставьте заявку и&nbsp;наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
 		<form class="ajax-form vertical-form">
-			<input type="hidden" value="Покупка в 1 клик" name="form_subject">
+			<input type="hidden" value="Запрос КП" name="form_subject">
 			<input type="hidden" value="ИМЯ ПРОДУКТА СЮДА" name="user_product" data-label="Интересующий товар">
 			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
 			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
