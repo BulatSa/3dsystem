@@ -43,8 +43,8 @@
 					<header class="product-right__header">
 						<div>
 							<div class="product-art">#0012456</div>
-							<div class="product-price">279 000 <span class="rub">c</span></div>
-							<div class="product-price product-price--old">354 000 <span class="rub">c</span></div>
+							<div class="product-price">279 000 <span class="rub">&#x20bd;</span></div>
+							<div class="product-price product-price--old">354 000 <span class="rub">&#x20bd;</span></div>
 							<!--<div class="h2">Под заказ</div>-->
 						</div>
 						<a href="/img/preview/786x590.png" class="product-distr fancy" rel="nofollow">
@@ -114,8 +114,8 @@
 								<main>
 									<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер CyberMicro PLUS</a>
 									<span class="product-preview__price">
-									<span class="price--old">590 000 <span class="rub">c</span></span>
-									<span>555 590 <span class="rub">c</span></span>
+									<span class="price--old">590 000 <span class="rub">&#x20bd;</span></span>
+									<span>555 590 <span class="rub">&#x20bd;</span></span>
 								</span>
 								</main>
 								<footer>
@@ -133,7 +133,7 @@
 							<main>
 								<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Hercukes Strong 2017</a>
 								<span class="product-preview__price">
-									<span>555 590 <span class="rub">c</span></span>
+									<span>555 590 <span class="rub">&#x20bd;</span></span>
 								</span>
 							</main>
 							<footer>
@@ -151,7 +151,7 @@
 									<main>
 										<a href="/catalog-detail.php" class="h3 product-preview__title" title="Название принтера">3D принтер Hercukes Strong 2017</a>
 										<span class="product-preview__price">
-									<span>555 590 <span class="rub">c</span></span>
+									<span>555 590 <span class="rub">&#x20bd;</span></span>
 								</span>
 									</main>
 									<footer>

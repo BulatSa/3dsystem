@@ -101,6 +101,11 @@
 </footer>
 
 
+<button class="btn to-top-btn" title="Наверх">
+	<i class="i-left-arrow"></i>
+</button>
+
+
 <!-- Модальные окна -->
 <div class="modals-sec">
 

@@ -6,10 +6,12 @@
 	border-radius: 15px;
 	text-align: center;
 	padding: $pad-m $pad-s;
+	margin-top: $pad-l;
 	@include res(xxl){
 		padding: $pad-s;
 	}
 	@include res(s){
+		margin-top: $pad-m;
 		flex-wrap: wrap;
 		padding: $pad-s 0 $pad-xs 0;
 	}

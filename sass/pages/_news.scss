@@ -1,10 +1,5 @@
 .s-news-list{
-	.pagination{
-		margin-top: $pad-l;
-		@include res(s){
-			margin-top: $pad-m;
-		}
-	}
+
 }
 
 .s-news-meta{

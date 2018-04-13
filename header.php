@@ -154,9 +154,9 @@
 				<li><a href="#">О компании</a></li>
 				<li><a href="#">Гарантийное обслуживание</a></li>
 				<li class="active"><a href="#">Доставка и оплата</a></li>
-				<li><a href="#">Блог</a></li>
+				<li><a href="/blog.php">Блог</a></li>
 				<li><a href="/news.php">Новости</a></li>
-				<li><a href="#">Акции</a></li>
+				<li><a href="/promo.php">Акции</a></li>
 				<li><a href="#">Отзывы</a></li>
 				<li><a href="#">Услуги</a></li>
 				<li><a href="/brands.php">Бренды</a></li>
@@ -182,8 +182,8 @@
 				<nav>
 					<a href="#">О компании</a>
 					<a href="#">Услуги</a>
-					<a href="#">Акции</a>
-					<a href="#">Блог</a>
+					<a href="/promo.php">Акции</a>
+					<a href="/blog.php">Блог</a>
 					<a href="#">Контакты</a>
 				</nav>
 				<div class="header__top-contact">
@@ -197,7 +197,7 @@
 							<i class="i-card"><sup>3</sup></i>
 							<span class="header__cart-info">
 								<b>Корзина: 3 товара</b>
-								<span>на сумму 135 000 <span class="rub">c</span></span>
+								<span>на сумму 135 000 <span class="rub">&#x20bd;</span></span>
 							</span>
 						</a>
 					</div>
@@ -219,7 +219,7 @@
 						<i class="i-card"><sup>3</sup></i>
 						<span class="header__cart-info">
 							<b>Корзина: 3 товара</b>
-							<span>на сумму 135 000 <span class="rub">a</span></span>
+							<span>на сумму 135 000 <span class="rub">&#x20bd;</span></span>
 						</span>
 					</a>
 				</div>
