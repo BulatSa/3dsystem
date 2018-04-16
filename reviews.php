@@ -14,7 +14,7 @@
 			<div class="mails__item-wrap grid-2 grid-3_l grid-4_s grid-6_xs grid-12_xxs">
 				<div class="mails__item">
 					<div class="mails__item-img">
-						<a href="img/mails/mail.jpg" data-fancybox>
+						<a href="img/mails/mail.jpg" class="fancy">
 							<img src="img/mails/mail.jpg" alt="">
 						</a>
 					</div>
@@ -26,7 +26,7 @@
 			<div class="mails__item-wrap grid-2 grid-3_l grid-4_s grid-6_xs grid-12_xxs">
 				<div class="mails__item">
 					<div class="mails__item-img">
-						<a href="img/mails/mail.jpg" data-fancybox>
+						<a href="img/mails/mail.jpg" class="fancy">
 							<img src="img/mails/mail.jpg" alt="">
 						</a>
 					</div>
@@ -38,7 +38,7 @@
 			<div class="mails__item-wrap grid-2 grid-3_l grid-4_s grid-6_xs grid-12_xxs">
 				<div class="mails__item">
 					<div class="mails__item-img">
-						<a href="img/mails/mail.jpg" data-fancybox>
+						<a href="img/mails/mail.jpg" class="fancy">
 							<img src="img/mails/mail.jpg" alt="">
 						</a>
 					</div>

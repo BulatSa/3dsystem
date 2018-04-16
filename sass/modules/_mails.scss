@@ -22,14 +22,24 @@
 	border-bottom: 14px solid #dcdcdc;
 	border-left: 14px solid #e2e2e2;
 	box-shadow: 0 0 0 8px #191f28;
+	transition: box-shadow 0.3s ease;
 	@include res(s) {
 		border-width: 10px;
 		box-shadow: 0 0 0 6px #191f28;
 	}
+
+	.fancy{
+		display: block;
+	}
+
 	img {
 		display: block;
 		max-width: 100%;
 		margin: 0 auto;
+	}
+
+	&:hover{
+		box-shadow: 0 0 0 8px lighten(#191f28,35%);
 	}
 }
 
@@ -60,6 +70,10 @@
 	width: 50px;
 	cursor: pointer;
 	pointer-events: all;
+	transition: color 0.3s ease;
+	&:hover{
+		color: $blue;
+	}
 }
 
 .mails__nav-next {
