@@ -144,10 +144,12 @@
 }
 
 .header__top-call {
+	display: inline-block;
+	padding-bottom: 2px;
 	margin-right: 20px;
-	padding-top: 1px;
+	padding-top: 2px;
 	color: $blue;
-	border-bottom: 1px solid transparent;
+	border-bottom: 1px dotted transparent;
 	transition: all 0.3s ease;
 	@include res(s) {
 		display: none;

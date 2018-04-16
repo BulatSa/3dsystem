@@ -408,6 +408,9 @@
 					<button class="btn btn--small fancy-modal" data-src="#modal-service-2">Оставить заявку</button>
 				</div>
 				<div id="modal-service-2" class="modal">
+					<div class="modal__icon">
+						<img src="/img/modal-order.svg" alt="icon">
+					</div>
 					<p class="h2 modal__title">Заказать 3D сканирование</p>
 					<form class="ajax-form vertical-form">
 						<input type="hidden" value="Заказ услуги: 3D сканирование" name="form_subject">
@@ -429,6 +432,9 @@
 					<button class="btn btn--small fancy-modal" data-src="#modal-service-3">Оставить заявку</button>
 				</div>
 				<div id="modal-service-3" class="modal">
+					<div class="modal__icon">
+						<img src="/img/modal-order.svg" alt="icon">
+					</div>
 					<p class="h2 modal__title">Заказать 3D моделирование</p>
 					<form class="ajax-form vertical-form">
 						<input type="hidden" value="Заказ услуги: 3D моделирование" name="form_subject">

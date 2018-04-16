@@ -571,7 +571,7 @@ $(function ($) {
 
 	selectProductTab('descr');
 
-	$('.btn--red').on('click',function (e) {
+	$('.btn--red').on('click',function () {
 		console.log('9999')
 	})
 });

@@ -16,7 +16,7 @@
 		</article>
 		<article class="news-intro">
 			<time datetime="2018-03-22" class="small-text">22 марта 2018</time>
-			<a href="/news-detail.php" class="h3 news-intro__title">Агентство Pen&Brain презентует концепцию сайта Агентство Pen&Brain презентует концепцию сайта</a>
+			<a href="/news-detail.php" class="h3 news-intro__title">Агентство Pen&Brain презентует концепцию сайта Агентство Pen&Brain презентует концепцию сайта концепцию сайта Агентство Pen&Brain презентует</a>
 		</article>
 		<article class="news-intro">
 			<time datetime="2018-03-22" class="small-text">22 марта 2018</time>
