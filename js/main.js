@@ -570,10 +570,6 @@ $(function ($) {
 	});
 
 	selectProductTab('descr');
-
-	$('.btn--red').on('click',function () {
-		console.log('9999')
-	})
 });
 /***********************
 Product Tabs END
