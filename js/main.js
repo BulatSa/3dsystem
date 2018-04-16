@@ -357,11 +357,13 @@ Mails END
 /***********************
 Masonry BEGIN
 ***********************/
-$('.reviews__list').masonry({
-	// set itemSelector so .grid-sizer is not used in layout
-
-	percentPosition: true
-})
+$(function($){
+	if ($('.reviews__list').length){
+		$('.reviews__list').masonry({
+			percentPosition: true
+		})
+	}
+});
 /***********************
 Masonry END
 ***********************/
