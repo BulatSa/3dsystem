@@ -28,10 +28,10 @@
 					<li><a href="#">О компании</a></li>
 					<li><a href="#">Гарантийное обслуживание</a></li>
 					<li class="active"><a href="#">Доставка и оплата</a></li>
-					<li><a href="#">Блог</a></li>
+					<li><a href="/blog.php">Блог</a></li>
 					<li><a href="/news.php">Новости</a></li>
-					<li><a href="#">Акции</a></li>
-					<li><a href="#">Отзывы</a></li>
+					<li><a href="/promo.php">Акции</a></li>
+					<li><a href="/reviews.php">Отзывы</a></li>
 					<li><a href="#">Услуги</a></li>
 					<li><a href="/brands.php">Бренды</a></li>
 					<li><a href="#">Контакты</a></li>
@@ -74,7 +74,7 @@
 					</div>
 					<label class="style-check-ios">
 						<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-						<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
+						<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="/privacy.php" target="_blank">политикой конфиденциальности</a></span>
 					</label>
 				</form>
 			</div>
@@ -89,7 +89,7 @@
 
 		<div class="footer-bottom">
 			<div class="footer-bottom__policy">© 2012-2018 ООО «3Д Систем Про»</div>
-			<div class="footer-bottom__center"><a href="#">Политика конфиденциальности</a></div>
+			<div class="footer-bottom__center"><a href="/privacy.php">Политика конфиденциальности</a></div>
 			<div class="footer-bottom__right">
 				<a href="https://penbrain.ru" target="_blank" title="Сайт разработан в Pen&Brain">
 					<img src="/img/logo-develop.svg" alt="Pen&Brain logotype">
@@ -121,13 +121,14 @@
 			<button type="submit" class="btn btn--blue">Отправить</button>
 			<label class="style-check-ios">
 				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-				<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
+				<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="/privacy.php" target="_blank">политикой конфиденциальности</a></span>
 			</label>
 		</form>
 	</div>
 
 	<div id="modal-addtocart" class="modal">
 		<p class="h2 modal__title">Товар добавлен в&nbsp;корзину</p>
+		<p class="modal__descr">Количество товара в корзине: 2</p>
 		<div class="modal__btns">
 			<button class="btn" data-fancybox-close>Вернуться</button>
 			<a href="#" class="btn btn--red">Оформить заказ</a>

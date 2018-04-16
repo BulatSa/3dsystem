@@ -16,7 +16,7 @@
 		margin-left: $pad-xxs;
 		margin-right: $pad-xxs;
 	}
-	@include res(s) {
+	@include res(xs) {
 		margin-left: 0;
 		margin-right: 0;
 		margin-bottom: $pad-xs;

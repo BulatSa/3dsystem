@@ -47,7 +47,7 @@
 						</label>
 						<label class="style-check-ios">
 							<input type="checkbox" name="user_policy" value="yes" checked required>
-							<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
+							<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="/privacy.php" target="_blank">политикой конфиденциальности</a></span>
 						</label>
 						<button type="submit" class="btn btn--red">Зарегистрироваться</button>
 					</form>

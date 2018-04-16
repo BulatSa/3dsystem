@@ -224,7 +224,7 @@
 				</div>
 				<label class="style-check-ios">
 					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-					<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#" target="_blank">политикой конфиденциальности</a></span>
+					<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="/privacy.php" target="_blank">политикой конфиденциальности</a></span>
 				</label>
 			</form>
 		</div>

@@ -13,6 +13,10 @@
 	margin-right: $pad-xxs;
 	padding-left: $pad-xxs;
 	padding-right: $pad-xxs;
+	@include res(xxl){
+		margin-left: 4px;
+		margin-right: 4px;
+	}
 }
 
 .mails__item-img {
@@ -40,6 +44,9 @@
 
 	&:hover{
 		box-shadow: 0 0 0 8px lighten(#191f28,35%);
+		@include res(s){
+			box-shadow: 0 0 0 6px lighten(#191f28,35%);
+		}
 	}
 }
 
