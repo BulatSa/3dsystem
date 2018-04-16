@@ -40,7 +40,7 @@
 			<div class="footer-block">
 				<p class="h2 footer-block__title">Каталог</p>
 				<ul class="footer-menu">
-					<li><a href="#">3D Принтеры</a></li>
+					<li><a href="/catalog.php">3D Принтеры</a></li>
 					<li><a href="#">3D Сканеры</a></li>
 					<li><a href="#">Аксессуары</a></li>
 					<li><a href="#">Гаджеты</a></li>
