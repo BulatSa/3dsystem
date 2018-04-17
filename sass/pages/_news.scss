@@ -1,5 +1,10 @@
 .s-news-list{
-
+	.news-intro{
+		max-width: 1030px;
+		@include res(xxl){
+			max-width: 850px;
+		}
+	}
 }
 
 .s-news-meta{
@@ -11,6 +16,9 @@
 
 	.user-content{
 		max-width: 1030px;
+		@include res(xxl){
+			max-width: 850px;
+		}
 	}
 
 	&--video{

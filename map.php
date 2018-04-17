@@ -27,6 +27,7 @@
 			<li><a href="promo-detail.php">Акции детальная</a></li>
 			<br>
 			<li><a href="404.php">404 страница</a></li>
+			<li><a href="/privacy.php">Политика конфиденциальности</a></li>
 			<br>
 			<li><a href="reviews.php">Отзывы</a></li>
 			<li><a href="about.php">О компании</a></li>

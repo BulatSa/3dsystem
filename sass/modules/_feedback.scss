@@ -3,7 +3,7 @@
 .feedback {
 	padding: $pad-l $pad-s;
 	border-radius: 15px;
-	background: url("../img/subscribe-pattern.jpg");
+	background: url("../img/subscribe-pattern.jpg") center top;
 	@include res(m) {
 		padding: $pad-m $pad-xs;
 	}

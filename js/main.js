@@ -599,10 +599,6 @@ $(function ($) {
 	});
 
 	selectProductTab('descr');
-
-	$('.btn--red').on('click',function (e) {
-		console.log('9999')
-	})
 });
 /***********************
 Product Tabs END
@@ -684,9 +680,13 @@ $(function($){
  To top btn BEGIN
  ***********************/
 $(function($){
-	$(window).on('scroll',function () {
-		var scrolltop = $(this).scrollTop();
-		var to_top_btn = $('.to-top-btn');
+	var to_top_btn = $('.to-top-btn');
+
+	window.onscroll = function() {
+		var doc = document.documentElement;
+		var scrolltop = window.pageYOffset || doc.scrollTop;
+		var windowHeight = doc.clientHeight;
+		var documentHeight = doc.offsetHeight;
 
 		if (scrolltop > 200){
 			to_top_btn.addClass('visible');
@@ -694,14 +694,14 @@ $(function($){
 			to_top_btn.removeClass('visible');
 		}
 
-		if(scrolltop+$(window).height()+50>=$(document).height()){
+		if(scrolltop + windowHeight + 50 >= documentHeight){
 			to_top_btn.addClass('ended');
 		} else {
 			to_top_btn.removeClass('ended');
 		}
-	});
+	};
 
-	$('.to-top-btn').on('click', function () {
+	to_top_btn.on('click', function () {
 		$('html,body').stop().animate({scrollTop: 0}, 1000);
 		return false;
 	});
