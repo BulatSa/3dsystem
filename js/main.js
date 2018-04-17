@@ -709,3 +709,100 @@ $(function($){
 /***********************
  To top btn END
  ***********************/
+
+
+/***********************
+Services BEGIN
+***********************/
+$(function($){
+	var services = document.querySelectorAll('.service');
+
+	for (var i = 0; i < services.length; ++i) {
+		initPixi(services[i]);
+	}
+
+	function initPixi(service) {
+		var canvas = service.querySelector(".service__canvas");
+		var imgSrc = service.dataset.img;
+		var bg = PIXI.Sprite.fromImage(imgSrc);
+
+		var displacementSprite = PIXI.Sprite.fromImage('/img/services/map5.jpg');
+
+		var app = new PIXI.Application({
+			view: canvas,
+			width: 1600,
+			height: 500,
+			backgroundColor : 0x0c1426
+		});
+
+
+		var container = new PIXI.Container();
+		app.stage.addChild(container);
+
+
+		container.interactive = true;
+
+		//позиционирование изображний
+		bg.anchor.set(0.5);
+		bg.x = app.screen.width / 2;
+		bg.y = app.screen.height / 2;
+
+		displacementSprite.anchor.set(0.55,0.5);
+		displacementSprite.x = app.screen.width / 2;
+		displacementSprite.y = app.screen.height / 2;
+		//позиционирование изображний
+
+		// создание фильтра
+		var displacementFilter = new PIXI.filters.DisplacementFilter(displacementSprite);
+		displacementFilter.scale.x = 0;
+		displacementFilter.scale.y = 0;
+		container.filters = [displacementFilter];
+		// создание фильтра
+
+
+		container.addChild(bg,displacementSprite);
+
+
+		function onPointerMove(eventData){
+			var filter = displacementFilter.scale;
+			if (eventData.data.global.x > 0 &&
+				eventData.data.global.x < app.screen.width &&
+				eventData.data.global.y > 0 &&
+				eventData.data.global.y < app.screen.height)
+			{
+				TweenMax.to(filter, 0.2, {
+					x: -(eventData.data.global.x - app.screen.width / 2) / 15,
+					y: -(eventData.data.global.y - app.screen.height / 2) / 30,
+					ease: Power0.easeInOut
+				});
+			}
+		}
+
+		function onPointerOut(eventData){
+			var filter = displacementFilter.scale;
+			TweenMax.to(filter, 0.5, {
+				x: 0,
+				y: 0,
+				ease: Power2.easeInOut
+			});
+		}
+
+		container.on('pointermove', onPointerMove);
+		container.on('pointerout', onPointerOut);
+
+		window.addEventListener("resize", onResize);
+
+		function onResize() {
+			app.renderer.resize(canvas.clientWidth,canvas.clientHeight);
+			bg.x = app.screen.width / 2;
+			bg.y = app.screen.height / 2;
+			displacementSprite.x = app.screen.width / 2;
+			displacementSprite.y = app.screen.height / 2;
+		}
+
+		onResize();
+	}
+});
+/***********************
+Services END
+***********************/
