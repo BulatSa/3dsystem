@@ -721,6 +721,7 @@ $(function($){
 	// и для каждого инициализируем анимацию
 	for (var i = 0; i < services.length; ++i) {
 		initPixi(services[i]);
+		services[i].classList.add('ready');
 	}
 
 	function initPixi(service) {

@@ -37,9 +37,15 @@
 		width: 100%;
 		height: 100%;
 		z-index: 1;
+		opacity: 0;
+		transition: all 0.5s ease 0.3s;
 		@include res(l){
 			display: none;
 		}
+	}
+
+	&.ready .service__canvas{
+		opacity: 1;
 	}
 
 	&__content{
