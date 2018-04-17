@@ -29,6 +29,7 @@
 			<li><a href="404.php">404 страница</a></li>
 			<br>
 			<li><a href="reviews.php">Отзывы</a></li>
+			<li><a href="about.php">О компании</a></li>
 		</ul>
 	</div>
 </div>

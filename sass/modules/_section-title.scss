@@ -8,6 +8,11 @@
 		margin-bottom: $pad-s;
 	}
 
+	.user-content {
+		max-width: 700px;
+		padding-top: $pad-xs;
+	}
+
 	&__actions{
 		position: relative;
 		margin-top: 10px;

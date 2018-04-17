@@ -1,0 +1,41 @@
+.history-banner-sec {}
+
+.history-banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 470px;
+	padding: $pad-xl $pad-xl;
+	text-align: center;
+	border-radius: 20px;
+	background: url('../img/about/bg-history-banner.jpg') no-repeat center;
+	background-size: cover;
+	@include res(xxl) {
+		min-height: 360px;
+		padding: $pad-l $pad-xl;
+	}
+	@include res(l) {
+		min-height: 300px;
+		padding: $pad-l $pad-xl;
+	}
+	@include res(s) {
+		min-height: initial;
+		padding: $pad-l $pad-m;
+	}
+	@include res(xs) {
+		padding: $pad-m $pad-m;
+	}
+}
+
+.history-banner__text {
+	color: #fff;
+	.h2, .h3 {
+		margin-bottom: $pad-m;
+		@include res(l) {
+			margin-bottom: $pad-s;
+		}
+		@include res(s) {
+			margin-bottom: $pad-xs;
+		}
+	}
+}

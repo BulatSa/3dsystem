@@ -1,0 +1,45 @@
+.about-benefits-sec {}
+
+.about-benefits {}
+
+.about-benefits__item {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-bottom: $pad-l;
+	@include res(l) {
+		margin-bottom: $pad-l;
+	}
+	@include res(s) {
+		margin-bottom: $pad-s;
+	}
+}
+
+.about-benefits__img {
+	width: 20%;
+	@include res(xs) {
+		width: 13%;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		margin: 5px auto 0;
+		transform: translate3d(0,0,0);
+	}
+}
+
+.about-benefits__text {
+	width: 80%;
+	padding-left: 15px;
+	padding-right: 15px;
+	@include res(xs) {
+		width: 87%;
+		padding-right: 0;
+	}
+	.h3 {
+		padding-bottom: 5px;
+	}
+	span {
+		font-size: 12px;
+	}
+}

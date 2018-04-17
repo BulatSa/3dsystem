@@ -1,0 +1,60 @@
+.about-geo-sec {}
+
+.about-geo {
+	position: relative;
+	border-radius: 15px;
+	overflow: hidden;
+	@include res(s) {
+		padding: $pad-m $pad-s;
+		background: url('../img/about/map-mobile.jpg') no-repeat center;
+		background-size: cover;
+	}
+	&:after {
+		@include res(s) {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: transparentize(#fff,0.3);
+			z-index: 0;
+		}
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		@include res(s) {
+			display: none;
+		}
+	}
+}
+
+.about-geo__text {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	max-width: 700px;
+	padding-right: 30px;
+	z-index: 1;
+	@include res(xxl) {
+		top: 40px;
+		left: 40px;
+	}
+	@include res(m) {
+		top: 20px;
+		left: 30px;
+	}
+	@include res(s) {
+		position: relative;
+		top: initial;
+		left: initial;
+		padding-right: 0;
+	}
+	.h1 {
+		margin-bottom: $pad-s;
+	}
+	.user-content {
+		margin-bottom: $pad-m;
+	}
+}

@@ -355,6 +355,35 @@ Mails END
 
 
 /***********************
+Team about BEGIN
+***********************/
+$(function($){
+	var mailsSlider = $('.team-slider').flickity({
+		wrapAround: false,
+		contain: true,
+		percentPosition: true,
+		groupCells: true,
+		dragThreshold: 6,
+		adaptiveHeight: true,
+		imagesLoaded: true,
+		pageDots: false,
+		prevNextButtons: false
+	});
+
+	$('.team-slider__nav-prev').on('click',function () {
+		mailsSlider.flickity('previous');
+	});
+	$('.team-slider__nav-next').on('click',function () {
+		mailsSlider.flickity('next');
+	})
+
+});
+/***********************
+Team about END
+***********************/
+
+
+/***********************
 Masonry BEGIN
 ***********************/
 $(function($){

@@ -1,0 +1,50 @@
+.about-serts-sec {}
+
+.about-serts {
+	a {
+		display: block;
+		margin-bottom: $pad-m;
+		text-align: center;
+		&:hover {
+			p {
+				border-color: transparent;
+			}
+			span {
+				border-color: $blue;
+			}
+		}
+		span {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 120px;
+			padding: $pad-xs;
+			border: 1px solid $gray-border;
+			border-radius: 15px;
+			transition: all 0.3s ease;
+			@include res(l) {
+				height: 110px;
+			}
+			@include res(s) {
+				height: 100px;
+			}
+			@include res(xs) {
+				height: 90px;
+			}
+			img {
+				display: block;
+				max-width: 100%;
+				max-height: 100%;
+			}
+		}
+		p {
+			display: inline-block;
+			padding-top: 5px;
+			padding-bottom: 2px;
+			color: $blue;
+			font-size: 12px;
+			border-bottom: 2px dotted $blue;
+			transition: all 0.3s ease;
+		}
+	}
+}
