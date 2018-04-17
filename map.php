@@ -31,6 +31,7 @@
 			<br>
 			<li><a href="reviews.php">Отзывы</a></li>
 			<li><a href="about.php">О компании</a></li>
+			<li><a href="services.php">Сервисы</a></li>
 		</ul>
 	</div>
 </div>
