@@ -726,7 +726,7 @@ $(function($){
 		var imgSrc = service.dataset.img;
 		var bg = PIXI.Sprite.fromImage(imgSrc);
 
-		var displacementSprite = PIXI.Sprite.fromImage('/img/services/map5.jpg');
+		var displacementSprite = PIXI.Sprite.fromImage('/img/services/map7.jpg');
 
 		var app = new PIXI.Application({
 			view: canvas,
@@ -765,6 +765,7 @@ $(function($){
 
 		function onPointerMove(eventData){
 			var filter = displacementFilter.scale;
+			var sprite = displacementSprite;
 			if (eventData.data.global.x > 0 &&
 				eventData.data.global.x < app.screen.width &&
 				eventData.data.global.y > 0 &&
@@ -775,7 +776,12 @@ $(function($){
 					y: -(eventData.data.global.y - app.screen.height / 2) / 30,
 					ease: Power0.easeInOut
 				});
+				displacementSprite.position.set(
+					(app.screen.width / 2 + eventData.data.global.x/10),
+					(app.screen.height / 2 + eventData.data.global.y/10)
+				);
 			}
+			console.log(eventData.data.global.x,displacementSprite.position);
 		}
 
 		function onPointerOut(eventData){
