@@ -715,8 +715,10 @@ $(function($){
 Services BEGIN
 ***********************/
 $(function($){
+	//выбираем все айтемы для анимации
 	var services = document.querySelectorAll('.service');
 
+	// и для каждого инициализируем анимацию
 	for (var i = 0; i < services.length; ++i) {
 		initPixi(services[i]);
 	}
@@ -735,11 +737,11 @@ $(function($){
 			backgroundColor : 0x0c1426
 		});
 
-
+		//работаем в контейнере, хотя можно и без него
 		var container = new PIXI.Container();
 		app.stage.addChild(container);
 
-
+		//делаем контейнер интерактивным для функций типа mousemove
 		container.interactive = true;
 
 		//позиционирование изображний
@@ -759,13 +761,12 @@ $(function($){
 		container.filters = [displacementFilter];
 		// создание фильтра
 
-
+		//добавляем изображения в контейнер
 		container.addChild(bg,displacementSprite);
 
-
+		//При наведении делаем магию
 		function onPointerMove(eventData){
 			var filter = displacementFilter.scale;
-			var sprite = displacementSprite;
 			if (eventData.data.global.x > 0 &&
 				eventData.data.global.x < app.screen.width &&
 				eventData.data.global.y > 0 &&
@@ -783,7 +784,8 @@ $(function($){
 			}
 		}
 
-		function onPointerOut(eventData){
+		//Возвращаем в исходное состояние после
+		function onPointerOut(){
 			var filter = displacementFilter.scale;
 			TweenMax.to(filter, 0.5, {
 				x: 0,
@@ -795,6 +797,7 @@ $(function($){
 		container.on('pointermove', onPointerMove);
 		container.on('pointerout', onPointerOut);
 
+		//при ресайзе окна центрируем содержимое контенейра
 		window.addEventListener("resize", onResize);
 
 		function onResize() {
