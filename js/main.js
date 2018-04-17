@@ -779,8 +779,8 @@ $(function($){
 					ease: Power0.easeInOut
 				});
 				displacementSprite.position.set(
-					(app.screen.width / 2 + eventData.data.global.x/10),
-					(app.screen.height / 2 + eventData.data.global.y/10)
+					(app.screen.width / 2 + eventData.data.global.x/20),
+					(app.screen.height / 2 + eventData.data.global.y/20)
 				);
 			}
 		}
