@@ -781,7 +781,6 @@ $(function($){
 					(app.screen.height / 2 + eventData.data.global.y/10)
 				);
 			}
-			console.log(eventData.data.global.x,displacementSprite.position);
 		}
 
 		function onPointerOut(eventData){
