@@ -477,7 +477,10 @@ $(function($){
 		hide_min_max: true,
 		hide_from_to: true,
 		grid: false,
-		step: 100
+		step: 100,
+		onFinish: function (data) {
+			$("input.price-filter--to").change();
+		}
 	});
 
 	price_slider.on('change', function () {
@@ -530,6 +533,8 @@ $(function($){
 				to: toInputVal
 			});
 		}
+
+		toInput.change();
 
 		return false;
 	}
