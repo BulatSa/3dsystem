@@ -90,8 +90,20 @@ button::-moz-focus-inner {
 }
 
 .btn--white{
-	background: #FFF;
-	color: #000;
+	background: #fff;
+	color: $blue;
+
+	&:hover,&:focus{
+		color: #fff;
+		background: darken($blue,10%);
+		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
+	}
+
+	&:active{
+		color: #fff;
+		background: darken($blue,15%);
+		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
+	}
 }
 
 .btn--small{

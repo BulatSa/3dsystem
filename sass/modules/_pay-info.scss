@@ -1,0 +1,38 @@
+.pay-info-sec {}
+
+.pay-info {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: $pad-l;
+	@include res(s) {
+		padding-bottom: $pad-m;
+	}
+	&:last-child {
+		padding-bottom: 0;
+	}
+}
+
+.pay-info__text {
+	width: 45%;
+	@include res(m) {
+		width: 70%;
+	}
+	@include res(s) {
+		width: 100%;
+	}
+}
+
+.pay-info__img {
+	width: 45%;
+	padding-top: $pad-m;
+	@include res(m) {
+		width: 25%;
+	}
+	@include res(s) {
+		display: none;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+	}
+}

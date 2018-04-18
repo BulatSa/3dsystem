@@ -1,3 +1,4 @@
+//@prepros-append vendors/jquery-3.2.1.min.js
 //@prepros-append vendors/maskedinput.js
 //@prepros-append vendors/jquery.fancybox.min.js
 //@prepros-append vendors/device.min.js

@@ -4,7 +4,7 @@
 	position: relative;
 	display: flex;
 	align-items: center;
-	min-height: 570px;
+	min-height: 560px;
 	padding: $pad-l 90px;
 	border-radius: 15px;
 	background-repeat: no-repeat;
@@ -25,6 +25,27 @@
 		background-repeat: repeat;
 		background-size: auto;
 	}
+	&--mini {
+		min-height: 500px;
+		padding: $pad-l 95px;
+		@include res(xxl) {
+			min-height: 445px;
+			padding: $pad-l 65px;
+		}
+		@include res(l) {
+			min-height: 360px;
+			padding: $pad-l 30px;
+		}
+		@include res(m) {
+			min-height: initial;
+			padding: $pad-s 20px;
+		}
+	}
+	&--violet {
+		@include res(m) {
+			background-image: url('../img/pattern-violet.png')!important;
+		}
+	}
 }
 
 .big-banner__info {
@@ -37,5 +58,8 @@
 	}
 	.user-content {
 		color: #fff;
+		img {
+			margin-top: 10px;
+		}
 	}
 }
