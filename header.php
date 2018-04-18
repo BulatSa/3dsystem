@@ -159,7 +159,7 @@
 				<li><a href="/news.php">Новости</a></li>
 				<li><a href="/promo.php">Акции</a></li>
 				<li><a href="#">Отзывы</a></li>
-				<li><a href="#">Услуги</a></li>
+				<li><a href="/services.php">Услуги</a></li>
 				<li><a href="/brands.php">Бренды</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
@@ -182,7 +182,7 @@
 				</a>
 				<nav>
 					<a href="#">О компании</a>
-					<a href="#">Услуги</a>
+					<a href="/services.php">Услуги</a>
 					<a href="/promo.php">Акции</a>
 					<a href="/blog.php">Блог</a>
 					<a href="#">Контакты</a>
