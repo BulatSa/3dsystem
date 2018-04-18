@@ -743,6 +743,7 @@ $(function($){
 		app.stage.addChild(container);
 
 		//делаем контейнер интерактивным для функций типа mousemove
+		app.interactive = true;
 		container.interactive = true;
 
 		//позиционирование изображний
@@ -774,29 +775,28 @@ $(function($){
 				eventData.data.global.y < app.screen.height)
 			{
 				TweenMax.to(filter, 0.2, {
-					x: -(eventData.data.global.x - app.screen.width / 2) / 15,
-					y: -(eventData.data.global.y - app.screen.height / 2) / 30,
+					x: -(eventData.data.global.x - app.screen.width / 2) / 25,
+					y: -(eventData.data.global.y - app.screen.height / 2) / 15,
 					ease: Power0.easeInOut
 				});
 				displacementSprite.position.set(
-					(app.screen.width / 2 + eventData.data.global.x/20),
-					(app.screen.height / 2 + eventData.data.global.y/20)
+					(app.screen.width / 2 + eventData.data.global.x / 20),
+					(app.screen.height / 2 + eventData.data.global.y / 20)
 				);
+			} else {
+				setTimeout(function () {
+					if (!TweenMax.isTweening(filter)){
+						TweenMax.to(filter, 0.5, {
+							x: 0,
+							y: 0,
+							ease: Power2.easeInOut
+						});
+					}
+				},200);
 			}
 		}
 
-		//Возвращаем в исходное состояние после
-		function onPointerOut(){
-			var filter = displacementFilter.scale;
-			TweenMax.to(filter, 0.5, {
-				x: 0,
-				y: 0,
-				ease: Power2.easeInOut
-			});
-		}
-
 		container.on('pointermove', onPointerMove);
-		container.on('pointerout', onPointerOut);
 
 		//при ресайзе окна центрируем содержимое контенейра
 		window.addEventListener("resize", onResize);
