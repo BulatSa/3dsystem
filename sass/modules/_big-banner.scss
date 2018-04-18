@@ -27,7 +27,7 @@
 	}
 	&--mini {
 		min-height: 500px;
-		padding: $pad-l 65px;
+		padding: $pad-l 95px;
 		@include res(xxl) {
 			min-height: 445px;
 			padding: $pad-l 65px;
@@ -58,5 +58,8 @@
 	}
 	.user-content {
 		color: #fff;
+		img {
+			margin-top: 10px;
+		}
 	}
 }

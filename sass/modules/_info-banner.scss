@@ -42,9 +42,6 @@
 .info-banner__text {
 	max-width: 560px;
 	@include res(l) {
-		max-width: 480px;
-	}
-	@include res(s) {
 		max-width: 100%;
 	}
 }
@@ -98,7 +95,8 @@
 			max-width: 20px;
 		}
 	}
-	.h2 {
+	.h2, .h3 {
 		display: block;
+		margin-bottom: 10px;
 	}
 }

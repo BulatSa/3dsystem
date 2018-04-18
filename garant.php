@@ -129,19 +129,52 @@
 </section>
 
 
+<section class="garant-about-sec s-def-bottom">
+	<div class="container">
+		<div class="garant-about">
+			<div class="garant-about__info">
+				<div class="user-content">
+					<p class="h1">Гарантийный случай</p>
+					<p>Наша компания является авторизованным сервисным центром компаний IMPRINTA и CYBERON мы осуществляем гарантийное обслуживание техники данных производителей.</p>
+					<p>Все случаи которые признаются гарантийными исполняются нашей компанией без оплаты за исключением дополнительных услуг.</p>
+					<p>Выезд сервисного специалиста на адрес заказчика:</p>
+					<ul>
+						<li>В пределах КАД - 2000 руб.</li>
+						<li>Ленинградская область - 4000 руб.</li>
+						<li>Другие города и населенные пункты - по согласованию</li>
+						<li>Диагностика (в случае если случай не является гарантийным) - 1000 руб</li>
+					</ul>
+				</div>
+			</div>
+			<div class="garant-about__info">
+				<div class="user-content">
+					<p class="h1">Гарантия не распространяется:</p>
+					<ul>
+						<li>На запасные части и расходные материалы;</li>
+						<li>На документы, настройки и загруженные данные;</li>
+						<li>На технику, которой нанесены повреждения по вине пользователя;</li>
+						<li>На уцененную продукцию и товары, которые ранее были в употреблении.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="section-title s-def-top">
 	<div class="container">
 		<h1>Услуги</h1>
 	</div>
 </section>
 
-<section class="about-benefits-sec">
+<section class="about-benefits-sec s-def-bottom">
 	<div class="container">
 		<div class="about-benefits row">
-			<div class="grid-3 grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
-						<img src="img/benefits/1.svg" alt="">
+						<img src="img/garant/service-1.svg" alt="">
 					</div>
 					<div class="about-benefits__text">
 						<p class="h3">Диагностика оборудования</p>
@@ -149,10 +182,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
-						<img src="img/benefits/2.svg" alt="">
+						<img src="img/garant/service-2.svg" alt="">
 					</div>
 					<div class="about-benefits__text">
 						<p class="h3">Гарантийное и послегарантийное</p>
@@ -160,10 +193,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
-						<img src="img/benefits/3.svg" alt="">
+						<img src="img/garant/service-1.svg" alt="">
 					</div>
 					<div class="about-benefits__text">
 						<p class="h3">Монтажные работы</p>
@@ -171,10 +204,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
-						<img src="img/benefits/4.svg" alt="">
+						<img src="img/garant/service-3.svg" alt="">
 					</div>
 					<div class="about-benefits__text">
 						<p class="h3">Поставки запчастей</p>
@@ -183,10 +216,10 @@
 				</div>
 			</div>
 
-			<div class="grid-3 grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
-						<img src="img/benefits/5.svg" alt="">
+						<img src="img/garant/service-4.svg" alt="">
 					</div>
 					<div class="about-benefits__text">
 						<p class="h3">Абонентское обслуживание</p>
@@ -194,10 +227,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
-						<img src="img/benefits/6.svg" alt="">
+						<img src="img/garant/service-5.svg" alt="">
 					</div>
 					<div class="about-benefits__text">
 						<p class="h3">Обучение персонала</p>

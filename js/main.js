@@ -606,6 +606,35 @@ Product Tabs END
 
 
 /***********************
+ Pay Methods Tabs BEGIN
+***********************/
+$(function ($) {
+	function selectPayTab(tabId) {
+		$('.pay-methods__nav button').removeClass('active');
+		$('.pay-methods__nav [data-link=' + tabId + ']').addClass('active');
+		$('.pay-methods__item').removeClass('active');
+		$('#' + tabId).addClass('active');
+	}
+
+	$('[data-link]').on('click',function (e) {
+		e.preventDefault();
+		var tabId = $(this).data('link');
+		selectPayTab(tabId);
+		var dataScroll = $(this).data('scroll');
+		if (dataScroll !== undefined){
+			var destination = $(dataScroll).offset().top;
+			$('html,body').stop().animate({scrollTop: destination}, 500);
+		}
+	});
+
+	selectPayTab('cash');
+});
+/***********************
+ Pay Methods Tabs END
+***********************/
+
+
+/***********************
 Product Descr Open BEGIN
 ***********************/
 $(function($){

@@ -1,0 +1,50 @@
+.contact-info {
+	display: flex;
+	justify-content: space-between;
+	padding-top: $pad-s;
+	@include res(xs) {
+		flex-wrap: wrap;
+	}
+}
+
+.contact-info__left {
+	width: 25%;
+	@include res(xxl) {
+		width: 160px;
+		flex-shrink: 0;
+	}
+	@include res(xs) {
+		width: 100%;
+		padding-bottom: $pad-s;
+	}
+}
+
+.contact-info__right {
+	width: 65%;
+	@include res(xxl) {
+		padding-left: 15px;
+	}
+	@include res(xs) {
+		width: 100%;
+		padding-left: 0;
+	}
+}
+
+.contact-info__static {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: $pad-xs;
+	&:last-child {
+		padding-bottom: 0;
+	}
+	span {
+		margin-bottom: 5px;
+		font-size: 12px;
+	}
+	a.h3 {
+		transition: all 0.3s ease;
+		&:hover {
+			color: $blue;
+		}
+	}
+}
