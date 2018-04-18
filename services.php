@@ -21,7 +21,7 @@
 					<p>Специалисты сервисного центра компании ABS3D вне зависимости от ситуации и причины поломки устранят неисправность в самые кратчайшие сроки. Штат сервисного подразделения составляют высококлассные специалисты, сертифицированные компаниями-изготовителями, ежегодно подтверждающие свою квалификацию.</p>
 				</div>
 				<div class="service__actions">
-					<button class="btn btn--white fancy-modal" data-src="#modal-service-1">Оставть заявку</button>
+					<button class="btn btn--white fancy-modal" data-src="#modal-service-1">Оставить заявку</button>
 					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video services-play">
 						<span class="play-icon"></span>
 						<div class="services-play__text">
@@ -59,7 +59,7 @@
 					<p>Специалисты сервисного центра компании ABS3D вне зависимости от ситуации и причины поломки устранят неисправность в самые кратчайшие сроки. Штат сервисного подразделения составляют высококлассные специалисты, сертифицированные компаниями-изготовителями, ежегодно подтверждающие свою квалификацию.</p>
 				</div>
 				<div class="service__actions">
-					<button class="btn btn--white fancy-modal" data-src="#modal-service-2">Оставть заявку</button>
+					<button class="btn btn--white fancy-modal" data-src="#modal-service-2">Оставить заявку</button>
 					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video services-play">
 						<span class="play-icon"></span>
 						<div class="services-play__text">
@@ -97,7 +97,7 @@
 					<p>Специалисты сервисного центра компании ABS3D вне зависимости от ситуации и причины поломки устранят неисправность в самые кратчайшие сроки. Штат сервисного подразделения составляют высококлассные специалисты, сертифицированные компаниями-изготовителями, ежегодно подтверждающие свою квалификацию.</p>
 				</div>
 				<div class="service__actions">
-					<button class="btn btn--white fancy-modal" data-src="#modal-service-3">Оставть заявку</button>
+					<button class="btn btn--white fancy-modal" data-src="#modal-service-3">Оставить заявку</button>
 					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video services-play">
 						<span class="play-icon"></span>
 						<div class="services-play__text">

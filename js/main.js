@@ -477,7 +477,10 @@ $(function($){
 		hide_min_max: true,
 		hide_from_to: true,
 		grid: false,
-		step: 100
+		step: 100,
+		onFinish: function (data) {
+			$("input.price-filter--to").change();
+		}
 	});
 
 	price_slider.on('change', function () {
@@ -530,6 +533,8 @@ $(function($){
 				to: toInputVal
 			});
 		}
+
+		toInput.change();
 
 		return false;
 	}
@@ -744,10 +749,13 @@ $(function($){
 Services BEGIN
 ***********************/
 $(function($){
+	//выбираем все айтемы для анимации
 	var services = document.querySelectorAll('.service');
 
+	// и для каждого инициализируем анимацию
 	for (var i = 0; i < services.length; ++i) {
 		initPixi(services[i]);
+		services[i].classList.add('ready');
 	}
 
 	function initPixi(service) {
@@ -755,7 +763,7 @@ $(function($){
 		var imgSrc = service.dataset.img;
 		var bg = PIXI.Sprite.fromImage(imgSrc);
 
-		var displacementSprite = PIXI.Sprite.fromImage('/img/services/map5.jpg');
+		var displacementSprite = PIXI.Sprite.fromImage('/img/services/map7.jpg');
 
 		var app = new PIXI.Application({
 			view: canvas,
@@ -764,11 +772,12 @@ $(function($){
 			backgroundColor : 0x0c1426
 		});
 
-
+		//работаем в контейнере, хотя можно и без него
 		var container = new PIXI.Container();
 		app.stage.addChild(container);
 
-
+		//делаем контейнер интерактивным для функций типа mousemove
+		app.interactive = true;
 		container.interactive = true;
 
 		//позиционирование изображний
@@ -788,10 +797,10 @@ $(function($){
 		container.filters = [displacementFilter];
 		// создание фильтра
 
-
+		//добавляем изображения в контейнер
 		container.addChild(bg,displacementSprite);
 
-
+		//При наведении делаем магию
 		function onPointerMove(eventData){
 			var filter = displacementFilter.scale;
 			if (eventData.data.global.x > 0 &&
@@ -800,25 +809,30 @@ $(function($){
 				eventData.data.global.y < app.screen.height)
 			{
 				TweenMax.to(filter, 0.2, {
-					x: -(eventData.data.global.x - app.screen.width / 2) / 15,
-					y: -(eventData.data.global.y - app.screen.height / 2) / 30,
+					x: -(eventData.data.global.x - app.screen.width / 2) / 25,
+					y: -(eventData.data.global.y - app.screen.height / 2) / 15,
 					ease: Power0.easeInOut
 				});
+				displacementSprite.position.set(
+					(app.screen.width / 2 + eventData.data.global.x / 20),
+					(app.screen.height / 2 + eventData.data.global.y / 20)
+				);
+			} else {
+				setTimeout(function () {
+					if (!TweenMax.isTweening(filter)){
+						TweenMax.to(filter, 0.5, {
+							x: 0,
+							y: 0,
+							ease: Power2.easeInOut
+						});
+					}
+				},200);
 			}
 		}
 
-		function onPointerOut(eventData){
-			var filter = displacementFilter.scale;
-			TweenMax.to(filter, 0.5, {
-				x: 0,
-				y: 0,
-				ease: Power2.easeInOut
-			});
-		}
-
 		container.on('pointermove', onPointerMove);
-		container.on('pointerout', onPointerOut);
 
+		//при ресайзе окна центрируем содержимое контенейра
 		window.addEventListener("resize", onResize);
 
 		function onResize() {

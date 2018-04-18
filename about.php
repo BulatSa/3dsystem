@@ -46,7 +46,7 @@
 <section class="about-benefits-sec">
 	<div class="container">
 		<div class="about-benefits row">
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+			<div class="grid-3 grid-6_l grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/benefits/1.svg" alt="">
@@ -57,7 +57,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+			<div class="grid-3 grid-6_l grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/benefits/2.svg" alt="">
@@ -68,7 +68,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+			<div class="grid-3 grid-6_l grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/benefits/3.svg" alt="">
@@ -79,7 +79,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+			<div class="grid-3 grid-6_l grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/benefits/4.svg" alt="">
@@ -91,7 +91,7 @@
 				</div>
 			</div>
 
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+			<div class="grid-3 grid-6_l grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/benefits/5.svg" alt="">
@@ -102,7 +102,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+			<div class="grid-3 grid-6_l grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/benefits/6.svg" alt="">
@@ -113,7 +113,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+			<div class="grid-3 grid-6_l grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/benefits/7.svg" alt="">
@@ -124,7 +124,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_l grid-6_s grid-12_xs">
+			<div class="grid-3 grid-6_l grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/benefits/8.svg" alt="">

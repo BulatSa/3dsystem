@@ -31,6 +31,7 @@
 			<br>
 			<li><a href="reviews.php">Отзывы</a></li>
 			<li><a href="about.php">О компании</a></li>
+			<li><a href="services.php">Сервисы</a></li>
 			<li><a href="garant.php">Гарантийное обслуживание</a></li>
 			<li><a href="delivery.php">Доставка</a></li>
 		</ul>
