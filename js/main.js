@@ -849,3 +849,16 @@ $(function($){
 /***********************
 Services END
 ***********************/
+
+
+/***********************
+Particles BEGIN
+***********************/
+$(function($){
+	if ($('#particles-js').length){
+		particlesJS.load('particles-js', '/img/particles.json');
+	}
+});
+/***********************
+Particles END
+***********************/

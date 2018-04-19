@@ -425,6 +425,7 @@
 <section class="history-banner-sec s-def">
 	<div class="container">
 		<div class="history-banner">
+			<div id="particles-js"></div>
 			<div class="history-banner__text">
 				<p class="h2">С 2012 года работаем для вас</p>
 				<p class="h3">Начните сотрудничество с нами прямо сейчас!</p>

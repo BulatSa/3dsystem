@@ -193,13 +193,13 @@
 						<input type="text" class="input-text" placeholder="Введите имя*" data-req="true" name="user-name">
 					</div>
 					<div class="feedback__input">
-						<input type="tel" class="input-text" placeholder="Введите телефон*" data-req="true" name="user-phone">
+						<input type="tel" class="input-text" placeholder="Введите телефон" name="user-phone">
 					</div>
 					<div class="feedback__input">
-						<input type="email" class="input-text" placeholder="Введите e-mail" data-req="true" name="user-email">
+						<input type="email" class="input-text" placeholder="Введите e-mail" name="user-email">
 					</div>
 					<div class="feedback__input feedback__input--full">
-						<textarea class="input-text" name="user-comment" placeholder="Написать комментарий"></textarea>
+						<textarea class="input-text" name="user-comment" placeholder="Текст отзыва*" data-req="true"></textarea>
 					</div>
 					<div class="feedback__submit">
 						<label class="style-check-ios">
