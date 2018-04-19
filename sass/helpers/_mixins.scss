@@ -5,16 +5,6 @@
 }
 
 
-@mixin placeholder {
-	$placeholders: ":-webkit-input" ":-moz" "-moz" "-ms-input";
-	@each $placeholder in $placeholders {
-		&:#{$placeholder}-placeholder {
-			@content;
-		}
-	}
-}
-
-
 /// Иоконка закрытия модальных окон в виде креста.
 $full_cross_size: 32px;
 $cross_size: 16px;
