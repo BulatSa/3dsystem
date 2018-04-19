@@ -107,11 +107,11 @@
 			<div class="row">
 				<div class="grid-5 grid-12_s contact-requiz__block">
 					<div class="contact-info__static">
-						<span>Адрес</span>
-						<p class="h3">Технопарк "ИДЕЯ", ул. Петербургская, д. 50 корп. 23, оф. 310, Казань, 420107</p>
+						<span>Юридический адрес</span>
+						<p class="h3">РТ, г. Казань, ул. Петербургская, д. 50, кор. 23, оф. 414</p>
 					</div>
 					<div class="contact-info__static">
-						<a href="https://yandex.ru/map-widget/v1/-/CBqBFDwCxD" class="btn btn--small fancy-map" data-type="iframe">Схема проезда</a>
+						<a href="#" class="btn btn--small">Скачать реквизиты</a>
 					</div>
 				</div>
 				<div class="grid-3 grid-12_s contact-requiz__block">
