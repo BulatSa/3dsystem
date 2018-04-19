@@ -231,7 +231,7 @@
 				<div class="user-content">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
 				</div>
-				<a href="#" class="btn btn--small btn--red">Стать партером</a>
+				<button class="btn btn--red fancy-modal" data-src="#modal-partner">Стать партнером</button>
 			</div>
 			<img src="img/about/map.jpg" alt="">
 		</div>
@@ -428,11 +428,29 @@
 			<div class="history-banner__text">
 				<p class="h2">С 2012 года работаем для вас</p>
 				<p class="h3">Начните сотрудничество с нами прямо сейчас!</p>
-				<a href="catalog.php" class="btn btn--small btn--red">Перейти в каталог</a>
+				<button class="btn btn--red fancy-modal" data-src="#modal-partner">Стать партнером</button>
 			</div>
 		</div>
 	</div>
 </section>
+
+<div id="modal-partner" class="modal">
+	<div class="modal__icon">
+		<img src="/img/modal-order.svg" alt="icon">
+	</div>
+	<p class="h2 modal__title">Стать партнером</p>
+	<form class="ajax-form vertical-form">
+		<input type="hidden" value="Заказ услуги: 3D моделирование" name="form_subject">
+		<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
+		<input type="email" name="user_email" placeholder="Введите e-mail" data-label="E-mail" class="input-text">
+		<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+		<button type="submit" class="btn btn--blue">Отправить</button>
+		<label class="style-check-ios">
+			<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+			<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="/privacy.php" target="_blank">политикой конфиденциальности</a></span>
+		</label>
+	</form>
+</div>
 
 
 

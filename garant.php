@@ -171,7 +171,7 @@
 <section class="about-benefits-sec s-def-bottom">
 	<div class="container">
 		<div class="about-benefits row">
-			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-4_xxl grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/garant/service-1.svg" alt="">
@@ -182,7 +182,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-4_xxl grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/garant/service-2.svg" alt="">
@@ -193,7 +193,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-4_xxl grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/garant/service-1.svg" alt="">
@@ -204,7 +204,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-4_xxl grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/garant/service-3.svg" alt="">
@@ -216,7 +216,7 @@
 				</div>
 			</div>
 
-			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-4_xxl grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/garant/service-4.svg" alt="">
@@ -227,7 +227,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-2 grid-3_xxl grid-4_l grid-6_m grid-12_xs">
+			<div class="grid-2 grid-4_xxl grid-6_m grid-12_xs">
 				<div class="about-benefits__item">
 					<div class="about-benefits__img">
 						<img src="img/garant/service-5.svg" alt="">

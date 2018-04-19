@@ -126,6 +126,8 @@
 		</form>
 	</div>
 
+
+
 	<div id="modal-addtocart" class="modal">
 		<p class="h2 modal__title">Товар добавлен в&nbsp;корзину</p>
 		<p class="modal__descr">Количество товара в корзине: 2</p>
