@@ -1,0 +1,37 @@
+.contact-company {
+	justify-content: center;
+}
+
+.contact-company__block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: calc(50% - 28px);
+	margin-left: 14px;
+	margin-right: 14px;
+	border: 1px solid $gray-border;
+	border-radius: 15px;
+	overflow: hidden;
+	@include res(xxl) {
+		width: calc(50% - 20px);
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	@include res(l) {
+		width: 100%;
+		margin-bottom: $pad-s;
+	}
+	@include res(xs) {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		margin-top: auto;
+	}
+}
+
+.contact-company__text {
+	padding: $pad-m $pad-s;
+}

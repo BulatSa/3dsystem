@@ -31,13 +31,12 @@
 }
 
 .contact-info__static {
-	display: flex;
-	flex-direction: column;
 	padding-bottom: $pad-xs;
 	&:last-child {
 		padding-bottom: 0;
 	}
 	span {
+		display: block;
 		margin-bottom: 5px;
 		font-size: 12px;
 	}
