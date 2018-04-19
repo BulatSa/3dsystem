@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<div class="container">
+<div class="container s-def-bottom">
 	<div class="user-content">
 		<ul>
 			<li><a href="index.php">Главная</a></li>
@@ -37,3 +37,5 @@
 		</ul>
 	</div>
 </div>
+
+<?php include('footer.php'); ?>

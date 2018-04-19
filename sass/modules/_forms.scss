@@ -25,7 +25,7 @@ button {
 		padding: 10px 20px;
 	}
 
-	@include placeholder {
+	&::placeholder{
 		color: $gray-text;
 		font-style: italic;
 		opacity: 1;
@@ -40,7 +40,7 @@ button {
 		outline: none;
 		border: 1px solid $blue;
 		box-shadow: 0 4px 10px -2px transparentize($blue,0.8), 0 0 0 1px $blue;
-		@include placeholder {
+		&::placeholder{
 			opacity: 0;
 		}
 	}
