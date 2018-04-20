@@ -8,7 +8,7 @@
 					<p class="h1">Контактная информация</p>
 					<p class="h3">Хотите приехать на машине? <br>
 						У нас бесплатная парковка!</p>
-					<a href="#" class="btn btn--white">Заказать пропуск</a>
+					<button class="btn btn--white fancy-modal" data-src="#modal-propusk">Заказать пропуск</button>
 				</div>
 			</div>
 		</div>
@@ -139,5 +139,22 @@
 	</div>
 </section>
 
+<div id="modal-propusk" class="modal">
+	<div class="modal__icon">
+		<img src="/img/modal-order.svg" alt="icon">
+	</div>
+	<p class="h2 modal__title">Заказать пропуск</p>
+	<form class="ajax-form vertical-form">
+		<input type="hidden" value="Заказ пропуск" name="form_subject">
+		<input type="text" name="user_car" placeholder="Гос. Номер авто (x999xx116)*" data-label="Гос. Номер авто" class="input-text" data-req="true">
+		<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
+		<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+		<button type="submit" class="btn btn--blue">Заказать</button>
+		<label class="style-check-ios">
+			<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+			<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="/privacy.php" target="_blank">политикой конфиденциальности</a></span>
+		</label>
+	</form>
+</div>
 
 <?php include('footer.php'); ?>

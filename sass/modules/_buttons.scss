@@ -91,22 +91,18 @@ button::-moz-focus-inner {
 
 .btn--white{
 	background: #fff;
-	color: $blue;
-
-	&:hover,&:focus{
-		color: #fff;
-		background: darken($blue,10%);
-		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
-	}
-
-	&:active{
-		color: #fff;
-		background: darken($blue,15%);
-		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
-	}
+	color: #000;
 }
 
 .btn--small{
+	font-family: $font;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 8px 18px;
+}
+
+.btn--small-white{
+	background: #FFF;
 	font-family: $font;
 	font-size: 12px;
 	font-weight: normal;
