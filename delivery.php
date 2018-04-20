@@ -125,6 +125,7 @@
 <section class="history-banner-sec s-def">
 	<div class="container">
 		<div class="history-banner">
+			<div id="particles-js"></div>
 			<div class="history-banner__text">
 				<p class="h1">Вы знали, что в  России 1114 городов?</p>
 				<p class="h3">Товары приобретенные вами в нашей компании могут быть оперативно доставлены в более чем 7000 городов и населенных пунктов России, Казахстана и Республики Беларусь.</p>

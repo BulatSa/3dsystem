@@ -292,6 +292,7 @@
 
 .header__cart {
 	display: flex;
+	align-items: center;
 	&:hover {
 		i {
 			color: $red;
@@ -300,7 +301,7 @@
 	i {
 		position: relative;
 		padding: 0 10px;
-		margin-right: 10px;
+		margin-right: 2px;
 		font-size: 35px;
 		transition: all 0.3s ease;
 		@include res(s) {
@@ -312,13 +313,11 @@
 
 .header__cart-info {
 	display: block;
-	padding-bottom: 2px;
 	@include res(l) {
 		display: none;
 	}
 	b {
 		display: block;
-		margin-bottom: 4px;
 		line-height: 1;
 		font-size: 18px;
 		@include res(xxl) {

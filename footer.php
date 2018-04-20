@@ -25,16 +25,16 @@
 			<div class="footer-block">
 				<p class="h2 footer-block__title">О нас</p>
 				<ul class="footer-menu">
-					<li><a href="#">О компании</a></li>
-					<li><a href="#">Гарантийное обслуживание</a></li>
-					<li class="active"><a href="#">Доставка и оплата</a></li>
+					<li><a href="/about.php">О компании</a></li>
+					<li><a href="/garant.php">Гарантийное обслуживание</a></li>
+					<li class="active"><a href="/delivery.php">Доставка и оплата</a></li>
 					<li><a href="/blog.php">Блог</a></li>
 					<li><a href="/news.php">Новости</a></li>
 					<li><a href="/promo.php">Акции</a></li>
 					<li><a href="/reviews.php">Отзывы</a></li>
-					<li><a href="#">Услуги</a></li>
+					<li><a href="/services.php">Услуги</a></li>
 					<li><a href="/brands.php">Бренды</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li><a href="/contact.php">Контакты</a></li>
 				</ul>
 			</div>
 			<div class="footer-block">

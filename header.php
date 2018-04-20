@@ -152,22 +152,22 @@
 		<div class="mobile-menu__static">
 			<p>3D System Pro</p>
 			<ul>
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Гарантийное обслуживание</a></li>
+				<li><a href="/about.php">О компании</a></li>
+				<li><a href="/garant.php">Гарантийное обслуживание</a></li>
 				<li class="active"><a href="#">Доставка и оплата</a></li>
 				<li><a href="/blog.php">Блог</a></li>
 				<li><a href="/news.php">Новости</a></li>
 				<li><a href="/promo.php">Акции</a></li>
-				<li><a href="#">Отзывы</a></li>
+				<li><a href="/reviews.php">Отзывы</a></li>
 				<li><a href="/services.php">Услуги</a></li>
 				<li><a href="/brands.php">Бренды</a></li>
-				<li><a href="#">Контакты</a></li>
+				<li><a href="/contact.php">Контакты</a></li>
 			</ul>
 		</div>
 		<div class="mobile-menu__static">
 			<p>Информация</p>
 			<ul>
-				<li><a href="#">Политика конфиденциальности</a></li>
+				<li><a href="/privacy.php">Политика конфиденциальности</a></li>
 			</ul>
 		</div>
 	</div>
@@ -181,11 +181,11 @@
 					<figure></figure>
 				</a>
 				<nav>
-					<a href="#">О компании</a>
+					<a href="/about.php">О компании</a>
 					<a href="/services.php">Услуги</a>
 					<a href="/promo.php">Акции</a>
 					<a href="/blog.php">Блог</a>
-					<a href="#">Контакты</a>
+					<a href="/contact.php">Контакты</a>
 				</nav>
 				<div class="header__top-contact">
 					<a href="tel:88002000574" class="header__top-phone"><i class="i-phone"></i><span>8 800 200-05-74</span></a>
@@ -220,7 +220,7 @@
 						<i class="i-card"><sup>3</sup></i>
 						<span class="header__cart-info">
 							<b>Корзина</b>
-							<span>на сумму 135 000 <span class="rub">&#x20bd;</span></span>
+							<span>135 000 <span class="rub">&#x20bd;</span></span>
 						</span>
 					</a>
 				</div>
