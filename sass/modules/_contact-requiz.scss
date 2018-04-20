@@ -1,0 +1,17 @@
+.contact-requiz {
+	padding: $pad-m $pad-s;
+	border: 1px solid $gray-border;
+	border-radius: 15px;
+	.h1 {
+		margin-bottom: 15px;
+	}
+}
+
+.contact-requiz__block {
+	@include res(s) {
+		margin-bottom: $pad-s;
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

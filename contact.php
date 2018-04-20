@@ -15,4 +15,129 @@
 	</div>
 </section>
 
+
+<section class="s-def-bottom">
+	<div class="container">
+		<div class="contact-company row">
+				<div class="contact-company__block">
+					<div class="contact-company__text">
+						<div class="user-content">
+							<p class="h1">Казань</p>
+						</div>
+						<div class="contact-info">
+							<div class="contact-info__left">
+								<div class="contact-info__static">
+									<span>Телефон</span>
+									<a href="tel:78432609229" class="h3">+7 (843) 260—92—29</a>
+									<a href="tel:78432122327" class="h3">+7 (843) 212—23—27</a>
+								</div>
+								<div class="contact-info__static">
+									<span>E-mail</span>
+									<a href="mailto:kzn@abs3d.ru" class="h3">kzn@abs3d.ru</a>
+								</div>
+								<div class="contact-info__static">
+									<a href="https://yandex.ru/map-widget/v1/-/CBqBFDwCxD" class="btn btn--small fancy-map" data-type="iframe">Схема проезда</a>
+								</div>
+							</div>
+							<div class="contact-info__right">
+								<div class="contact-info__static">
+									<span>Адрес</span>
+									<p class="h3">Технопарк "ИДЕЯ", ул. Петербургская, д. 50 корп. 23, оф. 310, Казань, 420107</p>
+								</div>
+								<div class="contact-info__static">
+									<span>Ближайшая станция метро</span>
+									<p class="h3">Площадь Габдулы Тукая</p>
+								</div>
+								<div class="contact-info__static">
+									<span>Часы работы</span>
+									<p class="h3">10:00 — 18:00 | Пн — пт</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img src="img/contact/city-kazan.jpg" alt="">
+				</div>
+
+				<div class="contact-company__block">
+					<div class="contact-company__text">
+						<div class="user-content">
+							<p class="h1">Санкт-Петербург</p>
+						</div>
+						<div class="contact-info">
+							<div class="contact-info__left">
+								<div class="contact-info__static">
+									<span>Телефон</span>
+									<a href="tel:78124253583" class="h3">+7 (812) 425—35—83</a>
+								</div>
+								<div class="contact-info__static">
+									<span>E-mail</span>
+									<a href="mailto:kzn@abs3d.ru" class="h3">spb@abs3d.ru</a>
+								</div>
+								<div class="contact-info__static">
+									<a href="https://yandex.ru/map-widget/v1/-/CBqFyNXWWB" class="btn btn--small fancy-map" data-type="iframe">Схема проезда</a>
+								</div>
+							</div>
+							<div class="contact-info__right">
+								<div class="contact-info__static">
+									<span>Адрес</span>
+									<p class="h3">Лиговский проспект, д. 92 Г, Санкт-Петербург, 191119</p>
+								</div>
+								<div class="contact-info__static">
+									<span>Ближайшая станция метро</span>
+									<p class="h3">Лиговский проспект</p>
+								</div>
+								<div class="contact-info__static">
+									<span>Часы работы</span>
+									<p class="h3">10:00 — 18:00 | Пн — пт</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img src="img/contact/city-piter.jpg" alt="">
+				</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-def-bottom">
+	<div class="container">
+		<div class="contact-requiz">
+			<p class="h1">Реквизиты компании</p>
+			<div class="row">
+				<div class="grid-5 grid-12_s contact-requiz__block">
+					<div class="contact-info__static">
+						<span>Юридический адрес</span>
+						<p class="h3">РТ, г. Казань, ул. Петербургская, д. 50, кор. 23, оф. 414</p>
+					</div>
+					<div class="contact-info__static">
+						<a href="#" class="btn btn--small">Скачать реквизиты</a>
+					</div>
+				</div>
+				<div class="grid-3 grid-12_s contact-requiz__block">
+					<div class="user-content">
+						<p>
+							ОГРН 16 007245359, <br>
+							ИНН 165716798990 <br>
+							ОГРНИП 315169000036357 <br>
+							БИК 042202824
+						</p>
+					</div>
+				</div>
+				<div class="grid-4 grid-12_s contact-requiz__block">
+					<div class="user-content">
+						<p>
+							в ФИЛИАЛе "НИЖЕГОРОДСКИЙ" АО "АЛЬФА-БАНК" <br>
+							в г. НИЖНИЙ НОВГОРОД <br>
+							Р/счёт 40802810629150000242 <br>
+							Кор/счёт 30101810200000000824
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>
