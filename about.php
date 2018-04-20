@@ -43,6 +43,7 @@
 	</div>
 </section>
 
+
 <section class="about-benefits-sec">
 	<div class="container">
 		<div class="about-benefits row">
@@ -148,6 +149,7 @@
 		</div>
 	</div>
 </section>
+
 
 <section class="about-serts-sec s-def-bottom">
 	<div class="container">
@@ -425,7 +427,7 @@
 <section class="history-banner-sec s-def">
 	<div class="container">
 		<div class="history-banner">
-			<div id="particles-js"></div>
+			<div id="particles-js" data-json="/img/particles.json"></div>
 			<div class="history-banner__text">
 				<p class="h2">С 2012 года работаем для вас</p>
 				<p class="h3">Начните сотрудничество с нами прямо сейчас!</p>
@@ -435,13 +437,14 @@
 	</div>
 </section>
 
+
 <div id="modal-partner" class="modal">
 	<div class="modal__icon">
 		<img src="/img/modal-order.svg" alt="icon">
 	</div>
 	<p class="h2 modal__title">Стать партнером</p>
 	<form class="ajax-form vertical-form">
-		<input type="hidden" value="Заказ услуги: 3D моделирование" name="form_subject">
+		<input type="hidden" value="Стать партнером" name="form_subject">
 		<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
 		<input type="email" name="user_email" placeholder="Введите e-mail" data-label="E-mail" class="input-text">
 		<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
