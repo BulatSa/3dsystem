@@ -534,8 +534,6 @@ $(function($){
 			});
 		}
 
-		toInput.change();
-
 		return false;
 	}
 
@@ -544,7 +542,11 @@ $(function($){
 		hide_min_max: true,
 		hide_from_to: true,
 		grid: false,
-		step: 1
+		step: 1,
+		onFinish: function (data) {
+			var thisFilter = data.input[0].parentNode;
+			$(thisFilter).find('.range-filter--to').change();
+		}
 	});
 
 	range_slider.on('change', function () {

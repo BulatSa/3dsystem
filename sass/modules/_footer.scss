@@ -271,8 +271,9 @@
 
 	&__right{
 		img{
+			width: 154px;
+			height: auto;
 			opacity: 0.3;
-			transform: translate3d(0,0,0);
 			transition: all 0.3s ease;
 
 			&:hover{
