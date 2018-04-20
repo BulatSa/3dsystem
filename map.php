@@ -35,6 +35,7 @@
 			<li><a href="garant.php">Гарантийное обслуживание</a></li>
 			<li><a href="delivery.php">Доставка</a></li>
 			<li><a href="contact.php">Контакты</a></li>
+			<li><a href="thanks.php">Спасибо за заказ</a></li>
 		</ul>
 	</div>
 </div>

@@ -12,11 +12,29 @@
 	img{
 		@include res(xxl){
 			max-width: 300px;
+			width: 100%;
 		}
 	}
 
 	a{
 		display: inline-block;
 		border-bottom: 2px dotted currentColor;
+	}
+
+	&--thanks {
+		.user-content{
+			p{
+				max-width: 380px;
+			}
+		}
+		img{
+			margin-bottom: 0;
+			@include res(xxl){
+				max-width: 500px;
+			}
+			@include res(s){
+				max-width: 300px;
+			}
+		}
 	}
 }
