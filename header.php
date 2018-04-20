@@ -220,7 +220,7 @@
 						<i class="i-card"><sup>3</sup></i>
 						<span class="header__cart-info">
 							<b>Корзина</b>
-							<span>на сумму 135 000 <span class="rub">&#x20bd;</span></span>
+							<span>135 000 <span class="rub">&#x20bd;</span></span>
 						</span>
 					</a>
 				</div>
