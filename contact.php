@@ -139,7 +139,6 @@
 	</div>
 </section>
 
-
 <div id="modal-propusk" class="modal">
 	<div class="modal__icon">
 		<img src="/img/modal-order.svg" alt="icon">
@@ -157,6 +156,5 @@
 		</label>
 	</form>
 </div>
-
 
 <?php include('footer.php'); ?>
