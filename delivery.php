@@ -56,6 +56,7 @@
 	</div>
 </section>
 
+
 <section class="pay-methods-sec s-def-bottom">
 	<div class="container">
 		<div class="pay-methods">
@@ -121,11 +122,10 @@
 </section>
 
 
-
 <section class="history-banner-sec s-def">
 	<div class="container">
 		<div class="history-banner">
-			<div id="particles-js"></div>
+			<div id="particles-js" data-json="/img/particles.json"></div>
 			<div class="history-banner__text">
 				<p class="h1">Вы знали, что в  России 1114 городов?</p>
 				<p class="h3">Товары приобретенные вами в нашей компании могут быть оперативно доставлены в более чем 7000 городов и населенных пунктов России, Казахстана и Республики Беларусь.</p>
@@ -134,7 +134,6 @@
 		</div>
 	</div>
 </section>
-
 
 
 <section class="garant-about-sec s-def-bottom">
@@ -165,7 +164,7 @@
 							<a href="mailto:kzn@abs3d.ru" class="h3">kzn@abs3d.ru</a>
 						</div>
 						<div class="contact-info__static">
-							<a href="https://yandex.ru/map-widget/v1/-/CBqBFDwCxD" class="btn btn--white btn--small fancy-map" data-type="iframe">Схема проезда</a>
+							<a href="https://yandex.ru/map-widget/v1/-/CBqBFDwCxD" class="btn btn--small-white fancy-map" data-type="iframe">Схема проезда</a>
 						</div>
 					</div>
 					<div class="contact-info__right">

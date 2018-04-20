@@ -188,13 +188,14 @@ $(function($){
  Mob menu BEGIN
  ***********************/
 $(function(){
+	var headerCartWrapMobile = $('.header__cart-wrap--mobile');
 	$('.header__top-burger').on('click',function (e) {
 		e.preventDefault();
 		$(this).toggleClass('active');
 		$('.mobile-menu-sec').toggleClass('active');
 		if($(window).width() < 420) {
-			if(!$('.header__cart-wrap--mobile').hasClass('active')) {
-				$('.header__cart-wrap--mobile').toggleClass('open');
+			if(!headerCartWrapMobile.hasClass('active')) {
+				headerCartWrapMobile.toggleClass('open');
 			}
 		}
 	});
@@ -205,8 +206,8 @@ $(function(){
 			$('.header__top-burger').removeClass('active');
 			$('.mobile-menu-sec').removeClass('active');
 			if($(window).width() < 420) {
-				if(!$('.header__cart-wrap--mobile').hasClass('active')) {
-					$('.header__cart-wrap--mobile').removeClass('open');
+				if(!headerCartWrapMobile.hasClass('active')) {
+					headerCartWrapMobile.removeClass('open');
 				}
 			}
 		}
@@ -248,7 +249,7 @@ $(function () {
  Waypoints BEGIN
  ***********************/
 $(function () {
-	$('.anim').waypoint(function () {
+	$('.anim,.fade-in').waypoint(function () {
 		$(this.element).toggleClass('animated');
 	}, {
 		offset: '85%'
@@ -387,8 +388,9 @@ Team about END
 Masonry BEGIN
 ***********************/
 $(function($){
-	if ($('.reviews__list').length){
-		$('.reviews__list').masonry({
+	var reviewsList = $('.reviews__list');
+	if (reviewsList.length){
+		reviewsList.masonry({
 			percentPosition: true
 		})
 	}
@@ -478,7 +480,7 @@ $(function($){
 		hide_from_to: true,
 		grid: false,
 		step: 100,
-		onFinish: function (data) {
+		onFinish: function () {
 			$("input.price-filter--to").change();
 		}
 	});
@@ -750,7 +752,7 @@ $(function($){
 /***********************
 Services BEGIN
 ***********************/
-$(function($){
+$(function(){
 	//выбираем все айтемы для анимации
 	var services = document.querySelectorAll('.service');
 
@@ -857,8 +859,10 @@ Services END
 Particles BEGIN
 ***********************/
 $(function($){
-	if ($('#particles-js').length){
-		particlesJS.load('particles-js', '/img/particles.json');
+	var particleBlock = $('#particles-js');
+	if (particleBlock.length){
+		var jsonUrl = particleBlock.data('json');
+		particlesJS.load('particles-js', jsonUrl);
 	}
 });
 /***********************

@@ -3,6 +3,16 @@
 .team-slider {
 	padding-left: $pad-m;
 	padding-right: $pad-m;
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+	transition: all 0.6s ease;
+
+	&.flickity-enabled{
+		opacity: 1;
+		height: auto;
+		overflow: initial;
+	}
 }
 
 .team-slider__item {
