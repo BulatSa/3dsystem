@@ -209,10 +209,8 @@
 	max-width: 275px;
 	margin-right: 110px;
 	@include res(xl) {
-		margin-right: 60px;
-	}
-	@include res(l) {
 		max-width: 200px;
+		margin-right: 60px;
 	}
 	@include res(m) {
 		margin-right: 40px;
