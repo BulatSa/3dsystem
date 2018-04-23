@@ -272,7 +272,7 @@ $(function () {
 Waves btns BEGIN
 ***********************/
 $(function($){
-	$('.btn').ripple();
+	$('.btn:not(.bx-soa .btn)').ripple();
 	$.ripple.config({
 		rippleOpacity: .1,
 		rippleDelay: 100
