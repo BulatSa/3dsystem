@@ -12,7 +12,7 @@
 <section class="s-services s-def-bottom">
 	<div class="container">
 
-		<div class="service" data-img="/img/services/1.jpg" style="background-image: url('/img/services/1.jpg')">
+		<div class="service" data-img="/img/services/1.jpg" style="background-image: url('/img/services/1.jpg')" data-map="/img/services/map7.jpg">
 			<canvas class="service__canvas"></canvas>
 			<div class="service__content">
 				<p class="h1">3D печать</p>
@@ -50,7 +50,7 @@
 			</div>
 		</div>
 
-		<div class="service" data-img="/img/services/2.jpg" style="background-image: url('/img/services/2.jpg')">
+		<div class="service" data-img="/img/services/2.jpg" style="background-image: url('/img/services/2.jpg')" data-map="/img/services/map7.jpg">
 			<canvas class="service__canvas"></canvas>
 			<div class="service__content">
 				<p class="h1">3D сканирование</p>
@@ -88,7 +88,7 @@
 			</div>
 		</div>
 
-		<div class="service" data-img="/img/services/3.jpg" style="background-image: url('/img/services/3.jpg')">
+		<div class="service" data-img="/img/services/3.jpg" style="background-image: url('/img/services/3.jpg')" data-map="/img/services/map7.jpg">
 			<canvas class="service__canvas"></canvas>
 			<div class="service__content">
 				<p class="h1">3D моделирование</p>
