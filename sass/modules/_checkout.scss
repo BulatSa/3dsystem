@@ -1,3 +1,22 @@
+a{
+	&:hover{
+		text-decoration: none;
+	}
+	&:focus{
+		text-decoration: none;
+		outline: none;
+	}
+}
+
+ul,ol,p{
+	margin-bottom: 0;
+}
+
+label{
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
 .checkout {
 	position: relative;
 	.bx-soa {
@@ -39,6 +58,11 @@
 			background-repeat: no-repeat;
 			background-position: center;
 			background-size: contain;
+		}
+	}
+	.bx-soa-section .bx-soa-section-title-count{
+		&:after{
+			line-height: 17px;
 		}
 	}
 	.bx-soa-item-title {
@@ -314,6 +338,7 @@
 	.bx-soa-pp-desc-container .bx-soa-pp-company {
 		padding: 10px 15px;
 		background: $gray-bg;
+		border: none;
 		.bx-soa-pp-company-graf-container {
 			margin-top: 5px;
 			cursor: default;

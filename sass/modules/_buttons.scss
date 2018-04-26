@@ -25,12 +25,14 @@
 	}
 
 	&:hover,&:focus{
+		color: $blue;
 		outline: none;
 		box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.5);
 		background: darken($gray-bg,5%);
 	}
 
 	&:active{
+		color: $blue;
 		background: darken($gray-bg,10%);
 		box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.5);
 	}
@@ -64,11 +66,13 @@ button::-moz-focus-inner {
 	color: #FFF;
 
 	&:hover,&:focus{
+		color: #FFF;
 		background: darken($red,10%);
 		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
 	}
 
 	&:active{
+		color: #FFF;
 		background: darken($red,15%);
 		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
 	}
@@ -79,11 +83,13 @@ button::-moz-focus-inner {
 	color: #FFF;
 
 	&:hover,&:focus{
+		color: #FFF;
 		background: darken($blue,10%);
 		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
 	}
 
 	&:active{
+		color: #FFF;
 		background: darken($blue,15%);
 		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
 	}
@@ -124,5 +130,10 @@ button::-moz-focus-inner {
 
 	i.i-compare{
 		font-size: 21px;
+	}
+	
+	&.del_from_compare{
+		background: $green;
+		color: #FFF;
 	}
 }
