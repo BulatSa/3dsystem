@@ -765,9 +765,9 @@ $(function(){
 	function initPixi(service) {
 		var canvas = service.querySelector(".service__canvas");
 		var imgSrc = service.dataset.img;
+		var mapSrc = service.dataset.map;
 		var bg = PIXI.Sprite.fromImage(imgSrc);
-
-		var displacementSprite = PIXI.Sprite.fromImage('/img/services/map7.jpg');
+		var displacementSprite = PIXI.Sprite.fromImage(mapSrc);
 
 		var app = new PIXI.Application({
 			view: canvas,
