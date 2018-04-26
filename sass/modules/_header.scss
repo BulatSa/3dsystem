@@ -8,6 +8,17 @@
 		padding-top: 40px;
 		padding-bottom: 0;
 	}
+	a {
+		text-decoration: none!important;
+		&:hover {
+			color: $blue;
+		}
+		&[href^="tel"], i {
+			&:hover {
+				color: inherit;
+			}
+		}
+	}
 }
 
 .header__top-wrap {
