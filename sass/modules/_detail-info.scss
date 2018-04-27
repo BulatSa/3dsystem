@@ -122,3 +122,60 @@
 		margin-right: -16px;
 	}
 }
+
+
+//comments
+.detail-info__comments{
+	max-width: 600px;
+}
+
+.bx_soc_comments_div .bx-catalog-tab-list{
+	border: none;
+	
+	li{
+		border: none;
+		margin-right: 5px;
+		border-radius: 5px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: "Exo", Arial, sans-serif;
+		transition: all 0.3s ease;
+		cursor: pointer;
+		background: transparent;
+		box-shadow: none;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		padding-left: 20px;
+		padding-right: 20px;
+
+		&:hover,&.active{
+			color: #2f7bff;
+			background: #f5f5fa;
+		}
+
+		&.active{
+			box-shadow: none;
+
+			&>span{
+				color: inherit;
+				background: transparent;
+				height: auto;
+				line-height: inherit;
+				bottom: 0;
+			}
+		}
+
+		span{
+			padding: 0;
+			bottom: 0;
+			color: inherit;
+			height: auto;
+			line-height: inherit;
+		}
+	}
+
+	.blog-add-comment .bx_bt_button{
+		@extend .btn;
+	}
+}
+//comments
