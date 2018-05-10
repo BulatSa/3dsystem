@@ -277,6 +277,12 @@
 			sup {
 				font-size: 10px;
 			}
+
+			&--no{
+				i{
+					color: #888888;
+				}
+			}
 		}
 		.header__cart {
 			i {
@@ -354,6 +360,16 @@
 		}
 		sup {
 			background: $blue;
+		}
+	}
+
+	&--no{
+		i{
+			color: $gray-text;
+
+			&:hover{
+				color: $gray-text;
+			}
 		}
 	}
 }
