@@ -137,3 +137,37 @@ button::-moz-focus-inner {
 		color: #FFF;
 	}
 }
+
+
+.btn.loading{
+	overflow: hidden;
+	color: transparent;
+	&:before{
+		content: '';
+		position: absolute;
+		z-index: 1;
+		background: #FFF;
+		width: 20px;
+		height: 20px;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		transform: translate3d(0,0,0);
+		animation: loadingbtn 0.5s infinite ease alternate;
+		opacity: 0;
+		border-radius: 10px;
+	}
+}
+
+@keyframes loadingbtn {
+	from{
+		transform: translate3d(-20px,0,0);
+		opacity: 1;
+	}
+	to{
+		transform: translate3d(20px,0,0) scale3d(0.5,0.5,0.5);
+		opacity: 1;
+	}
+}

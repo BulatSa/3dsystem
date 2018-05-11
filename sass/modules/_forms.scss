@@ -344,3 +344,52 @@ textarea.input-text {
 	}
 }
 //pass-wrap
+
+
+//filestyle
+.form-file{
+	background: rgba(255,255,255,0.85);
+	border-radius: 15px;
+	padding: 10px 10px 0 10px;
+	margin-bottom: 10px;
+
+	&__title{
+		display: block;
+		margin-bottom: 6px;
+		font-size: 12px;
+		line-height: 1.2;
+	}
+
+	.input-text{
+		font-size: 12px;
+		padding: 10px 15px;
+	}
+}
+
+.style-file{
+	position: relative;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+
+	input{
+		opacity: 0;
+		position: absolute;
+		left: 0;
+		visibility: hidden;
+	}
+
+	.btn{
+		width: auto;
+		margin-right: 15px;
+		font-size: 14px;
+		padding: 7px 15px;
+	}
+
+	&__text{
+		font-style: italic;
+		line-height: 1.2;
+	}
+}
+//filestyle

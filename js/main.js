@@ -5,6 +5,7 @@ $(function () {
 	$(".ajax-form").on("submit", function (event) {
 		var form = $(this);
 		var send = true;
+		var btn = form.find('.btn[type="submit"]');
 		event.preventDefault();
 
 		$(this).find("[data-req='true']").each(function () {
@@ -40,6 +41,7 @@ $(function () {
 		});
 
 		if (send === true) {
+			btn.addClass('loading');
 			$.ajax({
 				type: "POST",
 				async: true,
@@ -49,6 +51,7 @@ $(function () {
 				processData: false,
 				data: form_data,
 				success: (function (result) {
+					btn.removeClass('loading');
 					var response = JSON.parse(result);
 					console.log(response);
 					$.fancybox.close();
@@ -868,3 +871,41 @@ $(function($){
 /***********************
 Particles END
 ***********************/
+
+
+/**************************************************
+ Custom File Input
+ ***************************************************/
+$(function($){
+	$('.style-file').each( function(){
+		var input = $(this).find('input[type="file"]');
+		var label = $(this).find('.style-file__text');
+		var label_val = label.html();
+
+		input.on( 'change', function( e ){
+			var fileName = '';
+
+			if( this.files && this.files.length > 1 ) {
+				fileName = ( this.getAttribute('data-multiple-caption') || '' ).replace('{count}', this.files.length);
+			}
+			else if( e.target.value ) {
+				fileName = e.target.value.split('\\').pop();
+			}
+
+			if(fileName) {
+				label.html(fileName);
+			}
+			else {
+				label.html(label_val);
+			}
+		});
+
+		// Firefox bug fix
+		input
+			.on( 'focus', function(){ input.addClass( 'has-focus' ); })
+			.on( 'blur', function(){ input.removeClass( 'has-focus' ); });
+	});
+});
+/**************************************************
+ End Custom File Input
+ ***************************************************/

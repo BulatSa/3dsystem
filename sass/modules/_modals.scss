@@ -42,6 +42,18 @@
 		background: #FFF;
 		width: 740px;
 	}
+
+	.form-file{
+		margin-left: -30px;
+		margin-right: -30px;
+		border-radius: 0;
+		padding: 10px 30px 0 30px;
+		@include res(s){
+			padding: 10px $pad-xs 0 $pad-xs;
+			margin-left: -$pad-xs;
+			margin-right: -$pad-xs;
+		}
+	}
 }
 
 .fancybox-slide--current {
