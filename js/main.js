@@ -909,3 +909,38 @@ $(function($){
 /**************************************************
  End Custom File Input
  ***************************************************/
+
+
+/***********************
+ Ajax Reviews BEGIN
+ ***********************/
+$(document).ready(function() {
+	var load_btn = $('.js-load');
+	var currentPage = 1;
+	var news_per_page = load_btn.data('per-page');
+	var items_num = load_btn.data('num-items');
+	var container = $(load_btn.data('container'));
+
+	function check_end_list() {
+		if(currentPage * news_per_page >= items_num){
+			load_btn.remove();
+		}
+	}
+
+	check_end_list();
+
+	load_btn.on('click',function (e) {
+		e.preventDefault();
+		var href = $(this).attr('href');
+		$.get(href, {'AJAX_PAGE' : 'Y','PAGEN_1': ++currentPage}, function(data) {
+			var $data = $(data);
+			container.append($data);
+			$('.reviews__list').masonry( 'appended', $data );
+			check_end_list();
+		});
+	});
+
+});
+/***********************
+ Ajax Reviews END
+ ***********************/
