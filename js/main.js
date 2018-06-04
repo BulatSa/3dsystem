@@ -156,7 +156,7 @@ $(function($){
 	var timer;
 	var delay = 150;
 
-	$('[data-category]').on('pointerenter touchstart',function () {
+	$('[data-category]').on('mouseenter touchstart',function (event) {
 		var id = $(this).data('category');
 		timer = setTimeout(function() {
 			closeSubMenu();
@@ -164,12 +164,12 @@ $(function($){
 		}, delay);
 	});
 
-	$('.header__bottom').on('pointerleave',function () {
+	$('.header__bottom').on('mouseleave',function () {
 		closeSubMenu();
 		clearTimeout(timer);
 	});
 
-	$('.header__bottom-links a').not('[data-category]').on('pointerenter touchstart',function () {
+	$('.header__bottom-links a').not('[data-category]').on('mouseenter touchstart',function () {
 		closeSubMenu();
 		clearTimeout(timer);
 	});
@@ -639,7 +639,7 @@ $(function ($) {
 		}
 	});
 
-	selectPayTab('cash');
+	selectPayTab('pay-methods-0');
 });
 /***********************
  Pay Methods Tabs END
