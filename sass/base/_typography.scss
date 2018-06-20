@@ -112,6 +112,22 @@ h3, .h3 {
 				}
 			}
 		}
+
+		&.files-list{
+			list-style: none;
+
+			li{
+				padding-left: 25px;
+				&:before{
+					width: 15px;
+					height: 21px;
+					background: url("../img/file-icon.png") center top no-repeat;
+					background-size: contain;
+					border: none;
+					top: 0;
+				}
+			}
+		}
 	}
 
 	table{
