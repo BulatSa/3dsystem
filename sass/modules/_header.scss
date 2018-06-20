@@ -202,6 +202,10 @@
 .header__middle {
 	display: flex;
 	align-items: center;
+	@include res(s){
+		flex-wrap: wrap;
+	}
+
 	.form-search {
 		@include res(xxl) {
 			max-width: 300px;
@@ -210,7 +214,11 @@
 			max-width: 260px;
 		}
 		@include res(s) {
-			display: none;
+			width: 100%;
+			max-width: 100%;
+			display: block;
+			order: 2;
+			margin-top: $pad-xs;
 		}
 	}
 
@@ -454,5 +462,13 @@
 		opacity: 1;
 		visibility: visible;
 		transform: translate3d(0, 0, 0);
+	}
+}
+
+
+//bitrix fix search popup
+body div.title-search-result{
+	@include res(xs){
+		min-width: 200px;
 	}
 }

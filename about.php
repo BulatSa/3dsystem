@@ -3,7 +3,7 @@
 
 <section class="big-banner-sec s-def-bottom">
 	<div class="container">
-		<div class="big-banner" style="background-image: url('../img/about/bg-big-banner.jpg')">
+		<div class="big-banner big-banner--mini" style="background-image: url('../img/about/bg-big-banner.jpg')">
 			<div class="big-banner__info">
 				<div class="user-content">
 					<p class="h1">Интернет-магазин 3D&nbsp;System.pro</p>
