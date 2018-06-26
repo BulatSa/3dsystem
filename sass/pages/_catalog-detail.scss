@@ -222,6 +222,14 @@
 		i{
 			font-size: 27px;
 		}
+
+		img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 42px;
+			height: auto;
+		}
 	}
 
 	&__text{
