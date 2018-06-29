@@ -12,7 +12,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> 
 
 
 <section class="info-banner-sec s-def-bottom">
