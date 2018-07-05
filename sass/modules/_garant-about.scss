@@ -38,6 +38,17 @@
 	}
 }
 
-.garant-about__contact {
 
+.delivery-place{
+	padding: 10px 0;
+	border-bottom: 2px dotted #c5c1c1;
+
+	.contact-info{
+		padding-top: 10px;
+	}
+
+	&:last-child{
+		border-bottom: none;
+		padding-bottom: 0;
+	}
 }
