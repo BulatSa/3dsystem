@@ -5,6 +5,12 @@
 	.h1 {
 		margin-bottom: 15px;
 	}
+	.row {
+		margin-bottom: 30px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .contact-requiz__block {

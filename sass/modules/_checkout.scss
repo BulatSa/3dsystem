@@ -380,3 +380,13 @@ label{
 		}
 	}
 }
+
+.main-user-consent-request-popup-cont{
+	min-width: 800px !important;
+	@include res(l){
+		min-width: 600px !important;
+	}
+	@include res(s){
+		min-width: 320px !important;
+	}
+}

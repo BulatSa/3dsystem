@@ -147,6 +147,16 @@ h3, .h3 {
 		}
 	}
 
+	i {
+		font-family: $font!important;
+		font-style: italic!important;
+		font-size: 14px;
+		line-height: 1.4;
+		@include res(l) {
+			font-size: 12px;
+		}
+	}
+
 	&--mini {
 		font-size: 12px;
 		line-height: 1.8;
