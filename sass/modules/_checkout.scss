@@ -390,3 +390,9 @@ label{
 		min-width: 320px !important;
 	}
 }
+
+.sale_order_full_table{
+	a{
+		@extend %link-blue;
+	}
+}
