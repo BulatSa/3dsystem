@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76.36" height="48.69" viewBox="0 0 76.36 48.69">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #374555;
+        stroke-width: 2.36px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>icon_4</title>
+  <g id="Слой_2" data-name="Слой 2">
+    <g id="Calque_2" data-name="Calque 2">
+      <g>
+        <line class="cls-1" x1="17.49" y1="14.56" x2="17.49" y2="18.58"/>
+        <polyline class="cls-1" points="19.31 42.06 13.54 42.06 13.54 32.11 54.58 32.11"/>
+        <line class="cls-1" x1="54.64" y1="42.06" x2="33.47" y2="42.06"/>
+        <path class="cls-1" d="M54.58,37.72V16.3h9.85c3.66,4.22,5.26,10.48,5.26,10.48l4.19,1.47a2.23,2.23,0,0,1,1.3,2.24v9.57c0,2.17-1.61,2-1.61,2h-4.8"/>
+        <path class="cls-2" d="M61.47,21.07a30.46,30.46,0,0,1,2.61,6.45H60"/>
+        <path class="cls-1" d="M68.63,42.68a4.83,4.83,0,1,1-4.83-4.83A4.83,4.83,0,0,1,68.63,42.68Z"/>
+        <path class="cls-1" d="M29.26,42.68a4.83,4.83,0,1,1-4.83-4.83A4.83,4.83,0,0,1,29.26,42.68Z"/>
+        <line class="cls-2" x1="22.53" y1="22.02" x2="8.96" y2="22.02"/>
+        <line class="cls-2" x1="10.74" y1="27.06" x2="3.09" y2="27.06"/>
+        <line class="cls-2" x1="12.16" y1="7.05" x2="1.18" y2="7.05"/>
+        <line class="cls-2" x1="17.49" y1="14.54" x2="7.54" y2="14.54"/>
+        <g>
+          <line class="cls-3" x1="17.16" y1="22.11" x2="17.16" y2="31.7"/>
+          <polyline class="cls-3" points="49.2 31.7 49.2 1.18 17.16 1.18 17.16 10.45"/>
+        </g>
+        <polyline class="cls-3" points="36.52 1.33 36.52 8.99 29.83 8.99 29.83 1.33"/>
+      </g>
+    </g>
+  </g>
+</svg>

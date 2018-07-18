@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.28" height="54.58" viewBox="0 0 60.28 54.58">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #394553;
+        stroke-width: 2.28px;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>icon_3</title>
+  <g id="Слой_2" data-name="Слой 2">
+    <g id="Calque_2" data-name="Calque 2">
+      <g>
+        <polyline class="cls-1" points="26.93 27.97 32.52 18.8 36.05 24.3 40.66 19.46 44.2 22.52 49.08 9.87"/>
+        <path class="cls-2" d="M24.2,35.68H51.55a4.57,4.57,0,0,0,4.56-4.56V2.7"/>
+        <line class="cls-1" x1="20.81" y1="2.64" x2="59.14" y2="2.64"/>
+        <path class="cls-3" d="M16.19,7a5.81,5.81,0,1,1-5.81-5.81A5.81,5.81,0,0,1,16.19,7Z"/>
+        <path class="cls-3" d="M15.06,54.57l0-14.82a4.57,4.57,0,0,0,4.56-4.56l0-12.54A4.57,4.57,0,0,0,15,18.09l-9.32,0a4.57,4.57,0,0,0-4.56,4.56l0,12.54a4.57,4.57,0,0,0,4.56,4.56l0,14.81"/>
+      </g>
+    </g>
+  </g>
+</svg>

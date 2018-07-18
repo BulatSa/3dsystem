@@ -16,6 +16,18 @@
 		@include res(m) {
 			margin-bottom: $pad-s;
 		}
+
+		&+.feedback__subtitle{
+			margin-top: -25px;
+		}
+	}
+}
+
+.feedback__subtitle{
+	text-align: center;
+	margin-bottom: $pad-m;
+	@include res(m) {
+		margin-bottom: $pad-s;
 	}
 }
 

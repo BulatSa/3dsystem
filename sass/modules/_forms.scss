@@ -364,6 +364,38 @@ textarea.input-text {
 		font-size: 12px;
 		padding: 10px 15px;
 	}
+
+	&--half{
+		padding: 15px;
+
+		.form-file__title{
+			text-align: center;
+			margin-bottom: 15px;
+			line-height: 1.4;
+		}
+
+		.style-file{
+			flex-direction: column;
+			margin-bottom: 0;
+		}
+
+		.style-file__text{
+			margin-top: 10px;
+			text-align: center;
+		}
+
+		.grid-6{
+			border-right: 2px dotted $gray-text;
+			padding: 0 15px;
+			@include res(s){
+				border-right: none;
+			}
+
+			&:last-child{
+				border-right: none;
+			}
+		}
+	}
 }
 
 .style-file{
