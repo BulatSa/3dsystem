@@ -31,7 +31,15 @@ $(function () {
 			$(this).removeClass('error');
 		});
 
+		var $inputs = $('input[type="file"]:not([disabled])', form);
+		$inputs.each(function(_, input) {
+			if (input.files.length > 0) return;
+			$(input).prop('disabled', true)
+		});
+
 		var form_data = new FormData(this);
+
+		$inputs.prop('disabled', false);
 
 		$("[data-label]").each(function () {
 			var input_name = $(this).attr('name');
