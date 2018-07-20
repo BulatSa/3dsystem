@@ -37,12 +37,51 @@
 			min-height: initial;
 		}
 	}
+	&--tender {
+		@include res(xxl) {
+			background-position: center left;
+		}
+	}
+	&--white {
+		color: #fff;
+		@include res(l) {
+			background-image: url('../img/pattern-blue-dark.png')!important;
+		}
+	}
+	&--right {
+		.info-banner__text {
+			margin-left: auto;
+			@include res(l) {
+				margin-left: 0;
+			}
+		}
+	}
+	&--long {
+		.info-banner__text {
+			max-width: 720px;
+			@include res(xxl) {
+				max-width: 660px;
+			}
+			@include res(l) {
+				max-width: 100%;
+			}
+		}
+	}
 }
 
 .info-banner__text {
 	max-width: 560px;
 	@include res(l) {
 		max-width: 100%;
+	}
+}
+
+.info-banner__contact {
+	padding-bottom: $pad-s;
+	font-family: $font-head;
+	span {
+		display: block;
+		font-size: 16px;
 	}
 }
 

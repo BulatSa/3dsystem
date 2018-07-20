@@ -46,6 +46,13 @@
 			background-image: url('../img/pattern-violet.png')!important;
 		}
 	}
+	&--tender {
+		padding-bottom: 0;
+		flex-wrap: wrap;
+		.big-banner__info {
+			max-width: 600px;
+		}
+	}
 }
 
 .big-banner__info {
@@ -60,6 +67,65 @@
 		color: #fff;
 		img {
 			margin-top: 10px;
+		}
+	}
+	.btn {
+		margin-top: $pad-m;
+	}
+}
+
+.big-banner__icons {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	padding-top: $pad-m;
+	@include res(m) {
+		flex-wrap: wrap;
+	}
+}
+
+.big-banner__icon {
+	display: flex;
+	align-items: flex-start;
+	width: 25%;
+	padding-right: $pad-m;
+	@include res(xxl) {
+		padding-right: $pad-s;
+	}
+	@include res(m) {
+		width: 50%;
+		padding-bottom: $pad-s;
+	}
+	@include res(s) {
+		width: 100%;
+		padding-right: 0;
+	}
+	span {
+		font-family: $font-head;
+		font-size: 18px;
+		font-weight: bold;
+		color: #fff;
+		@include res(xxl) {
+			font-size: 14px;
+		}
+	}
+
+}
+
+.big-banner__icon-img {
+	flex-shrink: 0;
+	margin-right: $pad-xxs;
+	@include res(s) {
+		width: 60px;
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+		@include res(l) {
+			max-width: 55px;
+		}
+		@include res(s) {
+			max-width: 50px;
 		}
 	}
 }

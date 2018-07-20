@@ -236,13 +236,16 @@ $(function(){
  Прокрутка к секциям BEGIN
  ***********************/
 $(function () {
-	$('.scrollto').on('click', function () {
+	$('.scrollto').on('click', function (e) {
+		e.preventDefault();
 		var elementClick = $(this).attr("href");
 		var destination = $(elementClick).offset().top;
 		$('html,body').stop().animate({scrollTop: destination}, 1000);
 		return false;
 	});
 });
+
+
 /***********************
  Прокрутка к секциям END
  ***********************/
@@ -275,7 +278,7 @@ $(function () {
 Waves btns BEGIN
 ***********************/
 $(function($){
-	$('.btn:not(.bx-soa .btn)').ripple();
+	$('.btn:not(.bx-soa .btn, .scrollto)').ripple();
 	$.ripple.config({
 		rippleOpacity: .1,
 		rippleDelay: 100
@@ -346,12 +349,11 @@ $(function($){
 	});
 
 	$('.mails__nav-prev').on('click',function () {
-		mailsSlider.flickity('previous');
+		$(this).parents('.mails').find('.mails__list').flickity('previous');
 	});
 	$('.mails__nav-next').on('click',function () {
-		mailsSlider.flickity('next');
-	})
-
+		$(this).parents('.mails').find('.mails__list').flickity('next');
+	});
 });
 /***********************
 Mails END

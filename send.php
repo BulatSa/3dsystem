@@ -1,11 +1,12 @@
 <?php
 $subject = $_POST["form_subject"];
+$mailto = $_POST["mailto"];
 $message = "";
 $tofile = $subject . ";";
 
 foreach ($_POST as $input_name => $input_val) {
 	$input_val = htmlspecialchars(strip_tags(trim($input_val)));
-	if ($input_name != "form_subject") {
+	if (($input_name != "form_subject") && ($input_name != "mailto") && ($input_name != "MAX_FILE_SIZE")) {
 		if ( !strpos($input_name, '_label')){
 			$input_label = $input_name . '_label';
 			if (!empty($_POST[$input_label])) {
@@ -38,7 +39,11 @@ $mail = new PHPMailer(true);
 try {
 	$mail->CharSet = 'utf-8';
 	$mail->setFrom('no-reply@3dsystem.pro', '3dsystem.pro');
-	$mail->addAddress('andreiduffy@gmail.com');
+	if ($mailto == 'tender') {
+		$mail->addAddress('tender@3dsystem.pro');
+	} else {
+		$mail->addAddress('andreiduffy@gmail.com');
+	}
 	$mail->isHTML(true);
 	$mail->Subject = $subject;
 	$mail->Body = $message;
