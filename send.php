@@ -42,7 +42,7 @@ try {
 	if ($mailto == 'tender') {
 		$mail->addAddress('tender@3dsystem.pro');
 	} else {
-		$mail->addAddress('andreiduffy@gmail.com');
+		$mail->addAddress('mukminov@abs3d.ru');
 	}
 	$mail->isHTML(true);
 	$mail->Subject = $subject;
