@@ -70,7 +70,7 @@
 		}
 	}
 	.btn {
-		margin-top: $pad-m;
+		margin-top: 10px;
 	}
 }
 
@@ -78,7 +78,11 @@
 	width: 100%;
 	display: flex;
 	align-items: flex-start;
+	margin-bottom: -20px;
 	padding-top: $pad-m;
+	@include res(l) {
+		margin-bottom: 0;
+	}
 	@include res(m) {
 		flex-wrap: wrap;
 	}
